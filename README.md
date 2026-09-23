@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/easyplot-promo-simple.png" alt="EasyPlot 简洁标志：柱状图坐标轴图标与字标" width="100%">
+  <img src="assets/easyplot-promo-simple.png" alt="EasyPlot 简洁标志：柱状图坐标轴图标与字标" width="720">
 </p>
 
 <p align="center">
