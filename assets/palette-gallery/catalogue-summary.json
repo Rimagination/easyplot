@@ -1,0 +1,24 @@
+{
+  "registry_version": "1.2.0",
+  "total": 1537,
+  "core": 335,
+  "extensions": 1202,
+  "families": {
+    "ggsci": 1288,
+    "brewer": 35,
+    "viridis": 8,
+    "colorspace": 6,
+    "cetcolor": 12,
+    "matplotlib": 10,
+    "dongfang": 7,
+    "china": 16,
+    "tol": 8,
+    "cud": 1,
+    "scico": 102,
+    "cmocean": 44
+  },
+  "omissions": [
+    "ggsci Gephi is a generative algorithm with RNG/number-of-colours parameters, not a fixed colour table; no frozen arbitrary-seed set is presented as the original palette.",
+    "No claim to include every palette from every scientific package. See source/version and family counts for the actual snapshot."
+  ]
+}

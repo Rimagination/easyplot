@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0-candidate",
+  "source": "https://www.2kil.com/",
+  "curator": "EasyPlot; scheme names and combinations are local curation, not 2kil official palettes",
+  "palettes": [
+    {"id":"china.danqing","label":"丹青·原色","kind":"qualitative","names":["竹月色","硃砂","黄琉璃","灰緑","紫藤灰","赭石色"],"reference":"Tableau-like contrasting categorical hue roles; original 2kil colours, no recolouring"},
+    {"id":"china.qingya","label":"清雅·原色","kind":"qualitative","names":["銀藍","粉鳳仙","肉黄","奶緑","紫水晶","甘草黄"],"reference":"Pastel/Set2-like categorical structure; dark boundaries and labels needed for pale fills"},
+    {"id":"china.qiushan","label":"秋山·原色","kind":"qualitative","names":["赭石色","玉石藍","黄琉璃","嫩草緑","紫藤灰","硃砂"],"reference":"Earth-tone warm/cool categorical structure"},
+    {"id":"china.jiangnan","label":"江南","kind":"qualitative","names":["灰緑","荷花紅","藤黄","竹月色","紫藤灰","赭石色"],"reference":"Balanced green/pink, yellow/blue and purple/earth hue roles"},
+    {"id":"china.dunhuang","label":"敦煌意象","kind":"qualitative","names":["釉紅","琉璃藍","黄琉璃","緑琉璃色","浅藤紫","紅狐色"],"reference":"Mineral/earth-inspired hue roles; no claim of measured historical pigment reconstruction"},
+    {"id":"china.gongbi","label":"工笔","kind":"qualitative","names":["硃砂","群青","鸚鵡緑","石黄","牽牛紫","珈琲色"],"reference":"Saturated categorical hue contrast with dark outlines"},
+    {"id":"china.songyun","label":"宋韵","kind":"qualitative","names":["玉石藍","釉紅","龍泉青瓷釉色","米紅","紫藤灰","姜黄"],"reference":"Muted warm/cool structure; intended for labelled areas, not unlabeled crossing lines"},
+    {"id":"china.hefeng","label":"荷风","kind":"qualitative","names":["紅蓮灰","冬瓜緑","紫水晶","藤黄","春藍","浅駝色"],"reference":"Paired pink/green, violet/yellow and blue/earth contrasts"},
+    {"id":"china.gugong","label":"宫墙","kind":"qualitative","names":["牡丹紅","明黄","浅土藍","翠緑","鹿皮色","丁香紫"],"reference":"Architectural colour inspiration; no institutional endorsement or historical colour claim"},
+    {"id":"china.chunhe","label":"春和","kind":"qualitative","names":["銀朱","果緑","蛋黄","鈷藍","浅鳳仙紫","土布色"],"reference":"Gentle categorical contrast; preserve labels for similar-lightness fills"},
+    {"id":"china.moqiu","label":"墨秋","kind":"qualitative","names":["黄鴨色","墨緑","姜黄","花青","臙脂","浅駝色"],"reference":"Deeper earth/cool contrasts for medium and large marks"},
+    {"id":"china.lanyue","label":"兰月","kind":"qualitative","names":["紺青","瑪瑙粉","品緑","洋葱紫","丹東石","鴿灰"],"reference":"Blue/peach, teal/mauve and yellow/grey categorical contrasts"},
+    {"id":"china.qinghua_steps","label":"青花·分级原色","kind":"sequential","names":["月白色","銀藍","竹月色","深竹月","琉璃藍","深毛藍","靛藍"],"reference":"Ordered original swatches; a stepped scale, no interpolated colours"},
+    {"id":"china.feicui_steps","label":"翡翠·分级原色","kind":"sequential","names":["鴨蛋青","枝緑","三緑","冬緑","湖緑","老緑","墨緑"],"reference":"Ordered original swatches; a stepped scale, no interpolated colours"},
+    {"id":"china.yanzhi_steps","label":"胭脂·分级原色","kind":"sequential","names":["浅血牙","粉鳳仙","暗粉","紅蓮灰","紫粉","玫瑰紅","紫絳色"],"reference":"Ordered original swatches; a stepped scale, no interpolated colours"},
+    {"id":"china.qingzhu_steps","label":"青朱·分级原色","kind":"diverging","names":["深藍","竹月色","銀藍","蛤粉","肉黄","硃砂","紫絳色"],"reference":"Original blue/neutral/red swatches around a meaningful midpoint; no interpolated colours"}
+  ]
+}

@@ -1,0 +1,625 @@
+{
+  "registry": "F:\\Scratch\\easyplot-cvd-library-20260923\\palettes-1.2.json",
+  "version": "1.2.0",
+  "pages": [
+    {
+      "title": "ggsci / 1 of 9",
+      "ids": [
+        "ggsci.npg.nrc",
+        "ggsci.aaas.default",
+        "ggsci.nejm.default",
+        "ggsci.lancet.lanonc",
+        "ggsci.jama.default",
+        "ggsci.bmj.default",
+        "ggsci.jco.default",
+        "ggsci.d3.category10",
+        "ggsci.d3.category20",
+        "ggsci.d3.category20b",
+        "ggsci.d3.category20c",
+        "ggsci.observable.observable10"
+      ]
+    },
+    {
+      "title": "ggsci / 2 of 9",
+      "ids": [
+        "ggsci.primer.mark17",
+        "ggsci.atlassian.categorical8",
+        "ggsci.igv.alternating",
+        "ggsci.locuszoom.default",
+        "ggsci.uchicago.default",
+        "ggsci.uchicago.light",
+        "ggsci.uchicago.dark",
+        "ggsci.cosmic.hallmarks_dark",
+        "ggsci.cosmic.hallmarks_light",
+        "ggsci.cosmic.signature_substitutions",
+        "ggsci.simpsons.springfield",
+        "ggsci.futurama.planetexpress"
+      ]
+    },
+    {
+      "title": "ggsci / 3 of 9",
+      "ids": [
+        "ggsci.rickandmorty.schwifty",
+        "ggsci.startrek.uniform",
+        "ggsci.tron.legacy",
+        "ggsci.frontiers.default",
+        "ggsci.flatui.default",
+        "ggsci.flatui.flattastic",
+        "ggsci.flatui.aussie",
+        "ggsci.gsea.default",
+        "ggsci.bs5.blue",
+        "ggsci.bs5.indigo",
+        "ggsci.bs5.purple",
+        "ggsci.bs5.pink"
+      ]
+    },
+    {
+      "title": "ggsci / 4 of 9",
+      "ids": [
+        "ggsci.bs5.red",
+        "ggsci.bs5.orange",
+        "ggsci.bs5.yellow",
+        "ggsci.bs5.green",
+        "ggsci.bs5.teal",
+        "ggsci.bs5.cyan",
+        "ggsci.bs5.gray",
+        "ggsci.material.red",
+        "ggsci.material.pink",
+        "ggsci.material.purple",
+        "ggsci.material.deep-purple",
+        "ggsci.material.indigo"
+      ]
+    },
+    {
+      "title": "ggsci / 5 of 9",
+      "ids": [
+        "ggsci.material.blue",
+        "ggsci.material.light-blue",
+        "ggsci.material.cyan",
+        "ggsci.material.teal",
+        "ggsci.material.green",
+        "ggsci.material.light-green",
+        "ggsci.material.lime",
+        "ggsci.material.yellow",
+        "ggsci.material.amber",
+        "ggsci.material.orange",
+        "ggsci.material.deep-orange",
+        "ggsci.material.brown"
+      ]
+    },
+    {
+      "title": "ggsci / 6 of 9",
+      "ids": [
+        "ggsci.material.grey",
+        "ggsci.material.blue-grey",
+        "ggsci.tw3.slate",
+        "ggsci.tw3.gray",
+        "ggsci.tw3.zinc",
+        "ggsci.tw3.neutral",
+        "ggsci.tw3.stone",
+        "ggsci.tw3.red",
+        "ggsci.tw3.orange",
+        "ggsci.tw3.amber",
+        "ggsci.tw3.yellow",
+        "ggsci.tw3.lime"
+      ]
+    },
+    {
+      "title": "ggsci / 7 of 9",
+      "ids": [
+        "ggsci.tw3.green",
+        "ggsci.tw3.emerald",
+        "ggsci.tw3.teal",
+        "ggsci.tw3.cyan",
+        "ggsci.tw3.sky",
+        "ggsci.tw3.blue",
+        "ggsci.tw3.indigo",
+        "ggsci.tw3.violet",
+        "ggsci.tw3.purple",
+        "ggsci.tw3.fuchsia",
+        "ggsci.tw3.pink",
+        "ggsci.tw3.rose"
+      ]
+    },
+    {
+      "title": "ggsci / 8 of 9",
+      "ids": [
+        "ggsci.ucscgb.default"
+      ]
+    },
+    {
+      "title": "ggsci / 9 of 9",
+      "ids": [
+        "ggsci.igv.default"
+      ]
+    },
+    {
+      "title": "brewer / 1 of 3",
+      "ids": [
+        "brewer.BrBG",
+        "brewer.PiYG",
+        "brewer.PRGn",
+        "brewer.PuOr",
+        "brewer.RdBu",
+        "brewer.RdGy",
+        "brewer.RdYlBu",
+        "brewer.RdYlGn",
+        "brewer.Spectral",
+        "brewer.Accent",
+        "brewer.Dark2",
+        "brewer.Paired"
+      ]
+    },
+    {
+      "title": "brewer / 2 of 3",
+      "ids": [
+        "brewer.Pastel1",
+        "brewer.Pastel2",
+        "brewer.Set1",
+        "brewer.Set2",
+        "brewer.Set3",
+        "brewer.Blues",
+        "brewer.BuGn",
+        "brewer.BuPu",
+        "brewer.GnBu",
+        "brewer.Greens",
+        "brewer.Greys",
+        "brewer.Oranges"
+      ]
+    },
+    {
+      "title": "brewer / 3 of 3",
+      "ids": [
+        "brewer.OrRd",
+        "brewer.PuBu",
+        "brewer.PuBuGn",
+        "brewer.PuRd",
+        "brewer.Purples",
+        "brewer.RdPu",
+        "brewer.Reds",
+        "brewer.YlGn",
+        "brewer.YlGnBu",
+        "brewer.YlOrBr",
+        "brewer.YlOrRd"
+      ]
+    },
+    {
+      "title": "viridis / 1 of 1",
+      "ids": [
+        "viridis.magma",
+        "viridis.inferno",
+        "viridis.plasma",
+        "viridis.viridis",
+        "viridis.cividis",
+        "viridis.rocket",
+        "viridis.mako",
+        "viridis.turbo"
+      ]
+    },
+    {
+      "title": "colorspace / 1 of 1",
+      "ids": [
+        "colorspace.blues3",
+        "colorspace.ylgnbu",
+        "colorspace.green_brown",
+        "colorspace.blue_red3",
+        "colorspace.set2",
+        "colorspace.dark3"
+      ]
+    },
+    {
+      "title": "cetcolor / 1 of 1",
+      "ids": [
+        "cetcolor.cbl1",
+        "cetcolor.cbl2",
+        "cetcolor.cbd1",
+        "cetcolor.cbc1",
+        "cetcolor.cbc2",
+        "cetcolor.cbtl1",
+        "cetcolor.cbtl2",
+        "cetcolor.cbtd1",
+        "cetcolor.cbtc1",
+        "cetcolor.cbtc2",
+        "cetcolor.l3",
+        "cetcolor.linear_kryw_5_100_c67"
+      ]
+    },
+    {
+      "title": "matplotlib / 1 of 1",
+      "ids": [
+        "matplotlib.tab10",
+        "matplotlib.tab20",
+        "matplotlib.tab20b",
+        "matplotlib.tab20c",
+        "matplotlib.coolwarm",
+        "matplotlib.bwr",
+        "matplotlib.seismic",
+        "matplotlib.twilight",
+        "matplotlib.twilight_shifted",
+        "matplotlib.terrain"
+      ]
+    },
+    {
+      "title": "dongfang / 1 of 1",
+      "ids": [
+        "dongfang.danqing",
+        "dongfang.qingya",
+        "dongfang.qiushan",
+        "dongfang.qingci",
+        "dongfang.qinglan",
+        "dongfang.qingzhu",
+        "dongfang.moyun"
+      ]
+    },
+    {
+      "title": "china / 1 of 2",
+      "ids": [
+        "china.danqing",
+        "china.qingya",
+        "china.qiushan",
+        "china.jiangnan",
+        "china.dunhuang",
+        "china.gongbi",
+        "china.songyun",
+        "china.hefeng",
+        "china.gugong",
+        "china.chunhe",
+        "china.moqiu",
+        "china.lanyue"
+      ]
+    },
+    {
+      "title": "china / 2 of 2",
+      "ids": [
+        "china.qinghua_steps",
+        "china.feicui_steps",
+        "china.yanzhi_steps",
+        "china.qingzhu_steps"
+      ]
+    },
+    {
+      "title": "tol / 1 of 1",
+      "ids": [
+        "tol.bright",
+        "tol.high_contrast",
+        "tol.vibrant",
+        "tol.muted",
+        "tol.medium_contrast",
+        "tol.dark",
+        "tol.pale",
+        "tol.light"
+      ]
+    },
+    {
+      "title": "cud / 1 of 1",
+      "ids": [
+        "cud.okabe_ito"
+      ]
+    },
+    {
+      "title": "scico / 1 of 29",
+      "ids": [
+        "scico.acton",
+        "scico.acton_discrete",
+        "scico.bam",
+        "scico.bam_discrete",
+        "scico.bamako",
+        "scico.bamako_discrete",
+        "scico.bamo",
+        "scico.bamo_discrete",
+        "scico.batlow",
+        "scico.batlow_discrete",
+        "scico.batlowk",
+        "scico.batlowk_discrete"
+      ]
+    },
+    {
+      "title": "scico / 2 of 29",
+      "ids": [
+        "scico.batloww",
+        "scico.batloww_discrete",
+        "scico.berlin",
+        "scico.berlin_discrete",
+        "scico.bilbao",
+        "scico.bilbao_discrete",
+        "scico.broc",
+        "scico.broc_discrete",
+        "scico.broco",
+        "scico.broco_discrete",
+        "scico.buda",
+        "scico.buda_discrete"
+      ]
+    },
+    {
+      "title": "scico / 3 of 29",
+      "ids": [
+        "scico.bukavu",
+        "scico.bukavu_discrete",
+        "scico.cork",
+        "scico.cork_discrete",
+        "scico.corko",
+        "scico.corko_discrete",
+        "scico.davos",
+        "scico.davos_discrete",
+        "scico.devon",
+        "scico.devon_discrete",
+        "scico.fes",
+        "scico.fes_discrete"
+      ]
+    },
+    {
+      "title": "scico / 4 of 29",
+      "ids": [
+        "scico.glasgow",
+        "scico.glasgow_discrete",
+        "scico.grayc",
+        "scico.grayc_discrete",
+        "scico.hawaii",
+        "scico.hawaii_discrete",
+        "scico.imola",
+        "scico.imola_discrete",
+        "scico.lajolla",
+        "scico.lajolla_discrete",
+        "scico.lapaz",
+        "scico.lapaz_discrete"
+      ]
+    },
+    {
+      "title": "scico / 5 of 29",
+      "ids": [
+        "scico.lipari",
+        "scico.lipari_discrete",
+        "scico.lisbon",
+        "scico.lisbon_discrete",
+        "scico.managua",
+        "scico.managua_discrete",
+        "scico.navia",
+        "scico.navia_discrete",
+        "scico.naviaw",
+        "scico.naviaw_discrete",
+        "scico.nuuk",
+        "scico.nuuk_discrete"
+      ]
+    },
+    {
+      "title": "scico / 6 of 29",
+      "ids": [
+        "scico.oleron",
+        "scico.oleron_discrete",
+        "scico.oslo",
+        "scico.oslo_discrete",
+        "scico.roma",
+        "scico.roma_discrete",
+        "scico.romao",
+        "scico.romao_discrete",
+        "scico.tofino",
+        "scico.tofino_discrete",
+        "scico.tokyo",
+        "scico.tokyo_discrete"
+      ]
+    },
+    {
+      "title": "scico / 7 of 29",
+      "ids": [
+        "scico.turku",
+        "scico.turku_discrete",
+        "scico.vanimo",
+        "scico.vanimo_discrete",
+        "scico.vik",
+        "scico.vik_discrete",
+        "scico.viko",
+        "scico.viko_discrete"
+      ]
+    },
+    {
+      "title": "scico / 8 of 29",
+      "ids": [
+        "scico.actons"
+      ]
+    },
+    {
+      "title": "scico / 9 of 29",
+      "ids": [
+        "scico.bamakos"
+      ]
+    },
+    {
+      "title": "scico / 10 of 29",
+      "ids": [
+        "scico.batlows"
+      ]
+    },
+    {
+      "title": "scico / 11 of 29",
+      "ids": [
+        "scico.batlowks"
+      ]
+    },
+    {
+      "title": "scico / 12 of 29",
+      "ids": [
+        "scico.batlowws"
+      ]
+    },
+    {
+      "title": "scico / 13 of 29",
+      "ids": [
+        "scico.bilbaos"
+      ]
+    },
+    {
+      "title": "scico / 14 of 29",
+      "ids": [
+        "scico.budas"
+      ]
+    },
+    {
+      "title": "scico / 15 of 29",
+      "ids": [
+        "scico.davoss"
+      ]
+    },
+    {
+      "title": "scico / 16 of 29",
+      "ids": [
+        "scico.devons"
+      ]
+    },
+    {
+      "title": "scico / 17 of 29",
+      "ids": [
+        "scico.glasgows"
+      ]
+    },
+    {
+      "title": "scico / 18 of 29",
+      "ids": [
+        "scico.graycs"
+      ]
+    },
+    {
+      "title": "scico / 19 of 29",
+      "ids": [
+        "scico.hawaiis"
+      ]
+    },
+    {
+      "title": "scico / 20 of 29",
+      "ids": [
+        "scico.imolas"
+      ]
+    },
+    {
+      "title": "scico / 21 of 29",
+      "ids": [
+        "scico.lajollas"
+      ]
+    },
+    {
+      "title": "scico / 22 of 29",
+      "ids": [
+        "scico.lapazs"
+      ]
+    },
+    {
+      "title": "scico / 23 of 29",
+      "ids": [
+        "scico.liparis"
+      ]
+    },
+    {
+      "title": "scico / 24 of 29",
+      "ids": [
+        "scico.navias"
+      ]
+    },
+    {
+      "title": "scico / 25 of 29",
+      "ids": [
+        "scico.naviaws"
+      ]
+    },
+    {
+      "title": "scico / 26 of 29",
+      "ids": [
+        "scico.nuuks"
+      ]
+    },
+    {
+      "title": "scico / 27 of 29",
+      "ids": [
+        "scico.oslos"
+      ]
+    },
+    {
+      "title": "scico / 28 of 29",
+      "ids": [
+        "scico.tokyos"
+      ]
+    },
+    {
+      "title": "scico / 29 of 29",
+      "ids": [
+        "scico.turkus"
+      ]
+    },
+    {
+      "title": "cmocean / 1 of 4",
+      "ids": [
+        "cmocean.thermal",
+        "cmocean.thermal_i",
+        "cmocean.haline",
+        "cmocean.haline_i",
+        "cmocean.solar",
+        "cmocean.solar_i",
+        "cmocean.ice",
+        "cmocean.ice_i",
+        "cmocean.gray",
+        "cmocean.gray_i",
+        "cmocean.oxy",
+        "cmocean.oxy_i"
+      ]
+    },
+    {
+      "title": "cmocean / 2 of 4",
+      "ids": [
+        "cmocean.deep",
+        "cmocean.deep_i",
+        "cmocean.dense",
+        "cmocean.dense_i",
+        "cmocean.algae",
+        "cmocean.algae_i",
+        "cmocean.matter",
+        "cmocean.matter_i",
+        "cmocean.turbid",
+        "cmocean.turbid_i",
+        "cmocean.speed",
+        "cmocean.speed_i"
+      ]
+    },
+    {
+      "title": "cmocean / 3 of 4",
+      "ids": [
+        "cmocean.amp",
+        "cmocean.amp_i",
+        "cmocean.tempo",
+        "cmocean.tempo_i",
+        "cmocean.rain",
+        "cmocean.rain_i",
+        "cmocean.phase",
+        "cmocean.phase_i",
+        "cmocean.topo",
+        "cmocean.topo_i",
+        "cmocean.balance",
+        "cmocean.balance_i"
+      ]
+    },
+    {
+      "title": "cmocean / 4 of 4",
+      "ids": [
+        "cmocean.delta",
+        "cmocean.delta_i",
+        "cmocean.curl",
+        "cmocean.curl_i",
+        "cmocean.diff",
+        "cmocean.diff_i",
+        "cmocean.tarn",
+        "cmocean.tarn_i"
+      ]
+    }
+  ],
+  "width_mm": 304.8,
+  "height_mm": 254,
+  "font": {
+    "requested_family": "Microsoft YaHei",
+    "resolved_family": "Microsoft YaHei",
+    "path": "C:\\WINDOWS\\Fonts\\msyh.ttc",
+    "index": 0,
+    "style": "Regular",
+    "checked_glyphs": 223,
+    "scope": "Declared text and face only; inspect device fallback and rendered export."
+  },
+  "core_palettes": 335,
+  "excluded_extensions": 1202,
+  "licence_note": "See each palette source. 2kil swatches are local preview only pending redistribution terms."
+}

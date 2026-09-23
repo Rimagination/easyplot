@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.DS_Store
+Thumbs.db

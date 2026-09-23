@@ -1,0 +1,8650 @@
+{
+  "schema_version": 1,
+  "family": "dongfang",
+  "version": "0.2.0-classic-candidate",
+  "source": {
+    "url": "https://www.2kil.com/",
+    "retrieved_utc": "2026-09-22T18:44:11.232393+00:00",
+    "copyright_notice": "2020 Frank Lin (site footer)",
+    "license_status": "Explicit dataset redistribution permission not located on homepage; local trial, review before publishing",
+    "selection": "320 original colour cards; initial detail-panel placeholder excluded",
+    "encoding": "HEX treated as sRGB; CMYK values retained only as source display metadata"
+  },
+  "source_colours": [
+    {
+      "id": "df001",
+      "name": "粉鳳仙",
+      "aliases": [
+        "粉凤仙"
+      ],
+      "hex": "#EAC0CE",
+      "pinyin": "fěn fèng xiān",
+      "rgb": [
+        234,
+        192,
+        206
+      ],
+      "cmyk_display": [
+        0,
+        18,
+        12,
+        8
+      ]
+    },
+    {
+      "id": "df002",
+      "name": "浅粉",
+      "aliases": [],
+      "hex": "#E5B8C3",
+      "pinyin": "qiǎn fěn",
+      "rgb": [
+        229,
+        184,
+        195
+      ],
+      "cmyk_display": [
+        0,
+        20,
+        15,
+        10
+      ]
+    },
+    {
+      "id": "df003",
+      "name": "淡粉",
+      "aliases": [],
+      "hex": "#E8AFC5",
+      "pinyin": "dàn fěn",
+      "rgb": [
+        232,
+        175,
+        197
+      ],
+      "cmyk_display": [
+        0,
+        25,
+        15,
+        9
+      ]
+    },
+    {
+      "id": "df004",
+      "name": "紫薇花",
+      "aliases": [],
+      "hex": "#EEA5D1",
+      "pinyin": "zǐ wéi huā",
+      "rgb": [
+        238,
+        165,
+        209
+      ],
+      "cmyk_display": [
+        0,
+        31,
+        12,
+        7
+      ]
+    },
+    {
+      "id": "df005",
+      "name": "暗粉",
+      "aliases": [],
+      "hex": "#E18DAC",
+      "pinyin": "àn fěn",
+      "rgb": [
+        225,
+        141,
+        172
+      ],
+      "cmyk_display": [
+        0,
+        37,
+        24,
+        12
+      ]
+    },
+    {
+      "id": "df006",
+      "name": "荷花紅",
+      "aliases": [
+        "荷花红"
+      ],
+      "hex": "#EB7FAF",
+      "pinyin": "hé huā hóng",
+      "rgb": [
+        235,
+        127,
+        175
+      ],
+      "cmyk_display": [
+        0,
+        46,
+        26,
+        8
+      ]
+    },
+    {
+      "id": "df007",
+      "name": "紫水晶",
+      "aliases": [],
+      "hex": "#C3A6CB",
+      "pinyin": "zǐ shǔi jīng",
+      "rgb": [
+        195,
+        166,
+        203
+      ],
+      "cmyk_display": [
+        4,
+        18,
+        0,
+        20
+      ]
+    },
+    {
+      "id": "df008",
+      "name": "浅石英紫",
+      "aliases": [],
+      "hex": "#AB96C5",
+      "pinyin": "qiǎn shí yīng zǐ",
+      "rgb": [
+        171,
+        150,
+        197
+      ],
+      "cmyk_display": [
+        13,
+        24,
+        0,
+        23
+      ]
+    },
+    {
+      "id": "df009",
+      "name": "浅鳳仙紫",
+      "aliases": [
+        "浅凤仙紫"
+      ],
+      "hex": "#D294D3",
+      "pinyin": "qiǎn fèng xiān zǐ",
+      "rgb": [
+        210,
+        148,
+        211
+      ],
+      "cmyk_display": [
+        0,
+        30,
+        0,
+        17
+      ]
+    },
+    {
+      "id": "df010",
+      "name": "木槿紫",
+      "aliases": [],
+      "hex": "#A381BA",
+      "pinyin": "mù jǐn zǐ",
+      "rgb": [
+        163,
+        129,
+        186
+      ],
+      "cmyk_display": [
+        12,
+        31,
+        0,
+        27
+      ]
+    },
+    {
+      "id": "df011",
+      "name": "長春花色",
+      "aliases": [
+        "长春花色"
+      ],
+      "hex": "#DE7AB1",
+      "pinyin": "cháng chūn huā sè",
+      "rgb": [
+        222,
+        122,
+        177
+      ],
+      "cmyk_display": [
+        0,
+        45,
+        20,
+        13
+      ]
+    },
+    {
+      "id": "df012",
+      "name": "洋葱紫",
+      "aliases": [],
+      "hex": "#9C6680",
+      "pinyin": "yáng cōng zǐ",
+      "rgb": [
+        156,
+        102,
+        128
+      ],
+      "cmyk_display": [
+        0,
+        35,
+        18,
+        39
+      ]
+    },
+    {
+      "id": "df013",
+      "name": "紫羅藍",
+      "aliases": [
+        "紫罗蓝"
+      ],
+      "hex": "#732E7E",
+      "pinyin": "zǐ luó lán",
+      "rgb": [
+        115,
+        46,
+        126
+      ],
+      "cmyk_display": [
+        9,
+        63,
+        0,
+        51
+      ]
+    },
+    {
+      "id": "df014",
+      "name": "龍胆紫",
+      "aliases": [
+        "龙胆紫"
+      ],
+      "hex": "#423171",
+      "pinyin": "lóng dǎn zǐ",
+      "rgb": [
+        66,
+        49,
+        113
+      ],
+      "cmyk_display": [
+        42,
+        57,
+        0,
+        56
+      ]
+    },
+    {
+      "id": "df015",
+      "name": "雪紫",
+      "aliases": [],
+      "hex": "#79485A",
+      "pinyin": "xuě zǐ",
+      "rgb": [
+        121,
+        72,
+        90
+      ],
+      "cmyk_display": [
+        0,
+        40,
+        26,
+        53
+      ]
+    },
+    {
+      "id": "df016",
+      "name": "紅蓮灰",
+      "aliases": [
+        "红莲灰"
+      ],
+      "hex": "#C76079",
+      "pinyin": "hóng lián hūi",
+      "rgb": [
+        199,
+        96,
+        121
+      ],
+      "cmyk_display": [
+        0,
+        52,
+        39,
+        22
+      ]
+    },
+    {
+      "id": "df017",
+      "name": "艶粉",
+      "aliases": [
+        "艳粉"
+      ],
+      "hex": "#D3547E",
+      "pinyin": "yàn fěn",
+      "rgb": [
+        211,
+        84,
+        126
+      ],
+      "cmyk_display": [
+        0,
+        60,
+        40,
+        17
+      ]
+    },
+    {
+      "id": "df018",
+      "name": "紫粉",
+      "aliases": [],
+      "hex": "#A54358",
+      "pinyin": "zǐ fěn",
+      "rgb": [
+        165,
+        67,
+        88
+      ],
+      "cmyk_display": [
+        0,
+        59,
+        47,
+        35
+      ]
+    },
+    {
+      "id": "df019",
+      "name": "鶏冠花紅",
+      "aliases": [
+        "鸡冠花红"
+      ],
+      "hex": "#A52664",
+      "pinyin": "jī guān huā hóng",
+      "rgb": [
+        165,
+        38,
+        100
+      ],
+      "cmyk_display": [
+        0,
+        77,
+        39,
+        35
+      ]
+    },
+    {
+      "id": "df020",
+      "name": "青蓮紫",
+      "aliases": [
+        "青莲紫"
+      ],
+      "hex": "#95509F",
+      "pinyin": "qīng lián zǐ",
+      "rgb": [
+        149,
+        80,
+        159
+      ],
+      "cmyk_display": [
+        6,
+        50,
+        0,
+        38
+      ]
+    },
+    {
+      "id": "df021",
+      "name": "牽牛紫",
+      "aliases": [
+        "牵牛紫"
+      ],
+      "hex": "#A22076",
+      "pinyin": "qiān níu zǐ",
+      "rgb": [
+        162,
+        32,
+        118
+      ],
+      "cmyk_display": [
+        0,
+        80,
+        27,
+        36
+      ]
+    },
+    {
+      "id": "df022",
+      "name": "品紅",
+      "aliases": [
+        "品红"
+      ],
+      "hex": "#A71368",
+      "pinyin": "pǐn hóng",
+      "rgb": [
+        167,
+        19,
+        104
+      ],
+      "cmyk_display": [
+        0,
+        89,
+        38,
+        35
+      ]
+    },
+    {
+      "id": "df023",
+      "name": "蘇木色",
+      "aliases": [
+        "苏木色"
+      ],
+      "hex": "#AE506B",
+      "pinyin": "sū mù sè",
+      "rgb": [
+        174,
+        80,
+        107
+      ],
+      "cmyk_display": [
+        0,
+        54,
+        39,
+        32
+      ]
+    },
+    {
+      "id": "df024",
+      "name": "玫瑰紅",
+      "aliases": [
+        "玫瑰红"
+      ],
+      "hex": "#973444",
+      "pinyin": "méi gūi hóng",
+      "rgb": [
+        151,
+        52,
+        68
+      ],
+      "cmyk_display": [
+        0,
+        66,
+        55,
+        41
+      ]
+    },
+    {
+      "id": "df025",
+      "name": "玫瑰灰",
+      "aliases": [],
+      "hex": "#793D56",
+      "pinyin": "méi gūi hūi",
+      "rgb": [
+        121,
+        61,
+        86
+      ],
+      "cmyk_display": [
+        0,
+        50,
+        29,
+        53
+      ]
+    },
+    {
+      "id": "df026",
+      "name": "臙脂",
+      "aliases": [],
+      "hex": "#952E3A",
+      "pinyin": "yān zhī",
+      "rgb": [
+        149,
+        46,
+        58
+      ],
+      "cmyk_display": [
+        0,
+        69,
+        61,
+        42
+      ]
+    },
+    {
+      "id": "df027",
+      "name": "辰沙",
+      "aliases": [],
+      "hex": "#AF5E53",
+      "pinyin": "chén shā",
+      "rgb": [
+        175,
+        94,
+        83
+      ],
+      "cmyk_display": [
+        0,
+        46,
+        53,
+        31
+      ]
+    },
+    {
+      "id": "df028",
+      "name": "磚紅",
+      "aliases": [
+        "磚红"
+      ],
+      "hex": "#AA4D3D",
+      "pinyin": "zhuān hóng",
+      "rgb": [
+        170,
+        77,
+        61
+      ],
+      "cmyk_display": [
+        0,
+        55,
+        64,
+        33
+      ]
+    },
+    {
+      "id": "df029",
+      "name": "殷紅",
+      "aliases": [
+        "殷红"
+      ],
+      "hex": "#A4414F",
+      "pinyin": "yīn hóng",
+      "rgb": [
+        164,
+        65,
+        79
+      ],
+      "cmyk_display": [
+        0,
+        60,
+        52,
+        36
+      ]
+    },
+    {
+      "id": "df030",
+      "name": "銀紅",
+      "aliases": [
+        "银红"
+      ],
+      "hex": "#C56978",
+      "pinyin": "yín hóng",
+      "rgb": [
+        197,
+        105,
+        120
+      ],
+      "cmyk_display": [
+        0,
+        47,
+        39,
+        23
+      ]
+    },
+    {
+      "id": "df031",
+      "name": "肉紅",
+      "aliases": [
+        "肉红"
+      ],
+      "hex": "#C17886",
+      "pinyin": "ròu hóng",
+      "rgb": [
+        193,
+        120,
+        134
+      ],
+      "cmyk_display": [
+        0,
+        38,
+        31,
+        24
+      ]
+    },
+    {
+      "id": "df032",
+      "name": "妃紅",
+      "aliases": [
+        "妃红"
+      ],
+      "hex": "#C35655",
+      "pinyin": "fēi hóng",
+      "rgb": [
+        195,
+        86,
+        85
+      ],
+      "cmyk_display": [
+        0,
+        56,
+        56,
+        24
+      ]
+    },
+    {
+      "id": "df033",
+      "name": "猩紅",
+      "aliases": [
+        "猩红"
+      ],
+      "hex": "#C43739",
+      "pinyin": "xīng hóng",
+      "rgb": [
+        196,
+        55,
+        57
+      ],
+      "cmyk_display": [
+        0,
+        72,
+        71,
+        23
+      ]
+    },
+    {
+      "id": "df034",
+      "name": "血紅",
+      "aliases": [
+        "血红"
+      ],
+      "hex": "#A03E28",
+      "pinyin": "xiě hóng",
+      "rgb": [
+        160,
+        62,
+        40
+      ],
+      "cmyk_display": [
+        0,
+        61,
+        75,
+        37
+      ]
+    },
+    {
+      "id": "df035",
+      "name": "月季紅",
+      "aliases": [
+        "月季红"
+      ],
+      "hex": "#BB1C33",
+      "pinyin": "yuè jì hóng",
+      "rgb": [
+        187,
+        28,
+        51
+      ],
+      "cmyk_display": [
+        0,
+        85,
+        73,
+        27
+      ]
+    },
+    {
+      "id": "df036",
+      "name": "茉莉花紅",
+      "aliases": [
+        "茉莉花红"
+      ],
+      "hex": "#B31F45",
+      "pinyin": "mò lì huā hóng",
+      "rgb": [
+        179,
+        31,
+        69
+      ],
+      "cmyk_display": [
+        0,
+        83,
+        61,
+        30
+      ]
+    },
+    {
+      "id": "df037",
+      "name": "烏羅松紅",
+      "aliases": [
+        "乌罗松红"
+      ],
+      "hex": "#C5283D",
+      "pinyin": "wū luó sōng hóng",
+      "rgb": [
+        197,
+        40,
+        61
+      ],
+      "cmyk_display": [
+        0,
+        80,
+        69,
+        23
+      ]
+    },
+    {
+      "id": "df038",
+      "name": "銀星海棠",
+      "aliases": [
+        "银星海棠"
+      ],
+      "hex": "#D13559",
+      "pinyin": "yín xīng hǎi táng",
+      "rgb": [
+        209,
+        53,
+        89
+      ],
+      "cmyk_display": [
+        0,
+        75,
+        57,
+        18
+      ]
+    },
+    {
+      "id": "df039",
+      "name": "象牙紅",
+      "aliases": [
+        "象牙红"
+      ],
+      "hex": "#BC343C",
+      "pinyin": "xiàng yá hóng",
+      "rgb": [
+        188,
+        52,
+        60
+      ],
+      "cmyk_display": [
+        0,
+        72,
+        68,
+        26
+      ]
+    },
+    {
+      "id": "df040",
+      "name": "曙紅",
+      "aliases": [
+        "曙红"
+      ],
+      "hex": "#935458",
+      "pinyin": "shù hóng",
+      "rgb": [
+        147,
+        84,
+        88
+      ],
+      "cmyk_display": [
+        0,
+        43,
+        40,
+        42
+      ]
+    },
+    {
+      "id": "df041",
+      "name": "牡丹紅",
+      "aliases": [
+        "牡丹红"
+      ],
+      "hex": "#B80233",
+      "pinyin": "mǔ dān hóng",
+      "rgb": [
+        184,
+        2,
+        51
+      ],
+      "cmyk_display": [
+        0,
+        99,
+        72,
+        28
+      ]
+    },
+    {
+      "id": "df042",
+      "name": "艶紅",
+      "aliases": [
+        "艳红"
+      ],
+      "hex": "#CC3536",
+      "pinyin": "yàn hóng",
+      "rgb": [
+        204,
+        53,
+        54
+      ],
+      "cmyk_display": [
+        0,
+        74,
+        74,
+        20
+      ]
+    },
+    {
+      "id": "df043",
+      "name": "蕉紅色",
+      "aliases": [
+        "蕉红色"
+      ],
+      "hex": "#CF292F",
+      "pinyin": "jiāo hóng sè",
+      "rgb": [
+        207,
+        41,
+        47
+      ],
+      "cmyk_display": [
+        0,
+        80,
+        77,
+        19
+      ]
+    },
+    {
+      "id": "df044",
+      "name": "銀朱",
+      "aliases": [
+        "银朱"
+      ],
+      "hex": "#D15D5E",
+      "pinyin": "yín zhū",
+      "rgb": [
+        209,
+        93,
+        94
+      ],
+      "cmyk_display": [
+        0,
+        56,
+        55,
+        18
+      ]
+    },
+    {
+      "id": "df045",
+      "name": "硃砂",
+      "aliases": [
+        "朱砂"
+      ],
+      "hex": "#B84B48",
+      "pinyin": "zhū shā",
+      "rgb": [
+        184,
+        75,
+        72
+      ],
+      "cmyk_display": [
+        0,
+        59,
+        61,
+        28
+      ]
+    },
+    {
+      "id": "df046",
+      "name": "二硃",
+      "aliases": [
+        "二朱"
+      ],
+      "hex": "#C6574B",
+      "pinyin": "èr zhū",
+      "rgb": [
+        198,
+        87,
+        75
+      ],
+      "cmyk_display": [
+        0,
+        56,
+        62,
+        22
+      ]
+    },
+    {
+      "id": "df047",
+      "name": "硃膘",
+      "aliases": [
+        "朱膘"
+      ],
+      "hex": "#E35C3E",
+      "pinyin": "zhū piǎo",
+      "rgb": [
+        227,
+        92,
+        62
+      ],
+      "cmyk_display": [
+        0,
+        59,
+        73,
+        11
+      ]
+    },
+    {
+      "id": "df048",
+      "name": "章丹",
+      "aliases": [],
+      "hex": "#EB652D",
+      "pinyin": "zhāng dān",
+      "rgb": [
+        235,
+        101,
+        45
+      ],
+      "cmyk_display": [
+        0,
+        57,
+        81,
+        8
+      ]
+    },
+    {
+      "id": "df049",
+      "name": "蕃茄紅",
+      "aliases": [
+        "蕃茄红"
+      ],
+      "hex": "#C4473D",
+      "pinyin": "fán qié hóng",
+      "rgb": [
+        196,
+        71,
+        61
+      ],
+      "cmyk_display": [
+        0,
+        64,
+        69,
+        23
+      ]
+    },
+    {
+      "id": "df050",
+      "name": "榴花紅",
+      "aliases": [
+        "榴花红"
+      ],
+      "hex": "#D54B44",
+      "pinyin": "líu huā hóng",
+      "rgb": [
+        213,
+        75,
+        68
+      ],
+      "cmyk_display": [
+        0,
+        65,
+        68,
+        16
+      ]
+    },
+    {
+      "id": "df051",
+      "name": "柿子色",
+      "aliases": [],
+      "hex": "#ED7A3D",
+      "pinyin": "shì zǐ sè",
+      "rgb": [
+        237,
+        122,
+        61
+      ],
+      "cmyk_display": [
+        0,
+        49,
+        74,
+        7
+      ]
+    },
+    {
+      "id": "df052",
+      "name": "桔紅",
+      "aliases": [
+        "桔红"
+      ],
+      "hex": "#E7693F",
+      "pinyin": "jié hóng",
+      "rgb": [
+        231,
+        105,
+        63
+      ],
+      "cmyk_display": [
+        0,
+        55,
+        73,
+        9
+      ]
+    },
+    {
+      "id": "df053",
+      "name": "桔黄",
+      "aliases": [],
+      "hex": "#E8853B",
+      "pinyin": "jié huáng",
+      "rgb": [
+        232,
+        133,
+        59
+      ],
+      "cmyk_display": [
+        0,
+        43,
+        75,
+        9
+      ]
+    },
+    {
+      "id": "df054",
+      "name": "紅扇貝色",
+      "aliases": [
+        "红扇貝色"
+      ],
+      "hex": "#E9745A",
+      "pinyin": "hóng shàn bèi sè",
+      "rgb": [
+        233,
+        116,
+        90
+      ],
+      "cmyk_display": [
+        0,
+        50,
+        61,
+        9
+      ]
+    },
+    {
+      "id": "df055",
+      "name": "粉橙色",
+      "aliases": [],
+      "hex": "#F89155",
+      "pinyin": "fěn chéng sè",
+      "rgb": [
+        248,
+        145,
+        85
+      ],
+      "cmyk_display": [
+        0,
+        42,
+        66,
+        3
+      ]
+    },
+    {
+      "id": "df056",
+      "name": "金紅",
+      "aliases": [
+        "金红"
+      ],
+      "hex": "#F07544",
+      "pinyin": "jīn hóng",
+      "rgb": [
+        240,
+        117,
+        68
+      ],
+      "cmyk_display": [
+        0,
+        51,
+        72,
+        6
+      ]
+    },
+    {
+      "id": "df057",
+      "name": "雄精",
+      "aliases": [],
+      "hex": "#E47542",
+      "pinyin": "xióng jīng",
+      "rgb": [
+        228,
+        117,
+        66
+      ],
+      "cmyk_display": [
+        0,
+        49,
+        71,
+        11
+      ]
+    },
+    {
+      "id": "df058",
+      "name": "金黄",
+      "aliases": [],
+      "hex": "#C77A3A",
+      "pinyin": "jīn huáng",
+      "rgb": [
+        199,
+        122,
+        58
+      ],
+      "cmyk_display": [
+        0,
+        39,
+        71,
+        22
+      ]
+    },
+    {
+      "id": "df059",
+      "name": "雄黄",
+      "aliases": [],
+      "hex": "#D0853D",
+      "pinyin": "xióng huáng",
+      "rgb": [
+        208,
+        133,
+        61
+      ],
+      "cmyk_display": [
+        0,
+        36,
+        71,
+        18
+      ]
+    },
+    {
+      "id": "df060",
+      "name": "蝦黄",
+      "aliases": [],
+      "hex": "#E1A14D",
+      "pinyin": "xiā huáng",
+      "rgb": [
+        225,
+        161,
+        77
+      ],
+      "cmyk_display": [
+        0,
+        28,
+        66,
+        12
+      ]
+    },
+    {
+      "id": "df061",
+      "name": "艶黄",
+      "aliases": [
+        "艳黄"
+      ],
+      "hex": "#E1A105",
+      "pinyin": "yàn huáng",
+      "rgb": [
+        225,
+        161,
+        5
+      ],
+      "cmyk_display": [
+        0,
+        28,
+        98,
+        12
+      ]
+    },
+    {
+      "id": "df062",
+      "name": "鵝黄",
+      "aliases": [
+        "鹅黄"
+      ],
+      "hex": "#F5A31F",
+      "pinyin": "é huáng",
+      "rgb": [
+        245,
+        163,
+        31
+      ],
+      "cmyk_display": [
+        0,
+        33,
+        87,
+        4
+      ]
+    },
+    {
+      "id": "df063",
+      "name": "十様錦",
+      "aliases": [],
+      "hex": "#FCB1AA",
+      "pinyin": "shí yàng jǐn",
+      "rgb": [
+        252,
+        177,
+        170
+      ],
+      "cmyk_display": [
+        0,
+        30,
+        33,
+        1
+      ]
+    },
+    {
+      "id": "df064",
+      "name": "鳳仙粉",
+      "aliases": [
+        "凤仙粉"
+      ],
+      "hex": "#F4A9AA",
+      "pinyin": "fèng xiān fěn",
+      "rgb": [
+        244,
+        169,
+        170
+      ],
+      "cmyk_display": [
+        0,
+        31,
+        30,
+        4
+      ]
+    },
+    {
+      "id": "df065",
+      "name": "肉粉",
+      "aliases": [],
+      "hex": "#F1C7BE",
+      "pinyin": "ròu fěn",
+      "rgb": [
+        241,
+        199,
+        190
+      ],
+      "cmyk_display": [
+        0,
+        17,
+        21,
+        5
+      ]
+    },
+    {
+      "id": "df066",
+      "name": "肉黄",
+      "aliases": [],
+      "hex": "#F0B69D",
+      "pinyin": "ròu huáng",
+      "rgb": [
+        240,
+        182,
+        157
+      ],
+      "cmyk_display": [
+        0,
+        24,
+        35,
+        6
+      ]
+    },
+    {
+      "id": "df067",
+      "name": "釉紅",
+      "aliases": [
+        "釉红"
+      ],
+      "hex": "#B65B46",
+      "pinyin": "yòu hóng",
+      "rgb": [
+        182,
+        91,
+        70
+      ],
+      "cmyk_display": [
+        0,
+        50,
+        62,
+        29
+      ]
+    },
+    {
+      "id": "df068",
+      "name": "紅灰蓮",
+      "aliases": [
+        "红灰莲"
+      ],
+      "hex": "#BB848C",
+      "pinyin": "hóng hūi lián",
+      "rgb": [
+        187,
+        132,
+        140
+      ],
+      "cmyk_display": [
+        0,
+        29,
+        25,
+        27
+      ]
+    },
+    {
+      "id": "df069",
+      "name": "蛤蜊粉",
+      "aliases": [],
+      "hex": "#DA9583",
+      "pinyin": "há lí fěn",
+      "rgb": [
+        218,
+        149,
+        131
+      ],
+      "cmyk_display": [
+        0,
+        32,
+        40,
+        15
+      ]
+    },
+    {
+      "id": "df070",
+      "name": "銹紅",
+      "aliases": [
+        "銹红"
+      ],
+      "hex": "#4D1919",
+      "pinyin": "xìu hóng",
+      "rgb": [
+        77,
+        25,
+        25
+      ],
+      "cmyk_display": [
+        0,
+        68,
+        68,
+        70
+      ]
+    },
+    {
+      "id": "df071",
+      "name": "土紅",
+      "aliases": [
+        "土红"
+      ],
+      "hex": "#A95352",
+      "pinyin": "tǔ hóng",
+      "rgb": [
+        169,
+        83,
+        82
+      ],
+      "cmyk_display": [
+        0,
+        51,
+        51,
+        34
+      ]
+    },
+    {
+      "id": "df072",
+      "name": "瑪瑙色",
+      "aliases": [
+        "玛瑙色"
+      ],
+      "hex": "#C06B49",
+      "pinyin": "mǎ nǎo sè",
+      "rgb": [
+        192,
+        107,
+        73
+      ],
+      "cmyk_display": [
+        0,
+        44,
+        62,
+        25
+      ]
+    },
+    {
+      "id": "df073",
+      "name": "赭石色",
+      "aliases": [],
+      "hex": "#C37E5F",
+      "pinyin": "zhě shí sè",
+      "rgb": [
+        195,
+        126,
+        95
+      ],
+      "cmyk_display": [
+        0,
+        35,
+        51,
+        24
+      ]
+    },
+    {
+      "id": "df074",
+      "name": "赭紅",
+      "aliases": [
+        "赭红"
+      ],
+      "hex": "#B56F58",
+      "pinyin": "zhě hóng",
+      "rgb": [
+        181,
+        111,
+        88
+      ],
+      "cmyk_display": [
+        0,
+        39,
+        51,
+        29
+      ]
+    },
+    {
+      "id": "df075",
+      "name": "紅狐色",
+      "aliases": [
+        "红狐色"
+      ],
+      "hex": "#C18453",
+      "pinyin": "hóng hú sè",
+      "rgb": [
+        193,
+        132,
+        83
+      ],
+      "cmyk_display": [
+        0,
+        32,
+        57,
+        24
+      ]
+    },
+    {
+      "id": "df076",
+      "name": "黄棕色",
+      "aliases": [],
+      "hex": "#A5855E",
+      "pinyin": "huáng zōng sè",
+      "rgb": [
+        165,
+        133,
+        94
+      ],
+      "cmyk_display": [
+        0,
+        19,
+        43,
+        35
+      ]
+    },
+    {
+      "id": "df077",
+      "name": "棕茶",
+      "aliases": [],
+      "hex": "#B8844F",
+      "pinyin": "zōng chá",
+      "rgb": [
+        184,
+        132,
+        79
+      ],
+      "cmyk_display": [
+        0,
+        28,
+        57,
+        28
+      ]
+    },
+    {
+      "id": "df078",
+      "name": "中駝",
+      "aliases": [
+        "中驼"
+      ],
+      "hex": "#9B7E62",
+      "pinyin": "zhōng tuó",
+      "rgb": [
+        155,
+        126,
+        98
+      ],
+      "cmyk_display": [
+        0,
+        19,
+        37,
+        39
+      ]
+    },
+    {
+      "id": "df079",
+      "name": "土黄",
+      "aliases": [],
+      "hex": "#CE9335",
+      "pinyin": "tǔ huáng",
+      "rgb": [
+        206,
+        147,
+        53
+      ],
+      "cmyk_display": [
+        0,
+        29,
+        74,
+        19
+      ]
+    },
+    {
+      "id": "df080",
+      "name": "樹皮色",
+      "aliases": [
+        "树皮色"
+      ],
+      "hex": "#B37349",
+      "pinyin": "shù pí sè",
+      "rgb": [
+        179,
+        115,
+        73
+      ],
+      "cmyk_display": [
+        0,
+        36,
+        59,
+        30
+      ]
+    },
+    {
+      "id": "df081",
+      "name": "桂皮色",
+      "aliases": [],
+      "hex": "#BB855D",
+      "pinyin": "gùi pí sè",
+      "rgb": [
+        187,
+        133,
+        93
+      ],
+      "cmyk_display": [
+        0,
+        29,
+        50,
+        27
+      ]
+    },
+    {
+      "id": "df082",
+      "name": "土布色",
+      "aliases": [],
+      "hex": "#E3B587",
+      "pinyin": "tǔ bù sè",
+      "rgb": [
+        227,
+        181,
+        135
+      ],
+      "cmyk_display": [
+        0,
+        20,
+        41,
+        11
+      ]
+    },
+    {
+      "id": "df083",
+      "name": "黄琉璃",
+      "aliases": [],
+      "hex": "#E2AF45",
+      "pinyin": "huáng líu lí",
+      "rgb": [
+        226,
+        175,
+        69
+      ],
+      "cmyk_display": [
+        0,
+        23,
+        69,
+        11
+      ]
+    },
+    {
+      "id": "df084",
+      "name": "琉璃色",
+      "aliases": [],
+      "hex": "#C48D39",
+      "pinyin": "líu lí sè",
+      "rgb": [
+        196,
+        141,
+        57
+      ],
+      "cmyk_display": [
+        0,
+        28,
+        71,
+        23
+      ]
+    },
+    {
+      "id": "df085",
+      "name": "檀香色",
+      "aliases": [],
+      "hex": "#DC943B",
+      "pinyin": "tán xiāng sè",
+      "rgb": [
+        220,
+        148,
+        59
+      ],
+      "cmyk_display": [
+        0,
+        33,
+        73,
+        14
+      ]
+    },
+    {
+      "id": "df086",
+      "name": "蒼黄",
+      "aliases": [],
+      "hex": "#C65306",
+      "pinyin": "cāng huáng",
+      "rgb": [
+        198,
+        83,
+        6
+      ],
+      "cmyk_display": [
+        0,
+        58,
+        97,
+        22
+      ]
+    },
+    {
+      "id": "df087",
+      "name": "米紅",
+      "aliases": [
+        "米红"
+      ],
+      "hex": "#E1BDA2",
+      "pinyin": "mǐ hóng",
+      "rgb": [
+        225,
+        189,
+        162
+      ],
+      "cmyk_display": [
+        0,
+        16,
+        28,
+        12
+      ]
+    },
+    {
+      "id": "df088",
+      "name": "瑪瑙粉",
+      "aliases": [
+        "玛瑙粉"
+      ],
+      "hex": "#D79B75",
+      "pinyin": "mǎ nǎo fěn",
+      "rgb": [
+        215,
+        155,
+        117
+      ],
+      "cmyk_display": [
+        0,
+        28,
+        46,
+        16
+      ]
+    },
+    {
+      "id": "df089",
+      "name": "向日黄",
+      "aliases": [],
+      "hex": "#F4B974",
+      "pinyin": "xiàng rì huáng",
+      "rgb": [
+        244,
+        185,
+        116
+      ],
+      "cmyk_display": [
+        0,
+        24,
+        52,
+        4
+      ]
+    },
+    {
+      "id": "df090",
+      "name": "浅黄棕",
+      "aliases": [],
+      "hex": "#DEA87A",
+      "pinyin": "qiǎn huáng zōng",
+      "rgb": [
+        222,
+        168,
+        122
+      ],
+      "cmyk_display": [
+        0,
+        24,
+        45,
+        13
+      ]
+    },
+    {
+      "id": "df091",
+      "name": "南瓜黄",
+      "aliases": [],
+      "hex": "#F1B67F",
+      "pinyin": "nán guā huáng",
+      "rgb": [
+        241,
+        182,
+        127
+      ],
+      "cmyk_display": [
+        0,
+        24,
+        47,
+        5
+      ]
+    },
+    {
+      "id": "df092",
+      "name": "駱駝色",
+      "aliases": [
+        "駱驼色"
+      ],
+      "hex": "#D8AD85",
+      "pinyin": "luò tuó sè",
+      "rgb": [
+        216,
+        173,
+        133
+      ],
+      "cmyk_display": [
+        0,
+        20,
+        38,
+        15
+      ]
+    },
+    {
+      "id": "df093",
+      "name": "芦黄",
+      "aliases": [],
+      "hex": "#E2C2A4",
+      "pinyin": "lú huáng",
+      "rgb": [
+        226,
+        194,
+        164
+      ],
+      "cmyk_display": [
+        0,
+        14,
+        27,
+        11
+      ]
+    },
+    {
+      "id": "df094",
+      "name": "浅桔黄",
+      "aliases": [],
+      "hex": "#DA9558",
+      "pinyin": "qiǎn jié huáng",
+      "rgb": [
+        218,
+        149,
+        88
+      ],
+      "cmyk_display": [
+        0,
+        32,
+        60,
+        15
+      ]
+    },
+    {
+      "id": "df095",
+      "name": "鹿皮色",
+      "aliases": [],
+      "hex": "#E7BB7C",
+      "pinyin": "lù pí sè",
+      "rgb": [
+        231,
+        187,
+        124
+      ],
+      "cmyk_display": [
+        0,
+        19,
+        46,
+        9
+      ]
+    },
+    {
+      "id": "df096",
+      "name": "鹿皮棕",
+      "aliases": [],
+      "hex": "#BB9755",
+      "pinyin": "lù pí zōng",
+      "rgb": [
+        187,
+        151,
+        85
+      ],
+      "cmyk_display": [
+        0,
+        19,
+        55,
+        27
+      ]
+    },
+    {
+      "id": "df097",
+      "name": "真絲綢色",
+      "aliases": [
+        "真丝綢色"
+      ],
+      "hex": "#F4D7B4",
+      "pinyin": "zhēn sī chóu sè",
+      "rgb": [
+        244,
+        215,
+        180
+      ],
+      "cmyk_display": [
+        0,
+        12,
+        26,
+        4
+      ]
+    },
+    {
+      "id": "df098",
+      "name": "富春紡色",
+      "aliases": [
+        "富春纺色"
+      ],
+      "hex": "#F0D6AC",
+      "pinyin": "fù chūn fǎng sè",
+      "rgb": [
+        240,
+        214,
+        172
+      ],
+      "cmyk_display": [
+        0,
+        11,
+        28,
+        6
+      ]
+    },
+    {
+      "id": "df099",
+      "name": "乳白色",
+      "aliases": [],
+      "hex": "#EEE1CA",
+      "pinyin": "rǔ bái sè",
+      "rgb": [
+        238,
+        225,
+        202
+      ],
+      "cmyk_display": [
+        0,
+        5,
+        15,
+        7
+      ]
+    },
+    {
+      "id": "df100",
+      "name": "乳黄色",
+      "aliases": [],
+      "hex": "#EFE0B9",
+      "pinyin": "rǔ huáng sè",
+      "rgb": [
+        239,
+        224,
+        185
+      ],
+      "cmyk_display": [
+        0,
+        6,
+        23,
+        6
+      ]
+    },
+    {
+      "id": "df101",
+      "name": "甘石粉",
+      "aliases": [],
+      "hex": "#EADCD6",
+      "pinyin": "gān shí fěn",
+      "rgb": [
+        234,
+        220,
+        214
+      ],
+      "cmyk_display": [
+        0,
+        6,
+        9,
+        8
+      ]
+    },
+    {
+      "id": "df102",
+      "name": "浅血牙",
+      "aliases": [],
+      "hex": "#EACDD1",
+      "pinyin": "qiǎn xiě yá",
+      "rgb": [
+        234,
+        205,
+        209
+      ],
+      "cmyk_display": [
+        0,
+        12,
+        11,
+        8
+      ]
+    },
+    {
+      "id": "df103",
+      "name": "浅棕灰",
+      "aliases": [],
+      "hex": "#E1DBCD",
+      "pinyin": "qiǎn zōng hūi",
+      "rgb": [
+        225,
+        219,
+        205
+      ],
+      "cmyk_display": [
+        0,
+        3,
+        9,
+        12
+      ]
+    },
+    {
+      "id": "df104",
+      "name": "粉棕",
+      "aliases": [],
+      "hex": "#DAC5B3",
+      "pinyin": "fěn zōng",
+      "rgb": [
+        218,
+        197,
+        179
+      ],
+      "cmyk_display": [
+        0,
+        10,
+        18,
+        15
+      ]
+    },
+    {
+      "id": "df105",
+      "name": "浅肉粉",
+      "aliases": [],
+      "hex": "#EEDECC",
+      "pinyin": "qiǎn ròu fěn",
+      "rgb": [
+        238,
+        222,
+        204
+      ],
+      "cmyk_display": [
+        0,
+        7,
+        14,
+        7
+      ]
+    },
+    {
+      "id": "df106",
+      "name": "浅駝色",
+      "aliases": [
+        "浅驼色"
+      ],
+      "hex": "#C9AE8C",
+      "pinyin": "qiǎn tuó sè",
+      "rgb": [
+        201,
+        174,
+        140
+      ],
+      "cmyk_display": [
+        0,
+        13,
+        30,
+        21
+      ]
+    },
+    {
+      "id": "df107",
+      "name": "浅棕茶",
+      "aliases": [],
+      "hex": "#B0A085",
+      "pinyin": "qiǎn zōng chá",
+      "rgb": [
+        176,
+        160,
+        133
+      ],
+      "cmyk_display": [
+        0,
+        9,
+        24,
+        31
+      ]
+    },
+    {
+      "id": "df108",
+      "name": "肉棕灰",
+      "aliases": [],
+      "hex": "#B89A83",
+      "pinyin": "ròu zōng hūi",
+      "rgb": [
+        184,
+        154,
+        131
+      ],
+      "cmyk_display": [
+        0,
+        16,
+        29,
+        28
+      ]
+    },
+    {
+      "id": "df109",
+      "name": "肉棕",
+      "aliases": [],
+      "hex": "#D2AE8C",
+      "pinyin": "ròu zōng",
+      "rgb": [
+        210,
+        174,
+        140
+      ],
+      "cmyk_display": [
+        0,
+        17,
+        33,
+        18
+      ]
+    },
+    {
+      "id": "df110",
+      "name": "珈琲棕",
+      "aliases": [],
+      "hex": "#896C50",
+      "pinyin": "jiā bèi zōng",
+      "rgb": [
+        137,
+        108,
+        80
+      ],
+      "cmyk_display": [
+        0,
+        21,
+        42,
+        46
+      ]
+    },
+    {
+      "id": "df111",
+      "name": "黄鴨色",
+      "aliases": [
+        "黄鸭色"
+      ],
+      "hex": "#9B603F",
+      "pinyin": "huáng yā sè",
+      "rgb": [
+        155,
+        96,
+        63
+      ],
+      "cmyk_display": [
+        0,
+        38,
+        59,
+        39
+      ]
+    },
+    {
+      "id": "df112",
+      "name": "煙色",
+      "aliases": [
+        "烟色"
+      ],
+      "hex": "#6E4D40",
+      "pinyin": "yān sè",
+      "rgb": [
+        110,
+        77,
+        64
+      ],
+      "cmyk_display": [
+        0,
+        30,
+        42,
+        57
+      ]
+    },
+    {
+      "id": "df113",
+      "name": "朱古力色",
+      "aliases": [],
+      "hex": "#84624E",
+      "pinyin": "zhū gǔ lì sè",
+      "rgb": [
+        132,
+        98,
+        78
+      ],
+      "cmyk_display": [
+        0,
+        26,
+        41,
+        48
+      ]
+    },
+    {
+      "id": "df114",
+      "name": "棗紅",
+      "aliases": [
+        "枣红"
+      ],
+      "hex": "#89303F",
+      "pinyin": "zǎo hóng",
+      "rgb": [
+        137,
+        48,
+        63
+      ],
+      "cmyk_display": [
+        0,
+        65,
+        54,
+        46
+      ]
+    },
+    {
+      "id": "df115",
+      "name": "葡萄灰",
+      "aliases": [],
+      "hex": "#6D4D56",
+      "pinyin": "pú táo hūi",
+      "rgb": [
+        109,
+        77,
+        86
+      ],
+      "cmyk_display": [
+        0,
+        29,
+        21,
+        57
+      ]
+    },
+    {
+      "id": "df116",
+      "name": "紫絳色",
+      "aliases": [
+        "紫绛色"
+      ],
+      "hex": "#722E41",
+      "pinyin": "zǐ jiàng sè",
+      "rgb": [
+        114,
+        46,
+        65
+      ],
+      "cmyk_display": [
+        0,
+        60,
+        43,
+        55
+      ]
+    },
+    {
+      "id": "df117",
+      "name": "紫銅色",
+      "aliases": [
+        "紫铜色"
+      ],
+      "hex": "#723D45",
+      "pinyin": "zǐ tóng sè",
+      "rgb": [
+        114,
+        61,
+        69
+      ],
+      "cmyk_display": [
+        0,
+        46,
+        39,
+        55
+      ]
+    },
+    {
+      "id": "df118",
+      "name": "棗紫",
+      "aliases": [
+        "枣紫"
+      ],
+      "hex": "#69282B",
+      "pinyin": "zǎo zǐ",
+      "rgb": [
+        105,
+        40,
+        43
+      ],
+      "cmyk_display": [
+        0,
+        62,
+        59,
+        59
+      ]
+    },
+    {
+      "id": "df119",
+      "name": "黒紫",
+      "aliases": [],
+      "hex": "#50262B",
+      "pinyin": "hēi zǐ",
+      "rgb": [
+        80,
+        38,
+        43
+      ],
+      "cmyk_display": [
+        0,
+        52,
+        46,
+        69
+      ]
+    },
+    {
+      "id": "df120",
+      "name": "棕紅",
+      "aliases": [
+        "棕红"
+      ],
+      "hex": "#7C4B40",
+      "pinyin": "zōng hóng",
+      "rgb": [
+        124,
+        75,
+        64
+      ],
+      "cmyk_display": [
+        0,
+        40,
+        48,
+        51
+      ]
+    },
+    {
+      "id": "df121",
+      "name": "深釉紅",
+      "aliases": [
+        "深釉红"
+      ],
+      "hex": "#773D38",
+      "pinyin": "shēn yòu hóng",
+      "rgb": [
+        119,
+        61,
+        56
+      ],
+      "cmyk_display": [
+        0,
+        49,
+        53,
+        53
+      ]
+    },
+    {
+      "id": "df122",
+      "name": "紫扇貝色",
+      "aliases": [],
+      "hex": "#875A72",
+      "pinyin": "zǐ shàn bèi sè",
+      "rgb": [
+        135,
+        90,
+        114
+      ],
+      "cmyk_display": [
+        0,
+        33,
+        16,
+        47
+      ]
+    },
+    {
+      "id": "df123",
+      "name": "深煙紅",
+      "aliases": [
+        "深烟红"
+      ],
+      "hex": "#643441",
+      "pinyin": "shēn yān hóng",
+      "rgb": [
+        100,
+        52,
+        65
+      ],
+      "cmyk_display": [
+        0,
+        48,
+        35,
+        61
+      ]
+    },
+    {
+      "id": "df124",
+      "name": "珈琲色",
+      "aliases": [],
+      "hex": "#7B5650",
+      "pinyin": "jiā bèi sè",
+      "rgb": [
+        123,
+        86,
+        80
+      ],
+      "cmyk_display": [
+        0,
+        30,
+        35,
+        52
+      ]
+    },
+    {
+      "id": "df125",
+      "name": "豆棕",
+      "aliases": [],
+      "hex": "#795253",
+      "pinyin": "dòu zōng",
+      "rgb": [
+        121,
+        82,
+        83
+      ],
+      "cmyk_display": [
+        0,
+        32,
+        31,
+        53
+      ]
+    },
+    {
+      "id": "df126",
+      "name": "羅漢果色",
+      "aliases": [
+        "罗漢果色"
+      ],
+      "hex": "#7B563F",
+      "pinyin": "luó hàn guǒ sè",
+      "rgb": [
+        123,
+        86,
+        63
+      ],
+      "cmyk_display": [
+        0,
+        30,
+        49,
+        52
+      ]
+    },
+    {
+      "id": "df127",
+      "name": "深栗色",
+      "aliases": [],
+      "hex": "#6F5750",
+      "pinyin": "shēn lì sè",
+      "rgb": [
+        111,
+        87,
+        80
+      ],
+      "cmyk_display": [
+        0,
+        22,
+        28,
+        56
+      ]
+    },
+    {
+      "id": "df128",
+      "name": "醤色",
+      "aliases": [],
+      "hex": "#725338",
+      "pinyin": "jiàng sè",
+      "rgb": [
+        114,
+        83,
+        56
+      ],
+      "cmyk_display": [
+        0,
+        27,
+        51,
+        55
+      ]
+    },
+    {
+      "id": "df129",
+      "name": "深褐色",
+      "aliases": [],
+      "hex": "#55473B",
+      "pinyin": "shēn hé sè",
+      "rgb": [
+        85,
+        71,
+        59
+      ],
+      "cmyk_display": [
+        0,
+        16,
+        31,
+        67
+      ]
+    },
+    {
+      "id": "df130",
+      "name": "絳紫",
+      "aliases": [
+        "绛紫"
+      ],
+      "hex": "#704D4E",
+      "pinyin": "jiàng zǐ",
+      "rgb": [
+        112,
+        77,
+        78
+      ],
+      "cmyk_display": [
+        0,
+        31,
+        30,
+        56
+      ]
+    },
+    {
+      "id": "df131",
+      "name": "深煙",
+      "aliases": [
+        "深烟"
+      ],
+      "hex": "#5A4C4C",
+      "pinyin": "shēn yān",
+      "rgb": [
+        90,
+        76,
+        76
+      ],
+      "cmyk_display": [
+        0,
+        16,
+        16,
+        65
+      ]
+    },
+    {
+      "id": "df132",
+      "name": "茄皮紫",
+      "aliases": [],
+      "hex": "#674950",
+      "pinyin": "qié pí zǐ",
+      "rgb": [
+        103,
+        73,
+        80
+      ],
+      "cmyk_display": [
+        0,
+        29,
+        22,
+        60
+      ]
+    },
+    {
+      "id": "df133",
+      "name": "煙栗色",
+      "aliases": [
+        "烟栗色"
+      ],
+      "hex": "#544847",
+      "pinyin": "yān lì sè",
+      "rgb": [
+        84,
+        72,
+        71
+      ],
+      "cmyk_display": [
+        0,
+        14,
+        15,
+        67
+      ]
+    },
+    {
+      "id": "df134",
+      "name": "将校呢",
+      "aliases": [],
+      "hex": "#241D00",
+      "pinyin": "jiāng xiào ní",
+      "rgb": [
+        36,
+        29,
+        0
+      ],
+      "cmyk_display": [
+        0,
+        19,
+        100,
+        86
+      ]
+    },
+    {
+      "id": "df135",
+      "name": "将校呢（一）",
+      "aliases": [],
+      "hex": "#6D614A",
+      "pinyin": "jiāng xiào ní",
+      "rgb": [
+        109,
+        97,
+        74
+      ],
+      "cmyk_display": [
+        0,
+        11,
+        32,
+        57
+      ]
+    },
+    {
+      "id": "df136",
+      "name": "中棕灰",
+      "aliases": [],
+      "hex": "#A9987C",
+      "pinyin": "zhōng zōng hūi",
+      "rgb": [
+        169,
+        152,
+        124
+      ],
+      "cmyk_display": [
+        0,
+        10,
+        27,
+        34
+      ]
+    },
+    {
+      "id": "df137",
+      "name": "姜黄",
+      "aliases": [],
+      "hex": "#B49436",
+      "pinyin": "jiāng huáng",
+      "rgb": [
+        180,
+        148,
+        54
+      ],
+      "cmyk_display": [
+        0,
+        18,
+        70,
+        29
+      ]
+    },
+    {
+      "id": "df138",
+      "name": "新芽色",
+      "aliases": [],
+      "hex": "#B4A761",
+      "pinyin": "xīn yá sè",
+      "rgb": [
+        180,
+        167,
+        97
+      ],
+      "cmyk_display": [
+        0,
+        7,
+        46,
+        29
+      ]
+    },
+    {
+      "id": "df139",
+      "name": "卡其黄",
+      "aliases": [],
+      "hex": "#D5B884",
+      "pinyin": "qiǎ qí huáng",
+      "rgb": [
+        213,
+        184,
+        132
+      ],
+      "cmyk_display": [
+        0,
+        14,
+        38,
+        16
+      ]
+    },
+    {
+      "id": "df140",
+      "name": "石黄",
+      "aliases": [],
+      "hex": "#F2C04D",
+      "pinyin": "shí huáng",
+      "rgb": [
+        242,
+        192,
+        77
+      ],
+      "cmyk_display": [
+        0,
+        21,
+        68,
+        5
+      ]
+    },
+    {
+      "id": "df141",
+      "name": "乳棕",
+      "aliases": [],
+      "hex": "#C9B481",
+      "pinyin": "rǔ zōng",
+      "rgb": [
+        201,
+        180,
+        129
+      ],
+      "cmyk_display": [
+        0,
+        10,
+        36,
+        21
+      ]
+    },
+    {
+      "id": "df142",
+      "name": "乳灰",
+      "aliases": [],
+      "hex": "#C5BBA3",
+      "pinyin": "rǔ hūi",
+      "rgb": [
+        197,
+        187,
+        163
+      ],
+      "cmyk_display": [
+        0,
+        5,
+        17,
+        23
+      ]
+    },
+    {
+      "id": "df143",
+      "name": "蝋黄",
+      "aliases": [],
+      "hex": "#EBE1BD",
+      "pinyin": "là huáng",
+      "rgb": [
+        235,
+        225,
+        189
+      ],
+      "cmyk_display": [
+        0,
+        4,
+        20,
+        8
+      ]
+    },
+    {
+      "id": "df144",
+      "name": "深銀灰",
+      "aliases": [
+        "深银灰"
+      ],
+      "hex": "#B2AE9B",
+      "pinyin": "shēn yín hūi",
+      "rgb": [
+        178,
+        174,
+        155
+      ],
+      "cmyk_display": [
+        0,
+        2,
+        13,
+        30
+      ]
+    },
+    {
+      "id": "df145",
+      "name": "米灰",
+      "aliases": [],
+      "hex": "#C5BFAD",
+      "pinyin": "mǐ hūi",
+      "rgb": [
+        197,
+        191,
+        173
+      ],
+      "cmyk_display": [
+        0,
+        3,
+        12,
+        23
+      ]
+    },
+    {
+      "id": "df146",
+      "name": "牙黄",
+      "aliases": [],
+      "hex": "#EBE1B2",
+      "pinyin": "yá huáng",
+      "rgb": [
+        235,
+        225,
+        178
+      ],
+      "cmyk_display": [
+        0,
+        4,
+        24,
+        8
+      ]
+    },
+    {
+      "id": "df147",
+      "name": "枝黄",
+      "aliases": [],
+      "hex": "#DBC7A6",
+      "pinyin": "zhī huáng",
+      "rgb": [
+        219,
+        199,
+        166
+      ],
+      "cmyk_display": [
+        0,
+        9,
+        24,
+        14
+      ]
+    },
+    {
+      "id": "df148",
+      "name": "丹東石",
+      "aliases": [],
+      "hex": "#D7C16B",
+      "pinyin": "dān dōng shí",
+      "rgb": [
+        215,
+        193,
+        107
+      ],
+      "cmyk_display": [
+        0,
+        10,
+        50,
+        16
+      ]
+    },
+    {
+      "id": "df149",
+      "name": "黄金色",
+      "aliases": [],
+      "hex": "#CCCC66",
+      "pinyin": "huáng jīn sè",
+      "rgb": [
+        204,
+        204,
+        102
+      ],
+      "cmyk_display": [
+        0,
+        0,
+        50,
+        20
+      ]
+    },
+    {
+      "id": "df150",
+      "name": "藤黄",
+      "aliases": [],
+      "hex": "#F2DE76",
+      "pinyin": "téng huáng",
+      "rgb": [
+        242,
+        222,
+        118
+      ],
+      "cmyk_display": [
+        0,
+        8,
+        51,
+        5
+      ]
+    },
+    {
+      "id": "df151",
+      "name": "蛋黄",
+      "aliases": [],
+      "hex": "#E7B55B",
+      "pinyin": "dàn huáng",
+      "rgb": [
+        231,
+        181,
+        91
+      ],
+      "cmyk_display": [
+        0,
+        22,
+        61,
+        9
+      ]
+    },
+    {
+      "id": "df152",
+      "name": "槐黄",
+      "aliases": [],
+      "hex": "#EFE452",
+      "pinyin": "huái huáng",
+      "rgb": [
+        239,
+        228,
+        82
+      ],
+      "cmyk_display": [
+        0,
+        5,
+        66,
+        6
+      ]
+    },
+    {
+      "id": "df153",
+      "name": "明黄",
+      "aliases": [],
+      "hex": "#F0C649",
+      "pinyin": "míng huáng",
+      "rgb": [
+        240,
+        198,
+        73
+      ],
+      "cmyk_display": [
+        0,
+        17,
+        70,
+        6
+      ]
+    },
+    {
+      "id": "df154",
+      "name": "絲瓜花黄",
+      "aliases": [
+        "丝瓜花黄"
+      ],
+      "hex": "#F7D550",
+      "pinyin": "sī guā huā huáng",
+      "rgb": [
+        247,
+        213,
+        80
+      ],
+      "cmyk_display": [
+        0,
+        14,
+        68,
+        3
+      ]
+    },
+    {
+      "id": "df155",
+      "name": "嫩姜黄",
+      "aliases": [],
+      "hex": "#E2BD3B",
+      "pinyin": "nèn jiāng huáng",
+      "rgb": [
+        226,
+        189,
+        59
+      ],
+      "cmyk_display": [
+        0,
+        16,
+        74,
+        11
+      ]
+    },
+    {
+      "id": "df156",
+      "name": "甘草黄",
+      "aliases": [],
+      "hex": "#E4CF8E",
+      "pinyin": "gān cǎo huáng",
+      "rgb": [
+        228,
+        207,
+        142
+      ],
+      "cmyk_display": [
+        0,
+        9,
+        38,
+        11
+      ]
+    },
+    {
+      "id": "df157",
+      "name": "小鶏黄",
+      "aliases": [
+        "小鸡黄"
+      ],
+      "hex": "#E3D289",
+      "pinyin": "xiǎo jī huáng",
+      "rgb": [
+        227,
+        210,
+        137
+      ],
+      "cmyk_display": [
+        0,
+        7,
+        40,
+        11
+      ]
+    },
+    {
+      "id": "df158",
+      "name": "芽灰",
+      "aliases": [],
+      "hex": "#CCC3AA",
+      "pinyin": "yá hūi",
+      "rgb": [
+        204,
+        195,
+        170
+      ],
+      "cmyk_display": [
+        0,
+        4,
+        17,
+        20
+      ]
+    },
+    {
+      "id": "df159",
+      "name": "檸檬黄",
+      "aliases": [],
+      "hex": "#E9DB39",
+      "pinyin": "níng méng huáng",
+      "rgb": [
+        233,
+        219,
+        57
+      ],
+      "cmyk_display": [
+        0,
+        6,
+        76,
+        9
+      ]
+    },
+    {
+      "id": "df160",
+      "name": "楊桃色",
+      "aliases": [],
+      "hex": "#D4D570",
+      "pinyin": "yáng táo sè",
+      "rgb": [
+        212,
+        213,
+        112
+      ],
+      "cmyk_display": [
+        0,
+        0,
+        47,
+        16
+      ]
+    },
+    {
+      "id": "df161",
+      "name": "淡黄",
+      "aliases": [],
+      "hex": "#EAE3B3",
+      "pinyin": "dàn huáng",
+      "rgb": [
+        234,
+        227,
+        179
+      ],
+      "cmyk_display": [
+        0,
+        3,
+        24,
+        8
+      ]
+    },
+    {
+      "id": "df162",
+      "name": "淡米色",
+      "aliases": [],
+      "hex": "#E9E6C5",
+      "pinyin": "dàn mǐ sè",
+      "rgb": [
+        233,
+        230,
+        197
+      ],
+      "cmyk_display": [
+        0,
+        1,
+        15,
+        9
+      ]
+    },
+    {
+      "id": "df163",
+      "name": "胡粉",
+      "aliases": [],
+      "hex": "#EBE8DB",
+      "pinyin": "hú fěn",
+      "rgb": [
+        235,
+        232,
+        219
+      ],
+      "cmyk_display": [
+        0,
+        1,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "df164",
+      "name": "蛤粉",
+      "aliases": [],
+      "hex": "#EDEADC",
+      "pinyin": "há fěn",
+      "rgb": [
+        237,
+        234,
+        220
+      ],
+      "cmyk_display": [
+        0,
+        1,
+        7,
+        7
+      ]
+    },
+    {
+      "id": "df165",
+      "name": "立徳粉",
+      "aliases": [
+        "立德粉"
+      ],
+      "hex": "#EDEBE0",
+      "pinyin": "lì dé fěn",
+      "rgb": [
+        237,
+        235,
+        224
+      ],
+      "cmyk_display": [
+        0,
+        1,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "df166",
+      "name": "牙緑",
+      "aliases": [
+        "牙绿"
+      ],
+      "hex": "#D9E396",
+      "pinyin": "yá lv̀",
+      "rgb": [
+        217,
+        227,
+        150
+      ],
+      "cmyk_display": [
+        4,
+        0,
+        34,
+        11
+      ]
+    },
+    {
+      "id": "df167",
+      "name": "苦瓜緑",
+      "aliases": [
+        "苦瓜绿"
+      ],
+      "hex": "#CDDB8F",
+      "pinyin": "kǔ guā lv̀",
+      "rgb": [
+        205,
+        219,
+        143
+      ],
+      "cmyk_display": [
+        6,
+        0,
+        35,
+        14
+      ]
+    },
+    {
+      "id": "df168",
+      "name": "草黄",
+      "aliases": [],
+      "hex": "#DBCE54",
+      "pinyin": "cǎo huáng",
+      "rgb": [
+        219,
+        206,
+        84
+      ],
+      "cmyk_display": [
+        0,
+        6,
+        62,
+        14
+      ]
+    },
+    {
+      "id": "df169",
+      "name": "枯緑",
+      "aliases": [
+        "枯绿"
+      ],
+      "hex": "#B7B278",
+      "pinyin": "kū lv̀",
+      "rgb": [
+        183,
+        178,
+        120
+      ],
+      "cmyk_display": [
+        0,
+        3,
+        34,
+        28
+      ]
+    },
+    {
+      "id": "df170",
+      "name": "嫩草緑",
+      "aliases": [
+        "嫩草绿"
+      ],
+      "hex": "#7EA174",
+      "pinyin": "nèn cǎo lv̀",
+      "rgb": [
+        126,
+        161,
+        116
+      ],
+      "cmyk_display": [
+        22,
+        0,
+        28,
+        37
+      ]
+    },
+    {
+      "id": "df171",
+      "name": "浅草緑",
+      "aliases": [
+        "浅草绿"
+      ],
+      "hex": "#ABCC89",
+      "pinyin": "qiǎn cǎo lv̀",
+      "rgb": [
+        171,
+        204,
+        137
+      ],
+      "cmyk_display": [
+        16,
+        0,
+        33,
+        20
+      ]
+    },
+    {
+      "id": "df172",
+      "name": "銅緑色",
+      "aliases": [
+        "铜绿色"
+      ],
+      "hex": "#A5B795",
+      "pinyin": "tóng lv̀ sè",
+      "rgb": [
+        165,
+        183,
+        149
+      ],
+      "cmyk_display": [
+        10,
+        0,
+        19,
+        28
+      ]
+    },
+    {
+      "id": "df173",
+      "name": "青豆色",
+      "aliases": [],
+      "hex": "#9BAE86",
+      "pinyin": "qīng dòu sè",
+      "rgb": [
+        155,
+        174,
+        134
+      ],
+      "cmyk_display": [
+        11,
+        0,
+        23,
+        32
+      ]
+    },
+    {
+      "id": "df174",
+      "name": "黄緑",
+      "aliases": [
+        "黄绿"
+      ],
+      "hex": "#94A657",
+      "pinyin": "huáng lv̀",
+      "rgb": [
+        148,
+        166,
+        87
+      ],
+      "cmyk_display": [
+        11,
+        0,
+        48,
+        35
+      ]
+    },
+    {
+      "id": "df175",
+      "name": "深芽緑",
+      "aliases": [
+        "深芽绿"
+      ],
+      "hex": "#8C9636",
+      "pinyin": "shēn yá lv̀",
+      "rgb": [
+        140,
+        150,
+        54
+      ],
+      "cmyk_display": [
+        7,
+        0,
+        64,
+        41
+      ]
+    },
+    {
+      "id": "df176",
+      "name": "葱緑",
+      "aliases": [
+        "葱绿"
+      ],
+      "hex": "#94C66B",
+      "pinyin": "cōng lv̀",
+      "rgb": [
+        148,
+        198,
+        107
+      ],
+      "cmyk_display": [
+        25,
+        0,
+        46,
+        22
+      ]
+    },
+    {
+      "id": "df177",
+      "name": "夜緑色",
+      "aliases": [
+        "夜绿色"
+      ],
+      "hex": "#5A715F",
+      "pinyin": "yè lv̀ sè",
+      "rgb": [
+        90,
+        113,
+        95
+      ],
+      "cmyk_display": [
+        20,
+        0,
+        16,
+        56
+      ]
+    },
+    {
+      "id": "df178",
+      "name": "軍緑",
+      "aliases": [
+        "軍绿"
+      ],
+      "hex": "#CAD4BA",
+      "pinyin": "jūn lv̀",
+      "rgb": [
+        202,
+        212,
+        186
+      ],
+      "cmyk_display": [
+        5,
+        0,
+        12,
+        17
+      ]
+    },
+    {
+      "id": "df179",
+      "name": "蒼緑",
+      "aliases": [
+        "蒼绿"
+      ],
+      "hex": "#4E5F45",
+      "pinyin": "cāng lv̀",
+      "rgb": [
+        78,
+        95,
+        69
+      ],
+      "cmyk_display": [
+        18,
+        0,
+        27,
+        63
+      ]
+    },
+    {
+      "id": "df180",
+      "name": "橄欖緑",
+      "aliases": [
+        "橄欖绿"
+      ],
+      "hex": "#6A6834",
+      "pinyin": "gǎn lǎn lv̀",
+      "rgb": [
+        106,
+        104,
+        52
+      ],
+      "cmyk_display": [
+        0,
+        2,
+        51,
+        58
+      ]
+    },
+    {
+      "id": "df181",
+      "name": "冬瓜緑",
+      "aliases": [
+        "冬瓜绿"
+      ],
+      "hex": "#519670",
+      "pinyin": "dōng guā lv̀",
+      "rgb": [
+        81,
+        150,
+        112
+      ],
+      "cmyk_display": [
+        46,
+        0,
+        25,
+        41
+      ]
+    },
+    {
+      "id": "df182",
+      "name": "荷茎緑",
+      "aliases": [
+        "荷茎绿"
+      ],
+      "hex": "#96BB8F",
+      "pinyin": "hé jīng lv̀",
+      "rgb": [
+        150,
+        187,
+        143
+      ],
+      "cmyk_display": [
+        20,
+        0,
+        24,
+        27
+      ]
+    },
+    {
+      "id": "df183",
+      "name": "緑琉璃色",
+      "aliases": [
+        "绿琉璃色"
+      ],
+      "hex": "#4F7E57",
+      "pinyin": "lv̀ líu lí sè",
+      "rgb": [
+        79,
+        126,
+        87
+      ],
+      "cmyk_display": [
+        37,
+        0,
+        31,
+        51
+      ]
+    },
+    {
+      "id": "df184",
+      "name": "嫩葱緑",
+      "aliases": [
+        "嫩葱绿"
+      ],
+      "hex": "#93B469",
+      "pinyin": "nèn cōng lv̀",
+      "rgb": [
+        147,
+        180,
+        105
+      ],
+      "cmyk_display": [
+        18,
+        0,
+        42,
+        29
+      ]
+    },
+    {
+      "id": "df185",
+      "name": "鸚鵡緑",
+      "aliases": [
+        "鸚鵡绿"
+      ],
+      "hex": "#008E59",
+      "pinyin": "yīng wǔ lv̀",
+      "rgb": [
+        0,
+        142,
+        89
+      ],
+      "cmyk_display": [
+        100,
+        0,
+        37,
+        44
+      ]
+    },
+    {
+      "id": "df186",
+      "name": "翠緑",
+      "aliases": [
+        "翠绿"
+      ],
+      "hex": "#006E5F",
+      "pinyin": "cùi lv̀",
+      "rgb": [
+        0,
+        110,
+        95
+      ],
+      "cmyk_display": [
+        100,
+        0,
+        14,
+        57
+      ]
+    },
+    {
+      "id": "df187",
+      "name": "湖緑",
+      "aliases": [
+        "湖绿"
+      ],
+      "hex": "#46817E",
+      "pinyin": "hú lv̀",
+      "rgb": [
+        70,
+        129,
+        126
+      ],
+      "cmyk_display": [
+        46,
+        0,
+        2,
+        49
+      ]
+    },
+    {
+      "id": "df188",
+      "name": "粗孔雀緑",
+      "aliases": [
+        "粗孔雀绿"
+      ],
+      "hex": "#168570",
+      "pinyin": "cū kǒng què lv̀",
+      "rgb": [
+        22,
+        133,
+        112
+      ],
+      "cmyk_display": [
+        83,
+        0,
+        16,
+        48
+      ]
+    },
+    {
+      "id": "df189",
+      "name": "深緑宝石",
+      "aliases": [
+        "深绿宝石"
+      ],
+      "hex": "#2F8F6D",
+      "pinyin": "shēn lv̀ bǎo shí",
+      "rgb": [
+        47,
+        143,
+        109
+      ],
+      "cmyk_display": [
+        67,
+        0,
+        24,
+        44
+      ]
+    },
+    {
+      "id": "df190",
+      "name": "灰緑",
+      "aliases": [
+        "灰绿"
+      ],
+      "hex": "#5C8987",
+      "pinyin": "hūi lv̀",
+      "rgb": [
+        92,
+        137,
+        135
+      ],
+      "cmyk_display": [
+        33,
+        0,
+        1,
+        46
+      ]
+    },
+    {
+      "id": "df191",
+      "name": "冬緑",
+      "aliases": [
+        "冬绿"
+      ],
+      "hex": "#68927D",
+      "pinyin": "dōng lv̀",
+      "rgb": [
+        104,
+        146,
+        125
+      ],
+      "cmyk_display": [
+        29,
+        0,
+        14,
+        43
+      ]
+    },
+    {
+      "id": "df192",
+      "name": "巴黎緑",
+      "aliases": [
+        "巴黎绿"
+      ],
+      "hex": "#00B483",
+      "pinyin": "bā lí lv̀",
+      "rgb": [
+        0,
+        180,
+        131
+      ],
+      "cmyk_display": [
+        100,
+        0,
+        27,
+        29
+      ]
+    },
+    {
+      "id": "df193",
+      "name": "果緑",
+      "aliases": [
+        "果绿"
+      ],
+      "hex": "#8AC28E",
+      "pinyin": "guǒ lv̀",
+      "rgb": [
+        138,
+        194,
+        142
+      ],
+      "cmyk_display": [
+        29,
+        0,
+        27,
+        24
+      ]
+    },
+    {
+      "id": "df194",
+      "name": "玉緑",
+      "aliases": [
+        "玉绿"
+      ],
+      "hex": "#88D5B9",
+      "pinyin": "yù lv̀",
+      "rgb": [
+        136,
+        213,
+        185
+      ],
+      "cmyk_display": [
+        36,
+        0,
+        13,
+        16
+      ]
+    },
+    {
+      "id": "df195",
+      "name": "果灰",
+      "aliases": [],
+      "hex": "#88AEA3",
+      "pinyin": "guǒ hūi",
+      "rgb": [
+        136,
+        174,
+        163
+      ],
+      "cmyk_display": [
+        22,
+        0,
+        6,
+        32
+      ]
+    },
+    {
+      "id": "df196",
+      "name": "碧玉石",
+      "aliases": [],
+      "hex": "#569597",
+      "pinyin": "bì yù shí",
+      "rgb": [
+        86,
+        149,
+        151
+      ],
+      "cmyk_display": [
+        43,
+        1,
+        0,
+        41
+      ]
+    },
+    {
+      "id": "df197",
+      "name": "浅松緑",
+      "aliases": [
+        "浅松绿"
+      ],
+      "hex": "#84C0BE",
+      "pinyin": "qiǎn sōng lv̀",
+      "rgb": [
+        132,
+        192,
+        190
+      ],
+      "cmyk_display": [
+        31,
+        0,
+        1,
+        25
+      ]
+    },
+    {
+      "id": "df198",
+      "name": "深松緑",
+      "aliases": [
+        "深松绿"
+      ],
+      "hex": "#67B4B0",
+      "pinyin": "shēn sōng lv̀",
+      "rgb": [
+        103,
+        180,
+        176
+      ],
+      "cmyk_display": [
+        43,
+        0,
+        2,
+        29
+      ]
+    },
+    {
+      "id": "df199",
+      "name": "浅鮮緑",
+      "aliases": [
+        "浅鮮绿"
+      ],
+      "hex": "#A9E1D3",
+      "pinyin": "qiǎn xiān lv̀",
+      "rgb": [
+        169,
+        225,
+        211
+      ],
+      "cmyk_display": [
+        25,
+        0,
+        6,
+        12
+      ]
+    },
+    {
+      "id": "df200",
+      "name": "三緑",
+      "aliases": [
+        "三绿"
+      ],
+      "hex": "#90CAAF",
+      "pinyin": "sān lv̀",
+      "rgb": [
+        144,
+        202,
+        175
+      ],
+      "cmyk_display": [
+        29,
+        0,
+        13,
+        21
+      ]
+    },
+    {
+      "id": "df201",
+      "name": "枝緑",
+      "aliases": [
+        "枝绿"
+      ],
+      "hex": "#BADED1",
+      "pinyin": "zhī lv̀",
+      "rgb": [
+        186,
+        222,
+        209
+      ],
+      "cmyk_display": [
+        16,
+        0,
+        6,
+        13
+      ]
+    },
+    {
+      "id": "df202",
+      "name": "淡灰緑",
+      "aliases": [
+        "淡灰绿"
+      ],
+      "hex": "#AEC4B7",
+      "pinyin": "dàn hūi lv̀",
+      "rgb": [
+        174,
+        196,
+        183
+      ],
+      "cmyk_display": [
+        11,
+        0,
+        7,
+        23
+      ]
+    },
+    {
+      "id": "df203",
+      "name": "水黄",
+      "aliases": [],
+      "hex": "#BED2B6",
+      "pinyin": "shǔi huáng",
+      "rgb": [
+        190,
+        210,
+        182
+      ],
+      "cmyk_display": [
+        10,
+        0,
+        13,
+        18
+      ]
+    },
+    {
+      "id": "df204",
+      "name": "淡緑",
+      "aliases": [
+        "淡绿"
+      ],
+      "hex": "#B8D6C2",
+      "pinyin": "dàn lv̀",
+      "rgb": [
+        184,
+        214,
+        194
+      ],
+      "cmyk_display": [
+        14,
+        0,
+        9,
+        16
+      ]
+    },
+    {
+      "id": "df205",
+      "name": "鴨蛋青",
+      "aliases": [
+        "鸭蛋青"
+      ],
+      "hex": "#D1E3DB",
+      "pinyin": "yā dàn qīng",
+      "rgb": [
+        209,
+        227,
+        219
+      ],
+      "cmyk_display": [
+        8,
+        0,
+        4,
+        11
+      ]
+    },
+    {
+      "id": "df206",
+      "name": "浅水緑",
+      "aliases": [
+        "浅水绿"
+      ],
+      "hex": "#BBE2D6",
+      "pinyin": "qiǎn shǔi lv̀",
+      "rgb": [
+        187,
+        226,
+        214
+      ],
+      "cmyk_display": [
+        17,
+        0,
+        5,
+        11
+      ]
+    },
+    {
+      "id": "df207",
+      "name": "浅青瓷釉色",
+      "aliases": [],
+      "hex": "#CADDD5",
+      "pinyin": "qiǎn qīng cí yòu sè",
+      "rgb": [
+        202,
+        221,
+        213
+      ],
+      "cmyk_display": [
+        9,
+        0,
+        4,
+        13
+      ]
+    },
+    {
+      "id": "df208",
+      "name": "龍泉青瓷釉色",
+      "aliases": [
+        "龙泉青瓷釉色"
+      ],
+      "hex": "#B1C5B4",
+      "pinyin": "lóng quán qīng cí yòu sè",
+      "rgb": [
+        177,
+        197,
+        180
+      ],
+      "cmyk_display": [
+        10,
+        0,
+        9,
+        23
+      ]
+    },
+    {
+      "id": "df209",
+      "name": "春緑",
+      "aliases": [
+        "春绿"
+      ],
+      "hex": "#E3EFD1",
+      "pinyin": "chūn lv̀",
+      "rgb": [
+        227,
+        239,
+        209
+      ],
+      "cmyk_display": [
+        5,
+        0,
+        13,
+        6
+      ]
+    },
+    {
+      "id": "df210",
+      "name": "月白色",
+      "aliases": [],
+      "hex": "#D1E2DE",
+      "pinyin": "yuè bái sè",
+      "rgb": [
+        209,
+        226,
+        222
+      ],
+      "cmyk_display": [
+        8,
+        0,
+        2,
+        11
+      ]
+    },
+    {
+      "id": "df211",
+      "name": "銹緑",
+      "aliases": [
+        "銹绿"
+      ],
+      "hex": "#B8C8B7",
+      "pinyin": "xìu lv̀",
+      "rgb": [
+        184,
+        200,
+        183
+      ],
+      "cmyk_display": [
+        8,
+        0,
+        8,
+        22
+      ]
+    },
+    {
+      "id": "df212",
+      "name": "蝋白",
+      "aliases": [],
+      "hex": "#E7E5D0",
+      "pinyin": "là bái",
+      "rgb": [
+        231,
+        229,
+        208
+      ],
+      "cmyk_display": [
+        0,
+        1,
+        10,
+        9
+      ]
+    },
+    {
+      "id": "df213",
+      "name": "芦灰",
+      "aliases": [],
+      "hex": "#A9B08F",
+      "pinyin": "lú hūi",
+      "rgb": [
+        169,
+        176,
+        143
+      ],
+      "cmyk_display": [
+        4,
+        0,
+        19,
+        31
+      ]
+    },
+    {
+      "id": "df214",
+      "name": "蝦灰",
+      "aliases": [],
+      "hex": "#B7B99C",
+      "pinyin": "xiā hūi",
+      "rgb": [
+        183,
+        185,
+        156
+      ],
+      "cmyk_display": [
+        1,
+        0,
+        16,
+        27
+      ]
+    },
+    {
+      "id": "df215",
+      "name": "大理石色",
+      "aliases": [],
+      "hex": "#A2B2A9",
+      "pinyin": "dà lǐ shí sè",
+      "rgb": [
+        162,
+        178,
+        169
+      ],
+      "cmyk_display": [
+        9,
+        0,
+        5,
+        30
+      ]
+    },
+    {
+      "id": "df216",
+      "name": "法国梧桐皮色",
+      "aliases": [],
+      "hex": "#919481",
+      "pinyin": "fǎ guó wú tóng pí sè",
+      "rgb": [
+        145,
+        148,
+        129
+      ],
+      "cmyk_display": [
+        2,
+        0,
+        13,
+        42
+      ]
+    },
+    {
+      "id": "df217",
+      "name": "中条蝦緑",
+      "aliases": [
+        "中条蝦绿"
+      ],
+      "hex": "#7F877A",
+      "pinyin": "zhōng tiáo xiā lv̀",
+      "rgb": [
+        127,
+        135,
+        122
+      ],
+      "cmyk_display": [
+        6,
+        0,
+        10,
+        47
+      ]
+    },
+    {
+      "id": "df218",
+      "name": "灰米",
+      "aliases": [],
+      "hex": "#B6B196",
+      "pinyin": "hūi mǐ",
+      "rgb": [
+        182,
+        177,
+        150
+      ],
+      "cmyk_display": [
+        0,
+        3,
+        18,
+        29
+      ]
+    },
+    {
+      "id": "df219",
+      "name": "松緑色",
+      "aliases": [
+        "松绿色"
+      ],
+      "hex": "#BEC5B5",
+      "pinyin": "sōng lv̀ sè",
+      "rgb": [
+        190,
+        197,
+        181
+      ],
+      "cmyk_display": [
+        4,
+        0,
+        8,
+        23
+      ]
+    },
+    {
+      "id": "df220",
+      "name": "暗灰",
+      "aliases": [],
+      "hex": "#647372",
+      "pinyin": "àn hūi",
+      "rgb": [
+        100,
+        115,
+        114
+      ],
+      "cmyk_display": [
+        13,
+        0,
+        1,
+        55
+      ]
+    },
+    {
+      "id": "df221",
+      "name": "卡其緑",
+      "aliases": [
+        "卡其绿"
+      ],
+      "hex": "#647370",
+      "pinyin": "qiǎ qí lv̀",
+      "rgb": [
+        100,
+        115,
+        112
+      ],
+      "cmyk_display": [
+        13,
+        0,
+        3,
+        55
+      ]
+    },
+    {
+      "id": "df222",
+      "name": "蟹青",
+      "aliases": [],
+      "hex": "#7A988E",
+      "pinyin": "xiè qīng",
+      "rgb": [
+        122,
+        152,
+        142
+      ],
+      "cmyk_display": [
+        20,
+        0,
+        7,
+        40
+      ]
+    },
+    {
+      "id": "df223",
+      "name": "青蝦色",
+      "aliases": [],
+      "hex": "#7A988B",
+      "pinyin": "qīng xiā sè",
+      "rgb": [
+        122,
+        152,
+        139
+      ],
+      "cmyk_display": [
+        20,
+        0,
+        9,
+        40
+      ]
+    },
+    {
+      "id": "df224",
+      "name": "玉石藍",
+      "aliases": [
+        "玉石蓝"
+      ],
+      "hex": "#507883",
+      "pinyin": "yù shí lán",
+      "rgb": [
+        80,
+        120,
+        131
+      ],
+      "cmyk_display": [
+        39,
+        8,
+        0,
+        49
+      ]
+    },
+    {
+      "id": "df225",
+      "name": "橄欖灰",
+      "aliases": [],
+      "hex": "#7C9283",
+      "pinyin": "gǎn lǎn hūi",
+      "rgb": [
+        124,
+        146,
+        131
+      ],
+      "cmyk_display": [
+        15,
+        0,
+        10,
+        43
+      ]
+    },
+    {
+      "id": "df226",
+      "name": "老緑",
+      "aliases": [
+        "老绿"
+      ],
+      "hex": "#3D6E53",
+      "pinyin": "lǎo lv̀",
+      "rgb": [
+        61,
+        110,
+        83
+      ],
+      "cmyk_display": [
+        45,
+        0,
+        25,
+        57
+      ]
+    },
+    {
+      "id": "df227",
+      "name": "墨緑",
+      "aliases": [
+        "墨绿"
+      ],
+      "hex": "#3F5B50",
+      "pinyin": "mò lv̀",
+      "rgb": [
+        63,
+        91,
+        80
+      ],
+      "cmyk_display": [
+        31,
+        0,
+        12,
+        64
+      ]
+    },
+    {
+      "id": "df228",
+      "name": "焦茶色",
+      "aliases": [],
+      "hex": "#5C5A46",
+      "pinyin": "jiāo chá sè",
+      "rgb": [
+        92,
+        90,
+        70
+      ],
+      "cmyk_display": [
+        0,
+        2,
+        24,
+        64
+      ]
+    },
+    {
+      "id": "df229",
+      "name": "茶緑",
+      "aliases": [
+        "茶绿"
+      ],
+      "hex": "#5C614F",
+      "pinyin": "chá lv̀",
+      "rgb": [
+        92,
+        97,
+        79
+      ],
+      "cmyk_display": [
+        5,
+        0,
+        19,
+        62
+      ]
+    },
+    {
+      "id": "df230",
+      "name": "鉄緑",
+      "aliases": [
+        "铁绿"
+      ],
+      "hex": "#5E6042",
+      "pinyin": "tiě lv̀",
+      "rgb": [
+        94,
+        96,
+        66
+      ],
+      "cmyk_display": [
+        2,
+        0,
+        31,
+        62
+      ]
+    },
+    {
+      "id": "df231",
+      "name": "油緑",
+      "aliases": [
+        "油绿"
+      ],
+      "hex": "#45554A",
+      "pinyin": "yóu lv̀",
+      "rgb": [
+        69,
+        85,
+        74
+      ],
+      "cmyk_display": [
+        19,
+        0,
+        13,
+        67
+      ]
+    },
+    {
+      "id": "df232",
+      "name": "草灰色",
+      "aliases": [],
+      "hex": "#675B46",
+      "pinyin": "cǎo hūi sè",
+      "rgb": [
+        103,
+        91,
+        70
+      ],
+      "cmyk_display": [
+        0,
+        12,
+        32,
+        60
+      ]
+    },
+    {
+      "id": "df233",
+      "name": "暗苔緑",
+      "aliases": [
+        "暗苔绿"
+      ],
+      "hex": "#4A6F5D",
+      "pinyin": "àn tái lv̀",
+      "rgb": [
+        74,
+        111,
+        93
+      ],
+      "cmyk_display": [
+        33,
+        0,
+        16,
+        56
+      ]
+    },
+    {
+      "id": "df234",
+      "name": "毛緑",
+      "aliases": [
+        "毛绿"
+      ],
+      "hex": "#155461",
+      "pinyin": "máo lv̀",
+      "rgb": [
+        21,
+        84,
+        97
+      ],
+      "cmyk_display": [
+        78,
+        13,
+        0,
+        62
+      ]
+    },
+    {
+      "id": "df235",
+      "name": "深灰",
+      "aliases": [],
+      "hex": "#576768",
+      "pinyin": "shēn hūi",
+      "rgb": [
+        87,
+        103,
+        104
+      ],
+      "cmyk_display": [
+        16,
+        1,
+        0,
+        59
+      ]
+    },
+    {
+      "id": "df236",
+      "name": "鵲灰",
+      "aliases": [],
+      "hex": "#455667",
+      "pinyin": "què hūi",
+      "rgb": [
+        69,
+        86,
+        103
+      ],
+      "cmyk_display": [
+        33,
+        17,
+        0,
+        60
+      ]
+    },
+    {
+      "id": "df237",
+      "name": "深瓦灰",
+      "aliases": [],
+      "hex": "#637179",
+      "pinyin": "shēn wǎ hūi",
+      "rgb": [
+        99,
+        113,
+        121
+      ],
+      "cmyk_display": [
+        18,
+        7,
+        0,
+        53
+      ]
+    },
+    {
+      "id": "df238",
+      "name": "苔灰",
+      "aliases": [],
+      "hex": "#58665E",
+      "pinyin": "tái hūi",
+      "rgb": [
+        88,
+        102,
+        94
+      ],
+      "cmyk_display": [
+        14,
+        0,
+        8,
+        60
+      ]
+    },
+    {
+      "id": "df239",
+      "name": "蟹藍",
+      "aliases": [
+        "蟹蓝"
+      ],
+      "hex": "#658A98",
+      "pinyin": "xiè lán",
+      "rgb": [
+        101,
+        138,
+        152
+      ],
+      "cmyk_display": [
+        34,
+        9,
+        0,
+        40
+      ]
+    },
+    {
+      "id": "df240",
+      "name": "冬灰色",
+      "aliases": [],
+      "hex": "#6D817D",
+      "pinyin": "dōng hūi sè",
+      "rgb": [
+        109,
+        129,
+        125
+      ],
+      "cmyk_display": [
+        16,
+        0,
+        3,
+        49
+      ]
+    },
+    {
+      "id": "df241",
+      "name": "雲灰",
+      "aliases": [],
+      "hex": "#AAC2C4",
+      "pinyin": "yún hūi",
+      "rgb": [
+        170,
+        194,
+        196
+      ],
+      "cmyk_display": [
+        13,
+        1,
+        0,
+        23
+      ]
+    },
+    {
+      "id": "df242",
+      "name": "鴿灰",
+      "aliases": [],
+      "hex": "#95B1BA",
+      "pinyin": "gē hūi",
+      "rgb": [
+        149,
+        177,
+        186
+      ],
+      "cmyk_display": [
+        20,
+        5,
+        0,
+        27
+      ]
+    },
+    {
+      "id": "df243",
+      "name": "藍灰色",
+      "aliases": [
+        "蓝灰色"
+      ],
+      "hex": "#8AA4A8",
+      "pinyin": "lán hūi sè",
+      "rgb": [
+        138,
+        164,
+        168
+      ],
+      "cmyk_display": [
+        18,
+        2,
+        0,
+        34
+      ]
+    },
+    {
+      "id": "df244",
+      "name": "水貂灰",
+      "aliases": [],
+      "hex": "#949C97",
+      "pinyin": "shǔi diāo hūi",
+      "rgb": [
+        148,
+        156,
+        151
+      ],
+      "cmyk_display": [
+        5,
+        0,
+        3,
+        39
+      ]
+    },
+    {
+      "id": "df245",
+      "name": "春藍",
+      "aliases": [
+        "春蓝"
+      ],
+      "hex": "#7BA1A8",
+      "pinyin": "chūn lán",
+      "rgb": [
+        123,
+        161,
+        168
+      ],
+      "cmyk_display": [
+        27,
+        4,
+        0,
+        34
+      ]
+    },
+    {
+      "id": "df246",
+      "name": "灰藍",
+      "aliases": [
+        "灰蓝"
+      ],
+      "hex": "#5D828A",
+      "pinyin": "hūi lán",
+      "rgb": [
+        93,
+        130,
+        138
+      ],
+      "cmyk_display": [
+        33,
+        6,
+        0,
+        46
+      ]
+    },
+    {
+      "id": "df247",
+      "name": "湖藍灰",
+      "aliases": [
+        "湖蓝灰"
+      ],
+      "hex": "#59808E",
+      "pinyin": "hú lán hūi",
+      "rgb": [
+        89,
+        128,
+        142
+      ],
+      "cmyk_display": [
+        37,
+        10,
+        0,
+        44
+      ]
+    },
+    {
+      "id": "df248",
+      "name": "竹月色",
+      "aliases": [],
+      "hex": "#5E90B8",
+      "pinyin": "zhú yuè sè",
+      "rgb": [
+        94,
+        144,
+        184
+      ],
+      "cmyk_display": [
+        49,
+        22,
+        0,
+        28
+      ]
+    },
+    {
+      "id": "df249",
+      "name": "鈷藍",
+      "aliases": [
+        "鈷蓝"
+      ],
+      "hex": "#6493AF",
+      "pinyin": "gǔ lán",
+      "rgb": [
+        100,
+        147,
+        175
+      ],
+      "cmyk_display": [
+        43,
+        16,
+        0,
+        31
+      ]
+    },
+    {
+      "id": "df250",
+      "name": "品緑",
+      "aliases": [
+        "品绿"
+      ],
+      "hex": "#00828B",
+      "pinyin": "pǐn lv̀",
+      "rgb": [
+        0,
+        130,
+        139
+      ],
+      "cmyk_display": [
+        100,
+        6,
+        0,
+        45
+      ]
+    },
+    {
+      "id": "df251",
+      "name": "深竹月",
+      "aliases": [],
+      "hex": "#2578B5",
+      "pinyin": "shēn zhú yuè",
+      "rgb": [
+        37,
+        120,
+        181
+      ],
+      "cmyk_display": [
+        80,
+        34,
+        0,
+        29
+      ]
+    },
+    {
+      "id": "df252",
+      "name": "琉璃藍",
+      "aliases": [
+        "琉璃蓝"
+      ],
+      "hex": "#1A638A",
+      "pinyin": "líu lí lán",
+      "rgb": [
+        26,
+        99,
+        138
+      ],
+      "cmyk_display": [
+        81,
+        28,
+        0,
+        46
+      ]
+    },
+    {
+      "id": "df253",
+      "name": "毛月色",
+      "aliases": [],
+      "hex": "#3A89B0",
+      "pinyin": "máo yuè sè",
+      "rgb": [
+        58,
+        137,
+        176
+      ],
+      "cmyk_display": [
+        67,
+        22,
+        0,
+        31
+      ]
+    },
+    {
+      "id": "df254",
+      "name": "柏坊灰藍",
+      "aliases": [
+        "柏坊灰蓝"
+      ],
+      "hex": "#4E1892",
+      "pinyin": "bǎi fāng hūi lán",
+      "rgb": [
+        78,
+        24,
+        146
+      ],
+      "cmyk_display": [
+        47,
+        84,
+        0,
+        43
+      ]
+    },
+    {
+      "id": "df255",
+      "name": "浅土藍",
+      "aliases": [
+        "浅土蓝"
+      ],
+      "hex": "#1F5574",
+      "pinyin": "qiǎn tǔ lán",
+      "rgb": [
+        31,
+        85,
+        116
+      ],
+      "cmyk_display": [
+        73,
+        27,
+        0,
+        55
+      ]
+    },
+    {
+      "id": "df256",
+      "name": "北京毛藍",
+      "aliases": [
+        "北京毛蓝"
+      ],
+      "hex": "#276893",
+      "pinyin": "běi jīng máo lán",
+      "rgb": [
+        39,
+        104,
+        147
+      ],
+      "cmyk_display": [
+        73,
+        29,
+        0,
+        42
+      ]
+    },
+    {
+      "id": "df257",
+      "name": "絨藍",
+      "aliases": [
+        "絨蓝"
+      ],
+      "hex": "#31678D",
+      "pinyin": "róng lán",
+      "rgb": [
+        49,
+        103,
+        141
+      ],
+      "cmyk_display": [
+        65,
+        27,
+        0,
+        45
+      ]
+    },
+    {
+      "id": "df258",
+      "name": "浅海昌藍",
+      "aliases": [
+        "浅海昌蓝"
+      ],
+      "hex": "#3C5E91",
+      "pinyin": "qiǎn hǎi chāng lán",
+      "rgb": [
+        60,
+        94,
+        145
+      ],
+      "cmyk_display": [
+        59,
+        35,
+        0,
+        43
+      ]
+    },
+    {
+      "id": "df259",
+      "name": "海藍",
+      "aliases": [
+        "海蓝"
+      ],
+      "hex": "#17507D",
+      "pinyin": "hǎi lán",
+      "rgb": [
+        23,
+        80,
+        125
+      ],
+      "cmyk_display": [
+        82,
+        36,
+        0,
+        51
+      ]
+    },
+    {
+      "id": "df260",
+      "name": "深毛月色",
+      "aliases": [],
+      "hex": "#2B5F8E",
+      "pinyin": "shēn máo yuè sè",
+      "rgb": [
+        43,
+        95,
+        142
+      ],
+      "cmyk_display": [
+        70,
+        33,
+        0,
+        44
+      ]
+    },
+    {
+      "id": "df261",
+      "name": "深毛藍",
+      "aliases": [
+        "深毛蓝"
+      ],
+      "hex": "#244462",
+      "pinyin": "shēn máo lán",
+      "rgb": [
+        36,
+        68,
+        98
+      ],
+      "cmyk_display": [
+        63,
+        31,
+        0,
+        62
+      ]
+    },
+    {
+      "id": "df262",
+      "name": "深藍",
+      "aliases": [
+        "深蓝"
+      ],
+      "hex": "#213D62",
+      "pinyin": "shēn lán",
+      "rgb": [
+        33,
+        61,
+        98
+      ],
+      "cmyk_display": [
+        66,
+        38,
+        0,
+        62
+      ]
+    },
+    {
+      "id": "df263",
+      "name": "靛藍",
+      "aliases": [
+        "靛蓝"
+      ],
+      "hex": "#293150",
+      "pinyin": "diàn lán",
+      "rgb": [
+        41,
+        49,
+        80
+      ],
+      "cmyk_display": [
+        49,
+        39,
+        0,
+        69
+      ]
+    },
+    {
+      "id": "df264",
+      "name": "労働布色",
+      "aliases": [],
+      "hex": "#25446B",
+      "pinyin": "láo dòng bù sè",
+      "rgb": [
+        37,
+        68,
+        107
+      ],
+      "cmyk_display": [
+        65,
+        36,
+        0,
+        58
+      ]
+    },
+    {
+      "id": "df265",
+      "name": "黛藍",
+      "aliases": [
+        "黛蓝"
+      ],
+      "hex": "#304758",
+      "pinyin": "dài lán",
+      "rgb": [
+        48,
+        71,
+        88
+      ],
+      "cmyk_display": [
+        45,
+        19,
+        0,
+        65
+      ]
+    },
+    {
+      "id": "df266",
+      "name": "蔵藍",
+      "aliases": [
+        "藏蓝"
+      ],
+      "hex": "#25386B",
+      "pinyin": "zāng lán",
+      "rgb": [
+        37,
+        56,
+        107
+      ],
+      "cmyk_display": [
+        65,
+        48,
+        0,
+        58
+      ]
+    },
+    {
+      "id": "df267",
+      "name": "鮮藍",
+      "aliases": [
+        "鮮蓝"
+      ],
+      "hex": "#004DB5",
+      "pinyin": "xiān lán",
+      "rgb": [
+        0,
+        77,
+        181
+      ],
+      "cmyk_display": [
+        100,
+        57,
+        0,
+        29
+      ]
+    },
+    {
+      "id": "df268",
+      "name": "孔雀藍",
+      "aliases": [
+        "孔雀蓝"
+      ],
+      "hex": "#0041A5",
+      "pinyin": "kǒng què lán",
+      "rgb": [
+        0,
+        65,
+        165
+      ],
+      "cmyk_display": [
+        100,
+        61,
+        0,
+        35
+      ]
+    },
+    {
+      "id": "df269",
+      "name": "群青",
+      "aliases": [],
+      "hex": "#084495",
+      "pinyin": "qún qīng",
+      "rgb": [
+        8,
+        68,
+        149
+      ],
+      "cmyk_display": [
+        95,
+        54,
+        0,
+        42
+      ]
+    },
+    {
+      "id": "df270",
+      "name": "宝石藍",
+      "aliases": [
+        "宝石蓝"
+      ],
+      "hex": "#1F3696",
+      "pinyin": "bǎo shí lán",
+      "rgb": [
+        31,
+        54,
+        150
+      ],
+      "cmyk_display": [
+        79,
+        64,
+        0,
+        41
+      ]
+    },
+    {
+      "id": "df271",
+      "name": "紺青",
+      "aliases": [
+        "绀青"
+      ],
+      "hex": "#3F486C",
+      "pinyin": "gàn qīng",
+      "rgb": [
+        63,
+        72,
+        108
+      ],
+      "cmyk_display": [
+        42,
+        33,
+        0,
+        58
+      ]
+    },
+    {
+      "id": "df272",
+      "name": "鈦鉄",
+      "aliases": [
+        "鈦铁"
+      ],
+      "hex": "#282E55",
+      "pinyin": "tài tiě",
+      "rgb": [
+        40,
+        46,
+        85
+      ],
+      "cmyk_display": [
+        53,
+        46,
+        0,
+        67
+      ]
+    },
+    {
+      "id": "df273",
+      "name": "蔵黒藍",
+      "aliases": [
+        "藏黒蓝"
+      ],
+      "hex": "#37344C",
+      "pinyin": "zāng hēi lán",
+      "rgb": [
+        55,
+        52,
+        76
+      ],
+      "cmyk_display": [
+        28,
+        32,
+        0,
+        70
+      ]
+    },
+    {
+      "id": "df274",
+      "name": "灯草灰",
+      "aliases": [],
+      "hex": "#363532",
+      "pinyin": "dēng cǎo hūi",
+      "rgb": [
+        54,
+        53,
+        50
+      ],
+      "cmyk_display": [
+        0,
+        2,
+        7,
+        79
+      ]
+    },
+    {
+      "id": "df275",
+      "name": "元青",
+      "aliases": [],
+      "hex": "#3E3C3D",
+      "pinyin": "yuán qīng",
+      "rgb": [
+        62,
+        60,
+        61
+      ],
+      "cmyk_display": [
+        0,
+        3,
+        2,
+        76
+      ]
+    },
+    {
+      "id": "df276",
+      "name": "粗晶皀",
+      "aliases": [],
+      "hex": "#43454A",
+      "pinyin": "cū jīng bī",
+      "rgb": [
+        67,
+        69,
+        74
+      ],
+      "cmyk_display": [
+        9,
+        7,
+        0,
+        71
+      ]
+    },
+    {
+      "id": "df277",
+      "name": "紅皀",
+      "aliases": [
+        "红皀"
+      ],
+      "hex": "#4F5355",
+      "pinyin": "hóng bī",
+      "rgb": [
+        79,
+        83,
+        85
+      ],
+      "cmyk_display": [
+        7,
+        2,
+        0,
+        67
+      ]
+    },
+    {
+      "id": "df278",
+      "name": "鉄青",
+      "aliases": [
+        "铁青"
+      ],
+      "hex": "#404A57",
+      "pinyin": "tiě qīng",
+      "rgb": [
+        64,
+        74,
+        87
+      ],
+      "cmyk_display": [
+        26,
+        15,
+        0,
+        66
+      ]
+    },
+    {
+      "id": "df279",
+      "name": "鉄灰",
+      "aliases": [
+        "铁灰"
+      ],
+      "hex": "#37444B",
+      "pinyin": "tiě hūi",
+      "rgb": [
+        55,
+        68,
+        75
+      ],
+      "cmyk_display": [
+        27,
+        9,
+        0,
+        71
+      ]
+    },
+    {
+      "id": "df280",
+      "name": "青金色",
+      "aliases": [],
+      "hex": "#687FA5",
+      "pinyin": "qīng jīn sè",
+      "rgb": [
+        104,
+        127,
+        165
+      ],
+      "cmyk_display": [
+        37,
+        23,
+        0,
+        35
+      ]
+    },
+    {
+      "id": "df281",
+      "name": "銀藍",
+      "aliases": [
+        "银蓝"
+      ],
+      "hex": "#B5C1CF",
+      "pinyin": "yín lán",
+      "rgb": [
+        181,
+        193,
+        207
+      ],
+      "cmyk_display": [
+        13,
+        7,
+        0,
+        19
+      ]
+    },
+    {
+      "id": "df282",
+      "name": "雪灰",
+      "aliases": [],
+      "hex": "#CAD0D3",
+      "pinyin": "xuě hūi",
+      "rgb": [
+        202,
+        208,
+        211
+      ],
+      "cmyk_display": [
+        4,
+        1,
+        0,
+        17
+      ]
+    },
+    {
+      "id": "df283",
+      "name": "淡藕合",
+      "aliases": [],
+      "hex": "#D5CCD3",
+      "pinyin": "dàn ǒu hé",
+      "rgb": [
+        213,
+        204,
+        211
+      ],
+      "cmyk_display": [
+        0,
+        4,
+        1,
+        16
+      ]
+    },
+    {
+      "id": "df284",
+      "name": "浅藤紫",
+      "aliases": [],
+      "hex": "#C4C3CB",
+      "pinyin": "qiǎn téng zǐ",
+      "rgb": [
+        196,
+        195,
+        203
+      ],
+      "cmyk_display": [
+        3,
+        4,
+        0,
+        20
+      ]
+    },
+    {
+      "id": "df285",
+      "name": "蓮灰",
+      "aliases": [
+        "莲灰"
+      ],
+      "hex": "#A8A6B9",
+      "pinyin": "lián hūi",
+      "rgb": [
+        168,
+        166,
+        185
+      ],
+      "cmyk_display": [
+        9,
+        10,
+        0,
+        27
+      ]
+    },
+    {
+      "id": "df286",
+      "name": "雪青灰",
+      "aliases": [],
+      "hex": "#9198AE",
+      "pinyin": "xuě qīng hūi",
+      "rgb": [
+        145,
+        152,
+        174
+      ],
+      "cmyk_display": [
+        17,
+        13,
+        0,
+        32
+      ]
+    },
+    {
+      "id": "df287",
+      "name": "雪藍",
+      "aliases": [
+        "雪蓝"
+      ],
+      "hex": "#7991D1",
+      "pinyin": "xuě lán",
+      "rgb": [
+        121,
+        145,
+        209
+      ],
+      "cmyk_display": [
+        42,
+        31,
+        0,
+        18
+      ]
+    },
+    {
+      "id": "df288",
+      "name": "紫藤灰",
+      "aliases": [],
+      "hex": "#857E95",
+      "pinyin": "zǐ téng hūi",
+      "rgb": [
+        133,
+        126,
+        149
+      ],
+      "cmyk_display": [
+        11,
+        15,
+        0,
+        42
+      ]
+    },
+    {
+      "id": "df289",
+      "name": "鳳仙紫",
+      "aliases": [
+        "凤仙紫"
+      ],
+      "hex": "#8B658B",
+      "pinyin": "fèng xiān zǐ",
+      "rgb": [
+        139,
+        101,
+        139
+      ],
+      "cmyk_display": [
+        0,
+        27,
+        0,
+        45
+      ]
+    },
+    {
+      "id": "df290",
+      "name": "青灰色",
+      "aliases": [],
+      "hex": "#575A5D",
+      "pinyin": "qīng hūi sè",
+      "rgb": [
+        87,
+        90,
+        93
+      ],
+      "cmyk_display": [
+        6,
+        3,
+        0,
+        64
+      ]
+    },
+    {
+      "id": "df291",
+      "name": "承徳皀",
+      "aliases": [
+        "承德皀"
+      ],
+      "hex": "#5A5C5B",
+      "pinyin": "chéng dé bī",
+      "rgb": [
+        90,
+        92,
+        91
+      ],
+      "cmyk_display": [
+        2,
+        0,
+        1,
+        64
+      ]
+    },
+    {
+      "id": "df292",
+      "name": "承徳灰",
+      "aliases": [
+        "承德灰"
+      ],
+      "hex": "#757570",
+      "pinyin": "chéng dé hūi",
+      "rgb": [
+        117,
+        117,
+        112
+      ],
+      "cmyk_display": [
+        0,
+        0,
+        4,
+        54
+      ]
+    },
+    {
+      "id": "df293",
+      "name": "庭院瓦灰色",
+      "aliases": [],
+      "hex": "#817C6E",
+      "pinyin": "tíng yuàn wǎ hūi sè",
+      "rgb": [
+        129,
+        124,
+        110
+      ],
+      "cmyk_display": [
+        0,
+        4,
+        15,
+        49
+      ]
+    },
+    {
+      "id": "df294",
+      "name": "相思灰",
+      "aliases": [],
+      "hex": "#625C52",
+      "pinyin": "xiāng sī hūi",
+      "rgb": [
+        98,
+        92,
+        82
+      ],
+      "cmyk_display": [
+        0,
+        6,
+        16,
+        62
+      ]
+    },
+    {
+      "id": "df295",
+      "name": "銀鼠灰",
+      "aliases": [
+        "银鼠灰"
+      ],
+      "hex": "#71727A",
+      "pinyin": "yín shǔ hūi",
+      "rgb": [
+        113,
+        114,
+        122
+      ],
+      "cmyk_display": [
+        7,
+        7,
+        0,
+        52
+      ]
+    },
+    {
+      "id": "df296",
+      "name": "花青",
+      "aliases": [],
+      "hex": "#546B83",
+      "pinyin": "huā qīng",
+      "rgb": [
+        84,
+        107,
+        131
+      ],
+      "cmyk_display": [
+        36,
+        18,
+        0,
+        49
+      ]
+    },
+    {
+      "id": "df297",
+      "name": "正灰",
+      "aliases": [],
+      "hex": "#93A2A9",
+      "pinyin": "zhèng hūi",
+      "rgb": [
+        147,
+        162,
+        169
+      ],
+      "cmyk_display": [
+        13,
+        4,
+        0,
+        34
+      ]
+    },
+    {
+      "id": "df298",
+      "name": "織綿灰",
+      "aliases": [
+        "织绵灰"
+      ],
+      "hex": "#748A8D",
+      "pinyin": "zhī mián hūi",
+      "rgb": [
+        116,
+        138,
+        141
+      ],
+      "cmyk_display": [
+        18,
+        2,
+        0,
+        45
+      ]
+    },
+    {
+      "id": "df299",
+      "name": "石板灰",
+      "aliases": [],
+      "hex": "#6B7C87",
+      "pinyin": "shí bǎn hūi",
+      "rgb": [
+        107,
+        124,
+        135
+      ],
+      "cmyk_display": [
+        21,
+        8,
+        0,
+        47
+      ]
+    },
+    {
+      "id": "df300",
+      "name": "銀白色",
+      "aliases": [
+        "银白色"
+      ],
+      "hex": "#EBE5D5",
+      "pinyin": "yín bái sè",
+      "rgb": [
+        235,
+        229,
+        213
+      ],
+      "cmyk_display": [
+        0,
+        3,
+        9,
+        8
+      ]
+    },
+    {
+      "id": "df301",
+      "name": "羅藍灰",
+      "aliases": [
+        "罗蓝灰"
+      ],
+      "hex": "#4F506D",
+      "pinyin": "luó lán hūi",
+      "rgb": [
+        79,
+        80,
+        109
+      ],
+      "cmyk_display": [
+        28,
+        27,
+        0,
+        57
+      ]
+    },
+    {
+      "id": "df302",
+      "name": "丁香紫",
+      "aliases": [],
+      "hex": "#695776",
+      "pinyin": "dīng xiāng zǐ",
+      "rgb": [
+        105,
+        87,
+        118
+      ],
+      "cmyk_display": [
+        11,
+        26,
+        0,
+        54
+      ]
+    },
+    {
+      "id": "df303",
+      "name": "百草霜",
+      "aliases": [],
+      "hex": "#303030",
+      "pinyin": "bǎi cǎo shuāng",
+      "rgb": [
+        48,
+        48,
+        48
+      ],
+      "cmyk_display": [
+        0,
+        0,
+        0,
+        81
+      ]
+    },
+    {
+      "id": "df304",
+      "name": "油煙墨",
+      "aliases": [
+        "油烟墨"
+      ],
+      "hex": "#3F3F3C",
+      "pinyin": "yóu yān mò",
+      "rgb": [
+        63,
+        63,
+        60
+      ],
+      "cmyk_display": [
+        0,
+        0,
+        5,
+        75
+      ]
+    },
+    {
+      "id": "df305",
+      "name": "沙青",
+      "aliases": [],
+      "hex": "#2B5E7D",
+      "pinyin": "shā qīng",
+      "rgb": [
+        43,
+        94,
+        125
+      ],
+      "cmyk_display": [
+        66,
+        25,
+        0,
+        51
+      ]
+    },
+    {
+      "id": "df306",
+      "name": "沙緑",
+      "aliases": [
+        "沙绿"
+      ],
+      "hex": "#005B5A",
+      "pinyin": "shā lv̀",
+      "rgb": [
+        0,
+        91,
+        90
+      ],
+      "cmyk_display": [
+        100,
+        0,
+        1,
+        64
+      ]
+    },
+    {
+      "id": "df307",
+      "name": "大赤金",
+      "aliases": [],
+      "hex": "#6D7358",
+      "pinyin": "dà chì jīn",
+      "rgb": [
+        109,
+        115,
+        88
+      ],
+      "cmyk_display": [
+        5,
+        0,
+        23,
+        55
+      ]
+    },
+    {
+      "id": "df308",
+      "name": "庫金",
+      "aliases": [
+        "库金"
+      ],
+      "hex": "#85794F",
+      "pinyin": "kù jīn",
+      "rgb": [
+        133,
+        121,
+        79
+      ],
+      "cmyk_display": [
+        0,
+        9,
+        41,
+        48
+      ]
+    },
+    {
+      "id": "df309",
+      "name": "銀箔",
+      "aliases": [
+        "银箔"
+      ],
+      "hex": "#585A57",
+      "pinyin": "yín bó",
+      "rgb": [
+        88,
+        90,
+        87
+      ],
+      "cmyk_display": [
+        2,
+        0,
+        3,
+        65
+      ]
+    },
+    {
+      "id": "df310",
+      "name": "選金",
+      "aliases": [
+        "选金"
+      ],
+      "hex": "#796F54",
+      "pinyin": "xuǎn jīn",
+      "rgb": [
+        121,
+        111,
+        84
+      ],
+      "cmyk_display": [
+        0,
+        8,
+        31,
+        53
+      ]
+    },
+    {
+      "id": "df311",
+      "name": "獣皮色",
+      "aliases": [
+        "兽皮色"
+      ],
+      "hex": "#B9986D",
+      "pinyin": "獣 pí sè",
+      "rgb": [
+        185,
+        152,
+        109
+      ],
+      "cmyk_display": [
+        0,
+        18,
+        41,
+        27
+      ]
+    },
+    {
+      "id": "df312",
+      "name": "橙色",
+      "aliases": [],
+      "hex": "#E67A2A",
+      "pinyin": "chéng sè",
+      "rgb": [
+        230,
+        122,
+        42
+      ],
+      "cmyk_display": [
+        0,
+        47,
+        82,
+        10
+      ]
+    },
+    {
+      "id": "df313",
+      "name": "蝶粉",
+      "aliases": [],
+      "hex": "#F5C19B",
+      "pinyin": "dié fěn",
+      "rgb": [
+        245,
+        193,
+        155
+      ],
+      "cmyk_display": [
+        0,
+        21,
+        37,
+        4
+      ]
+    },
+    {
+      "id": "df314",
+      "name": "果肉色",
+      "aliases": [],
+      "hex": "#F5CEBE",
+      "pinyin": "guǒ ròu sè",
+      "rgb": [
+        245,
+        206,
+        190
+      ],
+      "cmyk_display": [
+        0,
+        16,
+        22,
+        4
+      ]
+    },
+    {
+      "id": "df315",
+      "name": "紙棕",
+      "aliases": [],
+      "hex": "#BCA590",
+      "pinyin": "zhǐ zōng",
+      "rgb": [
+        188,
+        165,
+        144
+      ],
+      "cmyk_display": [
+        0,
+        12,
+        23,
+        26
+      ]
+    },
+    {
+      "id": "df316",
+      "name": "奶棕",
+      "aliases": [],
+      "hex": "#C1A299",
+      "pinyin": "nǎi zōng",
+      "rgb": [
+        193,
+        162,
+        153
+      ],
+      "cmyk_display": [
+        0,
+        16,
+        21,
+        24
+      ]
+    },
+    {
+      "id": "df317",
+      "name": "紅灰",
+      "aliases": [
+        "红灰"
+      ],
+      "hex": "#82878C",
+      "pinyin": "hóng hūi",
+      "rgb": [
+        130,
+        135,
+        140
+      ],
+      "cmyk_display": [
+        7,
+        4,
+        0,
+        45
+      ]
+    },
+    {
+      "id": "df318",
+      "name": "閃蝶紫",
+      "aliases": [],
+      "hex": "#8C90B9",
+      "pinyin": "shǎn dié zǐ",
+      "rgb": [
+        140,
+        144,
+        185
+      ],
+      "cmyk_display": [
+        24,
+        22,
+        0,
+        27
+      ]
+    },
+    {
+      "id": "df319",
+      "name": "黄灰",
+      "aliases": [],
+      "hex": "#B0B7AC",
+      "pinyin": "huáng hūi",
+      "rgb": [
+        176,
+        183,
+        172
+      ],
+      "cmyk_display": [
+        4,
+        0,
+        6,
+        28
+      ]
+    },
+    {
+      "id": "df320",
+      "name": "奶緑",
+      "aliases": [
+        "奶绿"
+      ],
+      "hex": "#AFC8BA",
+      "pinyin": "nǎi lv̀",
+      "rgb": [
+        175,
+        200,
+        186
+      ],
+      "cmyk_display": [
+        12,
+        0,
+        7,
+        22
+      ]
+    }
+  ],
+  "palettes": {
+    "danqing": {
+      "label": "丹青",
+      "type": "qualitative",
+      "max_n": 6,
+      "source_names": [
+        "竹月色",
+        "硃砂",
+        "黄琉璃",
+        "灰緑",
+        "紫藤灰",
+        "赭石色"
+      ],
+      "fill": [
+        "#0879B0",
+        "#D62536",
+        "#F38701",
+        "#07A13E",
+        "#886CC0",
+        "#895849"
+      ],
+      "line": [
+        "#0879B0",
+        "#D62536",
+        "#AE6101",
+        "#068634",
+        "#8366BD",
+        "#895849"
+      ],
+      "classic": {
+        "name": "tab10",
+        "indices_zero_based": [
+          0,
+          3,
+          1,
+          2,
+          4,
+          5
+        ],
+        "fill": [
+          "#1F77B4",
+          "#D62728",
+          "#FF7F0E",
+          "#2CA02C",
+          "#9467BD",
+          "#8C564B"
+        ]
+      },
+      "fill_derivation": {
+        "hue_shift_degrees": [
+          -6.0,
+          -5.273961713729619,
+          6.0,
+          6.0,
+          -6.0,
+          6.0
+        ],
+        "chroma_scale": 0.96,
+        "lightness": "classic L* retained before 8-bit quantization",
+        "max_delta_Lstar": 0.10746056535028004,
+        "mean_delta_E00": 3.3313658373067216,
+        "max_delta_E00": 4.791562028758691
+      },
+      "derived": true,
+      "line_derivation": [
+        {
+          "source_hex": "#0879B0",
+          "method": "HLS lightness scaling; white-background contrast >=4.5",
+          "lightness_factor": 1.0,
+          "derived": false
+        },
+        {
+          "source_hex": "#D62536",
+          "method": "HLS lightness scaling; white-background contrast >=4.5",
+          "lightness_factor": 1.0,
+          "derived": false
+        },
+        {
+          "source_hex": "#F38701",
+          "method": "HLS lightness scaling; white-background contrast >=4.5",
+          "lightness_factor": 0.715301403,
+          "derived": true
+        },
+        {
+          "source_hex": "#07A13E",
+          "method": "HLS lightness scaling; white-background contrast >=4.5",
+          "lightness_factor": 0.832972005,
+          "derived": true
+        },
+        {
+          "source_hex": "#886CC0",
+          "method": "HLS lightness scaling; white-background contrast >=4.5",
+          "lightness_factor": 0.97,
+          "derived": true
+        },
+        {
+          "source_hex": "#895849",
+          "method": "HLS lightness scaling; white-background contrast >=4.5",
+          "lightness_factor": 1.0,
+          "derived": false
+        }
+      ],
+      "rationale": "保留 Tableau 10 的分类对比与亮度；向竹月、朱砂等方向微调色相，降低 4% 彩度。",
+      "uses": "通用分类；曲线与散点配点形或线型",
+      "curator": "EasyPlot candidate v0.2"
+    },
+    "qingya": {
+      "label": "清雅",
+      "type": "qualitative",
+      "max_n": 6,
+      "source_names": [
+        "銀藍",
+        "粉鳳仙",
+        "肉黄",
+        "奶緑",
+        "嫩草緑",
+        "黄琉璃"
+      ],
+      "fill": [
+        "#88A1CA",
+        "#E98ABA",
+        "#F79062",
+        "#71C19F",
+        "#9ADA62",
+        "#FFD92F"
+      ],
+      "line": [
+        "#5075B1",
+        "#D72A82",
+        "#D0470B",
+        "#398364",
+        "#4E831F",
+        "#8D7300"
+      ],
+      "classic": {
+        "name": "Set2",
+        "indices_zero_based": [
+          2,
+          3,
+          1,
+          0,
+          4,
+          5
+        ],
+        "fill": [
+          "#8DA0CB",
+          "#E78AC3",
+          "#FC8D62",
+          "#66C2A5",
+          "#A6D854",
+          "#FFD92F"
+        ]
+      },
+      "fill_derivation": {
+        "hue_shift_degrees": [
+          -6.0,
+          6.0,
+          2.6416675197222617,
+          -6.0,
+          6.0,
+          -6.0
+        ],
+        "chroma_scale": 0.96,
+        "lightness": "classic L* retained before 8-bit quantization",
+        "max_delta_Lstar": 0.09957818112469852,
+        "mean_delta_E00": 1.967267101941265,
+        "max_delta_E00": 3.2339356601358764
+      },
+      "derived": true,
+      "line_derivation": [
+        {
+          "source_hex": "#88A1CA",
+          "method": "HLS lightness scaling; white-background contrast >=4.5",
+          "lightness_factor": 0.760231059,
+          "derived": true
+        },
+        {
+          "source_hex": "#E98ABA",
+          "method": "HLS lightness scaling; white-background contrast >=4.5",
+          "lightness_factor": 0.693842361,
+          "derived": true
+        },
+        {
+          "source_hex": "#F79062",
+          "method": "HLS lightness scaling; white-background contrast >=4.5",
+          "lightness_factor": 0.633251189,
+          "derived": true
+        },
+        {
+          "source_hex": "#71C19F",
+          "method": "HLS lightness scaling; white-background contrast >=4.5",
+          "lightness_factor": 0.614253653,
+          "derived": true
+        },
+        {
+          "source_hex": "#9ADA62",
+          "method": "HLS lightness scaling; white-background contrast >=4.5",
+          "lightness_factor": 0.511656097,
+          "derived": true
+        },
+        {
+          "source_hex": "#FFD92F",
+          "method": "HLS lightness scaling; white-background contrast >=4.5",
+          "lightness_factor": 0.466974705,
+          "derived": true
+        }
+      ],
+      "rationale": "以 Set2 的柔和多色关系为底，向银蓝、粉凤仙、肉黄、奶绿等方向小幅偏移。",
+      "uses": "条形、箱线、小提琴；密集小点使用较深线色",
+      "curator": "EasyPlot candidate v0.2"
+    },
+    "qiushan": {
+      "label": "秋山",
+      "type": "qualitative",
+      "max_n": 5,
+      "source_names": [
+        "赭石色",
+        "黄琉璃",
+        "玉石藍",
+        "嫩草緑",
+        "紫藤灰"
+      ],
+      "fill": [
+        "#DD5B1D",
+        "#E5AB18",
+        "#069E80",
+        "#59A831",
+        "#7E6EAE"
+      ],
+      "line": [
+        "#C4511A",
+        "#957010",
+        "#05846B",
+        "#468426",
+        "#7969AB"
+      ],
+      "classic": {
+        "name": "Dark2",
+        "indices_zero_based": [
+          1,
+          5,
+          0,
+          4,
+          2
+        ],
+        "fill": [
+          "#D95F02",
+          "#E6AB02",
+          "#1B9E77",
+          "#66A61E",
+          "#7570B3"
+        ]
+      },
+      "fill_derivation": {
+        "hue_shift_degrees": [
+          -5.136321606050075,
+          -0.2030806965467491,
+          6.0,
+          6.0,
+          5.59386142195325
+        ],
+        "chroma_scale": 0.96,
+        "lightness": "classic L* retained before 8-bit quantization",
+        "max_delta_Lstar": 0.1368670298978003,
+        "mean_delta_E00": 2.797667006492591,
+        "max_delta_E00": 4.107410470986081
+      },
+      "derived": true,
+      "line_derivation": [
+        {
+          "source_hex": "#DD5B1D",
+          "method": "HLS lightness scaling; white-background contrast >=4.5",
+          "lightness_factor": 0.88529281,
+          "derived": true
+        },
+        {
+          "source_hex": "#E5AB18",
+          "method": "HLS lightness scaling; white-background contrast >=4.5",
+          "lightness_factor": 0.652836277,
+          "derived": true
+        },
+        {
+          "source_hex": "#069E80",
+          "method": "HLS lightness scaling; white-background contrast >=4.5",
+          "lightness_factor": 0.832972005,
+          "derived": true
+        },
+        {
+          "source_hex": "#59A831",
+          "method": "HLS lightness scaling; white-background contrast >=4.5",
+          "lightness_factor": 0.783743359,
+          "derived": true
+        },
+        {
+          "source_hex": "#7E6EAE",
+          "method": "HLS lightness scaling; white-background contrast >=4.5",
+          "lightness_factor": 0.97,
+          "derived": true
+        }
+      ],
+      "rationale": "沿用 Dark2 的深色分类结构，暖橙与琉璃黄作前两色，冷青与草绿保持对照。",
+      "uses": "生态与环境分组；类别色，不表达连续数值",
+      "curator": "EasyPlot candidate v0.2"
+    },
+    "qingci": {
+      "label": "青瓷",
+      "type": "sequential",
+      "max_n": null,
+      "source_names": [
+        "浅青瓷釉色",
+        "灰緑",
+        "花青"
+      ],
+      "anchors": [
+        "#F8FCF0",
+        "#82CBBF",
+        "#004081"
+      ],
+      "fill": [
+        "#F8FCF0",
+        "#F7FBEF",
+        "#F6FBEF",
+        "#F6FBEE",
+        "#F5FBED",
+        "#F4FAED",
+        "#F4FAEC",
+        "#F3FAEB",
+        "#F2F9EB",
+        "#F2F9EA",
+        "#F1F9E9",
+        "#F0F9E9",
+        "#F0F8E8",
+        "#EFF8E7",
+        "#EEF8E7",
+        "#EEF7E6",
+        "#EDF7E5",
+        "#ECF7E5",
+        "#ECF6E4",
+        "#EBF6E3",
+        "#EAF6E3",
+        "#EAF6E2",
+        "#E9F5E1",
+        "#E8F5E1",
+        "#E8F5E0",
+        "#E7F4DF",
+        "#E6F4DF",
+        "#E6F4DE",
+        "#E5F4DD",
+        "#E4F3DD",
+        "#E4F3DC",
+        "#E3F3DB",
+        "#E2F2DB",
+        "#E2F2DA",
+        "#E1F2D9",
+        "#E1F2D8",
+        "#E0F1D8",
+        "#E0F1D7",
+        "#DFF1D6",
+        "#DEF1D6",
+        "#DEF0D5",
+        "#DDF0D4",
+        "#DDF0D3",
+        "#DCEFD3",
+        "#DCEFD2",
+        "#DBEFD1",
+        "#DBEFD1",
+        "#DAEED0",
+        "#D9EECF",
+        "#D9EECF",
+        "#D8EECE",
+        "#D8EDCD",
+        "#D7EDCC",
+        "#D7EDCC",
+        "#D6EDCB",
+        "#D5ECCA",
+        "#D5ECCA",
+        "#D4ECC9",
+        "#D4ECC8",
+        "#D3EBC7",
+        "#D3EBC7",
+        "#D2EBC6",
+        "#D2EAC5",
+        "#D1EAC5",
+        "#D1EAC4",
+        "#CFEAC3",
+        "#CEE9C3",
+        "#CDE9C2",
+        "#CCE8C2",
+        "#CBE8C1",
+        "#CAE7C1",
+        "#C9E7C0",
+        "#C8E6BF",
+        "#C7E6BF",
+        "#C6E6BE",
+        "#C5E5BE",
+        "#C4E5BD",
+        "#C3E4BD",
+        "#C2E4BC",
+        "#C1E3BC",
+        "#C0E3BB",
+        "#BFE2BA",
+        "#BDE2BA",
+        "#BCE2B9",
+        "#BBE1B9",
+        "#BAE1B8",
+        "#B9E0B8",
+        "#B8E0B7",
+        "#B7DFB7",
+        "#B6DFB6",
+        "#B5DEB5",
+        "#B4DEB5",
+        "#B3DEB4",
+        "#B2DDB4",
+        "#B1DDB3",
+        "#B0DCB3",
+        "#AFDCB2",
+        "#ADDBB3",
+        "#ACDBB3",
+        "#ABDAB3",
+        "#A9DAB4",
+        "#A8D9B4",
+        "#A6D9B4",
+        "#A5D8B5",
+        "#A4D8B5",
+        "#A2D7B6",
+        "#A1D7B6",
+        "#9FD6B6",
+        "#9ED6B7",
+        "#9DD5B7",
+        "#9BD5B8",
+        "#9AD4B8",
+        "#98D4B8",
+        "#97D3B9",
+        "#96D3B9",
+        "#94D2BA",
+        "#93D2BA",
+        "#91D1BA",
+        "#90D1BB",
+        "#8ED0BB",
+        "#8DCFBC",
+        "#8CCFBC",
+        "#8ACEBC",
+        "#89CEBD",
+        "#87CDBD",
+        "#86CDBE",
+        "#84CCBE",
+        "#83CCBE",
+        "#82CBBF",
+        "#80CBBF",
+        "#7FCAC0",
+        "#7DC9C0",
+        "#7CC8C0",
+        "#7AC8C1",
+        "#79C7C1",
+        "#77C6C2",
+        "#76C5C2",
+        "#74C5C3",
+        "#73C4C3",
+        "#71C3C4",
+        "#70C2C4",
+        "#6EC2C4",
+        "#6DC1C5",
+        "#6BC0C5",
+        "#69BFC6",
+        "#68BFC6",
+        "#66BEC7",
+        "#65BDC7",
+        "#63BCC8",
+        "#62BCC8",
+        "#60BBC8",
+        "#5EBAC9",
+        "#5DB9C9",
+        "#5BB9CA",
+        "#5AB8CA",
+        "#58B7CB",
+        "#56B7CB",
+        "#55B6CC",
+        "#53B5CC",
+        "#51B4CD",
+        "#50B4CD",
+        "#4EB2CC",
+        "#4DB1CC",
+        "#4CB0CB",
+        "#4BAFCA",
+        "#49AECA",
+        "#48ACC9",
+        "#47ABC9",
+        "#45AAC8",
+        "#44A9C7",
+        "#43A8C7",
+        "#41A6C6",
+        "#40A5C5",
+        "#3FA4C5",
+        "#3DA3C4",
+        "#3CA2C4",
+        "#3BA0C3",
+        "#399FC2",
+        "#389EC2",
+        "#369DC1",
+        "#359CC0",
+        "#339AC0",
+        "#3299BF",
+        "#3098BF",
+        "#2F97BE",
+        "#2D96BD",
+        "#2C94BD",
+        "#2A93BC",
+        "#2992BB",
+        "#2791BB",
+        "#2590BA",
+        "#248FBA",
+        "#228DB9",
+        "#208CB8",
+        "#1E8BB8",
+        "#1C8AB7",
+        "#1A89B7",
+        "#1888B6",
+        "#1687B6",
+        "#1386B5",
+        "#1185B5",
+        "#0E83B4",
+        "#0A82B4",
+        "#0781B3",
+        "#0380B3",
+        "#047FB3",
+        "#007EB2",
+        "#017DB2",
+        "#017BB2",
+        "#027AB2",
+        "#0279B1",
+        "#0278B1",
+        "#0276B1",
+        "#0075B0",
+        "#0074B0",
+        "#0073B0",
+        "#0072AF",
+        "#0071AF",
+        "#006FAE",
+        "#006EAE",
+        "#006DAD",
+        "#016CAD",
+        "#016BAD",
+        "#0069AC",
+        "#0068AC",
+        "#0067AA",
+        "#0066A9",
+        "#0065A8",
+        "#0063A6",
+        "#0062A5",
+        "#0061A4",
+        "#0060A2",
+        "#005EA1",
+        "#005DA0",
+        "#005C9E",
+        "#005B9D",
+        "#00599C",
+        "#00589A",
+        "#005799",
+        "#005698",
+        "#005496",
+        "#005395",
+        "#015294",
+        "#015192",
+        "#014F91",
+        "#014E90",
+        "#004D8E",
+        "#004C8D",
+        "#004A8B",
+        "#00498A",
+        "#004889",
+        "#004787",
+        "#004586",
+        "#004485",
+        "#004383",
+        "#004282",
+        "#004081"
+      ],
+      "classic": {
+        "name": "GnBu",
+        "fill": [
+          "#F7FCF0",
+          "#F6FCEF",
+          "#F6FBEF",
+          "#F5FBEE",
+          "#F4FBED",
+          "#F3FBED",
+          "#F3FAEC",
+          "#F2FAEB",
+          "#F1FAEB",
+          "#F1F9EA",
+          "#F0F9E9",
+          "#EFF9E9",
+          "#EEF9E8",
+          "#EEF8E7",
+          "#EDF8E7",
+          "#ECF8E6",
+          "#ECF8E5",
+          "#EBF7E5",
+          "#EAF7E4",
+          "#E9F7E4",
+          "#E9F6E3",
+          "#E8F6E2",
+          "#E7F6E2",
+          "#E6F6E1",
+          "#E6F5E0",
+          "#E5F5E0",
+          "#E4F5DF",
+          "#E4F4DE",
+          "#E3F4DE",
+          "#E2F4DD",
+          "#E1F4DC",
+          "#E1F3DC",
+          "#E0F3DB",
+          "#DFF3DA",
+          "#DFF2DA",
+          "#DEF2D9",
+          "#DEF2D8",
+          "#DDF2D8",
+          "#DCF2D7",
+          "#DCF1D6",
+          "#DBF1D5",
+          "#DAF1D5",
+          "#DAF0D4",
+          "#D9F0D3",
+          "#D8F0D3",
+          "#D8F0D2",
+          "#D7F0D1",
+          "#D7EFD1",
+          "#D6EFD0",
+          "#D5EFCF",
+          "#D5EECF",
+          "#D4EECE",
+          "#D4EECD",
+          "#D3EECD",
+          "#D2EDCC",
+          "#D2EDCB",
+          "#D1EDCB",
+          "#D0EDCA",
+          "#D0ECC9",
+          "#CFECC8",
+          "#CEECC8",
+          "#CEECC7",
+          "#CDEBC6",
+          "#CDEBC6",
+          "#CCEBC5",
+          "#CBEBC4",
+          "#CAEAC4",
+          "#C9EAC4",
+          "#C8E9C3",
+          "#C6E9C3",
+          "#C5E8C2",
+          "#C4E8C2",
+          "#C3E8C1",
+          "#C2E7C0",
+          "#C1E7C0",
+          "#C0E6C0",
+          "#BEE6BF",
+          "#BDE5BE",
+          "#BCE5BE",
+          "#BBE4BE",
+          "#BAE4BD",
+          "#B9E4BC",
+          "#B8E3BC",
+          "#B7E3BC",
+          "#B6E2BB",
+          "#B4E2BB",
+          "#B3E1BA",
+          "#B2E1BA",
+          "#B1E0B9",
+          "#B0E0B8",
+          "#AFE0B8",
+          "#AEDFB8",
+          "#ACDFB7",
+          "#ABDEB6",
+          "#AADEB6",
+          "#A9DDB6",
+          "#A8DDB5",
+          "#A7DCB5",
+          "#A5DCB6",
+          "#A4DBB6",
+          "#A2DBB7",
+          "#A1DAB7",
+          "#A0DAB8",
+          "#9ED9B8",
+          "#9DD9B9",
+          "#9BD8B9",
+          "#9AD8BA",
+          "#99D7BA",
+          "#97D7BB",
+          "#96D6BB",
+          "#94D6BC",
+          "#93D5BC",
+          "#92D4BC",
+          "#90D4BD",
+          "#8FD3BD",
+          "#8DD3BE",
+          "#8CD2BE",
+          "#8AD2BF",
+          "#89D1BF",
+          "#88D1C0",
+          "#86D0C0",
+          "#85D0C1",
+          "#83CFC1",
+          "#82CFC2",
+          "#81CEC2",
+          "#7FCEC3",
+          "#7ECDC3",
+          "#7CCDC4",
+          "#7BCCC4",
+          "#7ACBC4",
+          "#78CAC5",
+          "#77CAC5",
+          "#75C9C6",
+          "#74C8C6",
+          "#73C7C7",
+          "#71C7C7",
+          "#70C6C8",
+          "#6EC5C8",
+          "#6DC4C9",
+          "#6CC3C9",
+          "#6AC3CA",
+          "#69C2CA",
+          "#67C1CB",
+          "#66C0CB",
+          "#65C0CC",
+          "#63BFCC",
+          "#62BECC",
+          "#60BDCD",
+          "#5FBCCD",
+          "#5DBCCE",
+          "#5CBBCE",
+          "#5BBACF",
+          "#59B9CF",
+          "#58B8D0",
+          "#56B8D0",
+          "#55B7D1",
+          "#54B6D1",
+          "#52B5D2",
+          "#51B5D2",
+          "#4FB4D3",
+          "#4EB3D3",
+          "#4DB2D2",
+          "#4CB1D2",
+          "#4BAFD1",
+          "#4AAED0",
+          "#49ADD0",
+          "#47ACCF",
+          "#46AACE",
+          "#45A9CE",
+          "#44A8CD",
+          "#43A7CC",
+          "#42A6CC",
+          "#41A4CB",
+          "#40A3CA",
+          "#3FA2CA",
+          "#3EA1C9",
+          "#3DA0C8",
+          "#3B9EC8",
+          "#3A9DC7",
+          "#399CC7",
+          "#389BC6",
+          "#3799C5",
+          "#3698C5",
+          "#3597C4",
+          "#3496C3",
+          "#3395C3",
+          "#3293C2",
+          "#3092C1",
+          "#2F91C1",
+          "#2E90C0",
+          "#2D8EBF",
+          "#2C8DBF",
+          "#2B8CBE",
+          "#2A8BBD",
+          "#298ABD",
+          "#2889BC",
+          "#2788BC",
+          "#2686BB",
+          "#2485BB",
+          "#2384BA",
+          "#2283BA",
+          "#2182B9",
+          "#2081B8",
+          "#1F80B8",
+          "#1E7EB7",
+          "#1D7DB7",
+          "#1C7CB6",
+          "#1B7BB6",
+          "#1A7AB5",
+          "#1879B4",
+          "#1778B4",
+          "#1677B3",
+          "#1576B3",
+          "#1474B2",
+          "#1373B2",
+          "#1272B1",
+          "#1171B0",
+          "#1070B0",
+          "#0F6FAF",
+          "#0D6EAF",
+          "#0C6CAE",
+          "#0B6BAE",
+          "#0A6AAD",
+          "#0969AD",
+          "#0868AC",
+          "#0867AB",
+          "#0866A9",
+          "#0864A8",
+          "#0863A7",
+          "#0862A5",
+          "#0860A4",
+          "#085FA3",
+          "#085EA1",
+          "#085DA0",
+          "#085C9F",
+          "#085A9D",
+          "#08599C",
+          "#08589B",
+          "#085699",
+          "#085598",
+          "#085496",
+          "#085395",
+          "#085294",
+          "#085092",
+          "#084F91",
+          "#084E90",
+          "#084C8E",
+          "#084B8D",
+          "#084A8C",
+          "#08498A",
+          "#084889",
+          "#084688",
+          "#084586",
+          "#084485",
+          "#084284",
+          "#084182",
+          "#084081"
+        ]
+      },
+      "fill_derivation": {
+        "hue_shift_stops_degrees": [
+          -3,
+          -6,
+          -8
+        ],
+        "chroma_scale": 0.96,
+        "lightness": "classic L* retained before 8-bit quantization",
+        "max_delta_Lstar": 0.17094432468999088,
+        "mean_delta_E00": 1.4814029499007326,
+        "max_delta_E00": 2.722261344046014
+      },
+      "ramp_derivation": "257 classic samples; bounded CIELCh hue edit; out-of-gamut edits backed off toward classic; 8-bit sRGB",
+      "derived": true,
+      "rationale": "沿用 GnBu 的浅绿—青绿—深蓝结构，色相向青瓷与青花蓝小幅偏移，保留原有明暗跨度。",
+      "uses": "非负强度、丰度、密度与热图",
+      "curator": "EasyPlot candidate v0.2",
+      "recommended": true
+    },
+    "qinglan": {
+      "label": "青岚",
+      "type": "sequential",
+      "max_n": null,
+      "source_names": [
+        "淡米色",
+        "奶緑",
+        "花青"
+      ],
+      "anchors": [
+        "#FFFFD9",
+        "#49B6C0",
+        "#011E58"
+      ],
+      "fill": [
+        "#FFFFD9",
+        "#FFFFD9",
+        "#FFFED8",
+        "#FEFED7",
+        "#FEFED5",
+        "#FDFED4",
+        "#FDFDD3",
+        "#FCFDD2",
+        "#FBFDD0",
+        "#FBFDCF",
+        "#FAFCCE",
+        "#FAFCCD",
+        "#F9FCCC",
+        "#F9FCCA",
+        "#F8FBC9",
+        "#F8FBC8",
+        "#F7FBC7",
+        "#F7FBC5",
+        "#F6FBC4",
+        "#F6FAC3",
+        "#F5FAC2",
+        "#F5FAC0",
+        "#F4FABF",
+        "#F4F9BE",
+        "#F3F9BD",
+        "#F3F9BC",
+        "#F2F9BA",
+        "#F2F8B9",
+        "#F1F8B8",
+        "#F1F8B7",
+        "#F0F8B5",
+        "#F0F7B4",
+        "#EFF7B3",
+        "#EEF7B3",
+        "#EDF6B3",
+        "#ECF6B3",
+        "#EBF5B3",
+        "#E9F5B3",
+        "#E8F4B3",
+        "#E7F4B3",
+        "#E6F3B3",
+        "#E5F3B3",
+        "#E4F3B3",
+        "#E2F2B3",
+        "#E1F2B4",
+        "#E0F1B4",
+        "#DFF1B4",
+        "#DEF0B4",
+        "#DDF0B4",
+        "#DCEFB4",
+        "#DAEFB4",
+        "#D9EEB4",
+        "#D8EEB4",
+        "#D7EDB4",
+        "#D6EDB4",
+        "#D5ECB4",
+        "#D3ECB4",
+        "#D2EBB4",
+        "#D1EBB4",
+        "#D0EBB4",
+        "#CFEAB4",
+        "#CEEAB4",
+        "#CCE9B4",
+        "#CBE9B4",
+        "#CAE8B4",
+        "#C8E7B5",
+        "#C6E6B5",
+        "#C4E6B5",
+        "#C1E5B5",
+        "#BFE4B5",
+        "#BDE3B5",
+        "#BBE2B5",
+        "#B9E1B6",
+        "#B6E0B6",
+        "#B4DFB6",
+        "#B2DFB6",
+        "#B0DEB6",
+        "#AEDDB6",
+        "#ABDCB6",
+        "#A9DBB7",
+        "#A7DAB7",
+        "#A5D9B7",
+        "#A3D9B7",
+        "#A0D8B7",
+        "#9ED7B7",
+        "#9CD6B7",
+        "#9AD5B8",
+        "#98D4B8",
+        "#95D3B8",
+        "#93D2B8",
+        "#91D2B8",
+        "#8FD1B8",
+        "#8DD0B8",
+        "#8ACFB9",
+        "#88CEB9",
+        "#86CDB9",
+        "#84CCB9",
+        "#82CCB9",
+        "#80CBB9",
+        "#7ECABA",
+        "#7CCABA",
+        "#7BC9BA",
+        "#79C8BA",
+        "#77C7BA",
+        "#75C7BB",
+        "#73C6BB",
+        "#71C5BB",
+        "#6FC5BB",
+        "#6EC4BC",
+        "#6CC3BC",
+        "#6AC2BC",
+        "#68C2BC",
+        "#66C1BD",
+        "#64C0BD",
+        "#62C0BD",
+        "#61BFBD",
+        "#5FBEBD",
+        "#5DBDBE",
+        "#5BBDBE",
+        "#59BCBE",
+        "#57BBBE",
+        "#56BBBF",
+        "#54BABF",
+        "#52B9BF",
+        "#50B9BF",
+        "#4EB8C0",
+        "#4DB7C0",
+        "#4BB6C0",
+        "#49B6C0",
+        "#48B5C0",
+        "#47B3C0",
+        "#45B2C0",
+        "#44B1C0",
+        "#43B0C0",
+        "#42AFBF",
+        "#41AEBF",
+        "#3FADBF",
+        "#3EABBF",
+        "#3DAABF",
+        "#3CA9BF",
+        "#3BA8BF",
+        "#39A7BE",
+        "#38A6BE",
+        "#37A5BE",
+        "#36A4BE",
+        "#34A2BE",
+        "#33A1BE",
+        "#32A0BE",
+        "#319FBE",
+        "#2F9EBD",
+        "#2E9DBD",
+        "#2D9CBD",
+        "#2B9ABD",
+        "#2A99BD",
+        "#2998BD",
+        "#2797BD",
+        "#2696BD",
+        "#2495BC",
+        "#2394BC",
+        "#2293BC",
+        "#2091BC",
+        "#2090BB",
+        "#1F8EBB",
+        "#1F8DBA",
+        "#1E8BB9",
+        "#1E8AB9",
+        "#1D88B8",
+        "#1D86B7",
+        "#1D85B6",
+        "#1C83B6",
+        "#1C82B5",
+        "#1B80B4",
+        "#1B7FB4",
+        "#1A7DB3",
+        "#1A7CB2",
+        "#1A7AB1",
+        "#1978B1",
+        "#1977B0",
+        "#1875AF",
+        "#1874AF",
+        "#1872AE",
+        "#1771AD",
+        "#176FAD",
+        "#166EAC",
+        "#166CAB",
+        "#156AAA",
+        "#1569AA",
+        "#1567A9",
+        "#1466A8",
+        "#1464A8",
+        "#1363A7",
+        "#1361A6",
+        "#1360A6",
+        "#125EA5",
+        "#125DA5",
+        "#115CA4",
+        "#115BA3",
+        "#1059A3",
+        "#1058A2",
+        "#1057A2",
+        "#0F56A1",
+        "#0F54A1",
+        "#0E53A0",
+        "#0E529F",
+        "#0E519F",
+        "#0D4F9E",
+        "#0D4E9E",
+        "#0C4D9D",
+        "#0C4C9D",
+        "#0B4A9C",
+        "#0B499B",
+        "#0A489B",
+        "#0A479A",
+        "#0A459A",
+        "#094499",
+        "#094399",
+        "#084298",
+        "#084098",
+        "#073F97",
+        "#073E96",
+        "#073D96",
+        "#063C95",
+        "#063A95",
+        "#063994",
+        "#053894",
+        "#043792",
+        "#033690",
+        "#02368E",
+        "#01358C",
+        "#00348A",
+        "#043388",
+        "#033287",
+        "#023285",
+        "#013183",
+        "#003081",
+        "#032F7F",
+        "#022E7D",
+        "#012D7B",
+        "#012D7A",
+        "#032C78",
+        "#022B76",
+        "#012A74",
+        "#002972",
+        "#022870",
+        "#01286E",
+        "#01276C",
+        "#00266B",
+        "#012569",
+        "#012467",
+        "#002465",
+        "#012363",
+        "#002261",
+        "#01215F",
+        "#00205D",
+        "#00205C",
+        "#001F5A",
+        "#011E58"
+      ],
+      "classic": {
+        "name": "YlGnBu",
+        "fill": [
+          "#FFFFD9",
+          "#FEFFD8",
+          "#FEFFD6",
+          "#FDFED5",
+          "#FDFED4",
+          "#FCFED3",
+          "#FCFED2",
+          "#FBFDD0",
+          "#FBFDCF",
+          "#FAFDCE",
+          "#F9FDCC",
+          "#F9FDCB",
+          "#F8FCCA",
+          "#F8FCC9",
+          "#F7FCC8",
+          "#F7FCC6",
+          "#F6FCC5",
+          "#F5FBC4",
+          "#F5FBC2",
+          "#F4FBC1",
+          "#F4FBC0",
+          "#F3FABF",
+          "#F3FABE",
+          "#F2FABC",
+          "#F2FABB",
+          "#F1FABA",
+          "#F0F9B8",
+          "#F0F9B7",
+          "#EFF9B6",
+          "#EFF9B5",
+          "#EEF8B3",
+          "#EEF8B2",
+          "#EDF8B1",
+          "#ECF8B1",
+          "#EBF7B1",
+          "#E9F7B1",
+          "#E8F6B1",
+          "#E7F6B1",
+          "#E6F5B2",
+          "#E5F5B2",
+          "#E4F4B2",
+          "#E2F4B2",
+          "#E1F3B2",
+          "#E0F3B2",
+          "#DFF2B2",
+          "#DEF2B2",
+          "#DCF1B2",
+          "#DBF1B2",
+          "#DAF0B2",
+          "#D9F0B3",
+          "#D8F0B3",
+          "#D6EFB3",
+          "#D5EFB3",
+          "#D4EEB3",
+          "#D3EEB3",
+          "#D2EDB3",
+          "#D0EDB3",
+          "#CFECB3",
+          "#CEECB3",
+          "#CDEBB4",
+          "#CCEBB4",
+          "#CBEAB4",
+          "#C9EAB4",
+          "#C8E9B4",
+          "#C7E9B4",
+          "#C5E8B4",
+          "#C2E7B4",
+          "#C0E6B5",
+          "#BEE6B5",
+          "#BCE5B5",
+          "#BAE4B5",
+          "#B7E3B6",
+          "#B5E2B6",
+          "#B3E1B6",
+          "#B0E0B6",
+          "#AEDFB6",
+          "#ACDEB7",
+          "#AADEB7",
+          "#A8DDB7",
+          "#A5DCB7",
+          "#A3DBB8",
+          "#A1DAB8",
+          "#9ED9B8",
+          "#9CD8B8",
+          "#9AD8B8",
+          "#98D7B9",
+          "#96D6B9",
+          "#93D5B9",
+          "#91D4B9",
+          "#8FD3B9",
+          "#8CD2BA",
+          "#8AD1BA",
+          "#88D0BA",
+          "#86D0BA",
+          "#84CFBB",
+          "#81CEBB",
+          "#7FCDBB",
+          "#7DCCBB",
+          "#7BCCBC",
+          "#79CBBC",
+          "#77CABC",
+          "#75C9BC",
+          "#73C9BD",
+          "#71C8BD",
+          "#70C7BD",
+          "#6EC7BE",
+          "#6CC6BE",
+          "#6AC5BE",
+          "#68C4BE",
+          "#66C4BF",
+          "#64C3BF",
+          "#62C2BF",
+          "#60C2C0",
+          "#5EC1C0",
+          "#5CC0C0",
+          "#5ABFC0",
+          "#58BFC1",
+          "#56BEC1",
+          "#54BDC1",
+          "#52BCC1",
+          "#50BCC2",
+          "#4FBBC2",
+          "#4DBAC2",
+          "#4BBAC3",
+          "#49B9C3",
+          "#47B8C3",
+          "#45B7C3",
+          "#43B7C4",
+          "#41B6C4",
+          "#40B5C4",
+          "#3FB4C4",
+          "#3EB3C4",
+          "#3CB1C4",
+          "#3BB0C3",
+          "#3AAFC3",
+          "#39AEC3",
+          "#38ADC3",
+          "#37ACC3",
+          "#36AAC3",
+          "#35A9C3",
+          "#33A8C3",
+          "#32A7C2",
+          "#31A6C2",
+          "#30A5C2",
+          "#2FA3C2",
+          "#2EA2C2",
+          "#2DA1C2",
+          "#2CA0C2",
+          "#2A9FC2",
+          "#299EC1",
+          "#289DC1",
+          "#279BC1",
+          "#269AC1",
+          "#2599C1",
+          "#2498C1",
+          "#2397C1",
+          "#2196C0",
+          "#2094C0",
+          "#1F93C0",
+          "#1E92C0",
+          "#1D91C0",
+          "#1D8FBF",
+          "#1D8EBE",
+          "#1D8CBE",
+          "#1E8BBD",
+          "#1E89BC",
+          "#1E87BB",
+          "#1E86BB",
+          "#1E84BA",
+          "#1E83B9",
+          "#1F81B8",
+          "#1F7FB8",
+          "#1F7EB7",
+          "#1F7CB6",
+          "#1F7BB6",
+          "#1F79B5",
+          "#2078B4",
+          "#2076B3",
+          "#2074B2",
+          "#2073B2",
+          "#2071B1",
+          "#2070B0",
+          "#206EB0",
+          "#216CAF",
+          "#216BAE",
+          "#2169AD",
+          "#2168AC",
+          "#2166AC",
+          "#2164AB",
+          "#2263AA",
+          "#2261AA",
+          "#2260A9",
+          "#225EA8",
+          "#225DA7",
+          "#225BA7",
+          "#225AA6",
+          "#2259A6",
+          "#2257A5",
+          "#2356A4",
+          "#2355A4",
+          "#2354A3",
+          "#2352A2",
+          "#2351A2",
+          "#2350A1",
+          "#234EA0",
+          "#234DA0",
+          "#234C9F",
+          "#234A9F",
+          "#24499E",
+          "#24489D",
+          "#24469D",
+          "#24459C",
+          "#24449C",
+          "#24429B",
+          "#24419A",
+          "#24409A",
+          "#243F99",
+          "#243D98",
+          "#243C98",
+          "#253B97",
+          "#253996",
+          "#253896",
+          "#253795",
+          "#253595",
+          "#253494",
+          "#243392",
+          "#233390",
+          "#22328E",
+          "#21318C",
+          "#20308B",
+          "#203089",
+          "#1F2F87",
+          "#1E2E85",
+          "#1D2E83",
+          "#1C2D81",
+          "#1B2C7F",
+          "#1A2B7E",
+          "#192B7C",
+          "#182A7A",
+          "#172978",
+          "#162876",
+          "#162874",
+          "#152772",
+          "#142670",
+          "#13266E",
+          "#12256D",
+          "#11246B",
+          "#102369",
+          "#0F2367",
+          "#0E2265",
+          "#0D2163",
+          "#0D2161",
+          "#0C2060",
+          "#0B1F5E",
+          "#0A1E5C",
+          "#091E5A",
+          "#081D58"
+        ]
+      },
+      "fill_derivation": {
+        "hue_shift_stops_degrees": [
+          -1,
+          -3,
+          -5
+        ],
+        "chroma_scale": 0.96,
+        "lightness": "classic L* retained before 8-bit quantization",
+        "max_delta_Lstar": 0.1969973669828491,
+        "mean_delta_E00": 1.3638635324044193,
+        "max_delta_E00": 3.2755801863326734
+      },
+      "ramp_derivation": "257 classic samples; bounded CIELCh hue edit; out-of-gamut edits backed off toward classic; 8-bit sRGB",
+      "derived": true,
+      "rationale": "以 YlGnBu 的浅黄—青绿—深蓝层次为底，黄色略偏米色、深蓝略减紫意。",
+      "uses": "需要较丰富层次的强度、丰度与密度图",
+      "curator": "EasyPlot candidate v0.2",
+      "recommended": true
+    },
+    "qingzhu": {
+      "label": "青朱",
+      "type": "diverging",
+      "max_n": null,
+      "source_names": [
+        "花青",
+        "銀白色",
+        "硃砂"
+      ],
+      "anchors": [
+        "#003061",
+        "#F7F7F7",
+        "#640919"
+      ],
+      "fill": [
+        "#003061",
+        "#003364",
+        "#003567",
+        "#003769",
+        "#00396C",
+        "#003B6F",
+        "#013D72",
+        "#004075",
+        "#014278",
+        "#01447B",
+        "#00467D",
+        "#014880",
+        "#004B83",
+        "#014D86",
+        "#004F89",
+        "#01518C",
+        "#00538E",
+        "#015591",
+        "#035794",
+        "#015A97",
+        "#025C9A",
+        "#005E9C",
+        "#02609F",
+        "#0462A2",
+        "#0165A5",
+        "#0367A8",
+        "#0669AA",
+        "#0B6AAB",
+        "#0F6CAB",
+        "#136EAC",
+        "#166FAD",
+        "#1971AE",
+        "#1C73AF",
+        "#1E75B0",
+        "#2176B0",
+        "#2378B1",
+        "#257AB2",
+        "#277BB3",
+        "#297DB4",
+        "#2B7FB5",
+        "#2D80B6",
+        "#2F82B6",
+        "#3184B7",
+        "#3386B8",
+        "#3587B9",
+        "#3789BA",
+        "#388BBB",
+        "#3A8CBC",
+        "#3C8EBD",
+        "#3E90BD",
+        "#3F92BE",
+        "#4193BF",
+        "#4495C0",
+        "#4797C1",
+        "#4B99C2",
+        "#4E9BC4",
+        "#519DC5",
+        "#549FC6",
+        "#58A1C7",
+        "#5BA3C8",
+        "#5EA5C9",
+        "#61A7CA",
+        "#64A8CB",
+        "#68AACC",
+        "#6BACCD",
+        "#6EAECF",
+        "#71B0D0",
+        "#74B2D1",
+        "#77B4D2",
+        "#7AB6D3",
+        "#7EB8D4",
+        "#81BAD5",
+        "#84BCD6",
+        "#87BED7",
+        "#8AC0D9",
+        "#8DC2DA",
+        "#90C4DB",
+        "#93C5DC",
+        "#96C7DD",
+        "#98C8DD",
+        "#9BC9DE",
+        "#9DCADF",
+        "#A0CCE0",
+        "#A2CDE0",
+        "#A4CEE1",
+        "#A7CFE2",
+        "#A9D1E3",
+        "#ACD2E4",
+        "#AED3E4",
+        "#B1D4E5",
+        "#B3D6E6",
+        "#B6D7E7",
+        "#B8D8E7",
+        "#BAD9E8",
+        "#BDDAE9",
+        "#BFDCEA",
+        "#C2DDEA",
+        "#C4DEEB",
+        "#C7DFEC",
+        "#C9E1ED",
+        "#CCE2ED",
+        "#CEE3EE",
+        "#D0E4EF",
+        "#D2E5EF",
+        "#D4E6F0",
+        "#D5E7F0",
+        "#D7E7F0",
+        "#D8E8F1",
+        "#DAE9F1",
+        "#DBEAF1",
+        "#DDEAF2",
+        "#DEEBF2",
+        "#E0ECF2",
+        "#E1ECF2",
+        "#E3EDF3",
+        "#E4EEF3",
+        "#E5EFF3",
+        "#E7EFF4",
+        "#E8F0F4",
+        "#EAF1F4",
+        "#EBF1F5",
+        "#EDF2F5",
+        "#EEF3F5",
+        "#F0F3F6",
+        "#F1F4F6",
+        "#F3F5F6",
+        "#F4F6F6",
+        "#F6F6F7",
+        "#F7F7F7",
+        "#F7F6F5",
+        "#F7F5F3",
+        "#F8F4F1",
+        "#F8F3F0",
+        "#F8F2EE",
+        "#F8F1EC",
+        "#F8EFEA",
+        "#F8EEE8",
+        "#F9EDE6",
+        "#F9ECE5",
+        "#F9EBE3",
+        "#F9EAE1",
+        "#F9E9DF",
+        "#FAE8DD",
+        "#FAE7DB",
+        "#FAE6DA",
+        "#FAE5D8",
+        "#FAE4D6",
+        "#FAE3D4",
+        "#FBE1D2",
+        "#FBE0D0",
+        "#FBDFCE",
+        "#FBDECD",
+        "#FBDDCB",
+        "#FBDCC9",
+        "#FBDBC7",
+        "#FBD9C4",
+        "#FAD6C1",
+        "#FAD4BE",
+        "#FAD2BC",
+        "#F9D0B9",
+        "#F9CEB6",
+        "#F8CCB4",
+        "#F8CAB1",
+        "#F7C8AE",
+        "#F7C6AC",
+        "#F7C4A9",
+        "#F6C2A6",
+        "#F6C0A3",
+        "#F5BEA1",
+        "#F5BC9E",
+        "#F4BA9B",
+        "#F4B898",
+        "#F3B696",
+        "#F3B393",
+        "#F3B190",
+        "#F2AF8D",
+        "#F2AD8B",
+        "#F1AB88",
+        "#F1A985",
+        "#F0A782",
+        "#EFA580",
+        "#EEA27E",
+        "#ED9F7C",
+        "#EC9D7A",
+        "#EA9A77",
+        "#E99875",
+        "#E89573",
+        "#E79271",
+        "#E5906F",
+        "#E48D6C",
+        "#E38A6A",
+        "#E28868",
+        "#E18566",
+        "#DF8364",
+        "#DE8061",
+        "#DD7D5F",
+        "#DC7B5D",
+        "#DA785B",
+        "#D97659",
+        "#D87356",
+        "#D77154",
+        "#D66E52",
+        "#D46B50",
+        "#D3694E",
+        "#D2664B",
+        "#D16449",
+        "#CF6148",
+        "#CE5E46",
+        "#CC5C45",
+        "#CB5943",
+        "#C95642",
+        "#C85440",
+        "#C7513F",
+        "#C54F3D",
+        "#C44C3C",
+        "#C2493A",
+        "#C14739",
+        "#BF4437",
+        "#BE4236",
+        "#BD3F34",
+        "#BB3D33",
+        "#BA3A31",
+        "#B83830",
+        "#B7362E",
+        "#B5332D",
+        "#B4312B",
+        "#B32F2A",
+        "#B12D28",
+        "#B02B27",
+        "#AE2926",
+        "#AD2724",
+        "#AA2523",
+        "#A82423",
+        "#A52322",
+        "#A22222",
+        "#9F2121",
+        "#9C2021",
+        "#991F21",
+        "#971E20",
+        "#941D20",
+        "#911C1F",
+        "#8E1B1F",
+        "#8B1A1E",
+        "#88191E",
+        "#86181E",
+        "#83171D",
+        "#80161D",
+        "#7D151C",
+        "#7A141C",
+        "#78131C",
+        "#75121B",
+        "#72111B",
+        "#6F0F1A",
+        "#6C0E1A",
+        "#6A0D19",
+        "#670B19",
+        "#640919"
+      ],
+      "classic": {
+        "name": "RdBu_r",
+        "fill": [
+          "#053061",
+          "#063264",
+          "#073467",
+          "#08366A",
+          "#09386D",
+          "#0A3B70",
+          "#0C3D73",
+          "#0D3F76",
+          "#0E4178",
+          "#0F437B",
+          "#10457E",
+          "#114781",
+          "#124984",
+          "#134B87",
+          "#144E8A",
+          "#15508D",
+          "#175290",
+          "#185493",
+          "#195696",
+          "#1A5899",
+          "#1B5A9C",
+          "#1C5C9F",
+          "#1D5EA1",
+          "#1E61A4",
+          "#1F63A7",
+          "#2065AA",
+          "#2267AC",
+          "#2368AD",
+          "#246AAE",
+          "#266CAF",
+          "#276EB0",
+          "#286FB1",
+          "#2A71B2",
+          "#2B73B3",
+          "#2C75B4",
+          "#2D77B4",
+          "#2F78B5",
+          "#307AB6",
+          "#317CB7",
+          "#337EB8",
+          "#347FB9",
+          "#3581BA",
+          "#3783BB",
+          "#3885BC",
+          "#3986BD",
+          "#3B88BD",
+          "#3C8ABE",
+          "#3D8CBF",
+          "#3F8DC0",
+          "#408FC1",
+          "#4191C2",
+          "#4393C3",
+          "#4595C4",
+          "#4997C5",
+          "#4C98C6",
+          "#4F9AC7",
+          "#529CC8",
+          "#559EC9",
+          "#58A0CA",
+          "#5BA2CB",
+          "#5EA4CC",
+          "#61A6CD",
+          "#64A8CE",
+          "#67AACF",
+          "#6BACD0",
+          "#6EAED2",
+          "#71B0D3",
+          "#74B2D4",
+          "#77B4D5",
+          "#7AB6D6",
+          "#7DB8D7",
+          "#80BAD8",
+          "#83BCD9",
+          "#86BEDA",
+          "#89C0DB",
+          "#8CC1DC",
+          "#90C3DD",
+          "#92C5DE",
+          "#95C7DF",
+          "#97C8E0",
+          "#9AC9E0",
+          "#9CCAE1",
+          "#9FCCE2",
+          "#A1CDE2",
+          "#A4CEE3",
+          "#A6CFE4",
+          "#A9D1E4",
+          "#ABD2E5",
+          "#AED3E6",
+          "#B0D4E7",
+          "#B2D6E7",
+          "#B5D7E8",
+          "#B7D8E9",
+          "#BAD9E9",
+          "#BCDBEA",
+          "#BFDCEB",
+          "#C1DDEC",
+          "#C4DEEC",
+          "#C6E0ED",
+          "#C9E1EE",
+          "#CBE2EE",
+          "#CEE3EF",
+          "#D0E5F0",
+          "#D2E5F0",
+          "#D3E6F0",
+          "#D5E7F1",
+          "#D6E8F1",
+          "#D8E8F1",
+          "#D9E9F2",
+          "#DBEAF2",
+          "#DCEAF2",
+          "#DEEBF2",
+          "#DFECF3",
+          "#E1ECF3",
+          "#E2EDF3",
+          "#E4EEF3",
+          "#E5EFF4",
+          "#E7EFF4",
+          "#E8F0F4",
+          "#EAF1F5",
+          "#EBF1F5",
+          "#EDF2F5",
+          "#EEF3F5",
+          "#F0F3F6",
+          "#F1F4F6",
+          "#F3F5F6",
+          "#F4F6F6",
+          "#F6F6F7",
+          "#F7F7F7",
+          "#F7F6F5",
+          "#F7F5F3",
+          "#F8F4F1",
+          "#F8F3F0",
+          "#F8F2EE",
+          "#F8F0EC",
+          "#F9EFEA",
+          "#F9EEE8",
+          "#F9EDE6",
+          "#F9ECE4",
+          "#FAEBE2",
+          "#FAEAE0",
+          "#FAE9DF",
+          "#FAE8DD",
+          "#FBE7DB",
+          "#FBE5D9",
+          "#FBE4D7",
+          "#FBE3D5",
+          "#FBE2D3",
+          "#FCE1D2",
+          "#FCE0D0",
+          "#FCDFCE",
+          "#FCDECC",
+          "#FDDDCA",
+          "#FDDCC8",
+          "#FDDAC6",
+          "#FDD8C3",
+          "#FCD6C1",
+          "#FCD4BE",
+          "#FBD2BB",
+          "#FBD0B8",
+          "#FBCDB6",
+          "#FACBB3",
+          "#FAC9B0",
+          "#FAC7AE",
+          "#F9C5AB",
+          "#F9C3A8",
+          "#F9C1A6",
+          "#F8BFA3",
+          "#F8BDA0",
+          "#F8BB9D",
+          "#F7B89B",
+          "#F7B698",
+          "#F7B495",
+          "#F6B293",
+          "#F6B090",
+          "#F5AE8D",
+          "#F5AC8B",
+          "#F5AA88",
+          "#F4A885",
+          "#F4A583",
+          "#F3A380",
+          "#F2A07E",
+          "#F19D7C",
+          "#F09B7A",
+          "#EE9878",
+          "#ED9576",
+          "#EC9374",
+          "#EB9072",
+          "#EA8D70",
+          "#E98B6E",
+          "#E7886C",
+          "#E6856A",
+          "#E58268",
+          "#E48065",
+          "#E37D63",
+          "#E17A61",
+          "#E0785F",
+          "#DF755D",
+          "#DE725B",
+          "#DD7059",
+          "#DC6D57",
+          "#DA6A55",
+          "#D96853",
+          "#D86551",
+          "#D7624F",
+          "#D65F4D",
+          "#D45D4B",
+          "#D35A4A",
+          "#D25749",
+          "#D05447",
+          "#CF5146",
+          "#CD4F45",
+          "#CC4C43",
+          "#CA4942",
+          "#C94641",
+          "#C8433F",
+          "#C6413E",
+          "#C53E3D",
+          "#C33B3B",
+          "#C2383A",
+          "#C13539",
+          "#BF3237",
+          "#BE3036",
+          "#BC2D35",
+          "#BB2A34",
+          "#BA2732",
+          "#B82431",
+          "#B72230",
+          "#B51F2E",
+          "#B41C2D",
+          "#B3192C",
+          "#B0172B",
+          "#AD172A",
+          "#AA162A",
+          "#A71529",
+          "#A51429",
+          "#A21328",
+          "#9F1228",
+          "#9C1127",
+          "#991027",
+          "#960F27",
+          "#930E26",
+          "#900D26",
+          "#8D0C25",
+          "#8A0B25",
+          "#870A24",
+          "#840924",
+          "#810823",
+          "#7E0823",
+          "#7C0722",
+          "#790622",
+          "#760521",
+          "#730421",
+          "#700320",
+          "#6D0220",
+          "#6A011F",
+          "#67001F"
+        ]
+      },
+      "fill_derivation": {
+        "hue_shift_stops_degrees": [
+          -7,
+          0,
+          7
+        ],
+        "chroma_scale": 0.96,
+        "lightness": "classic L* retained before 8-bit quantization",
+        "max_delta_Lstar": 0.16833583725002654,
+        "mean_delta_E00": 1.5639947838468922,
+        "max_delta_E00": 3.7332038188935686
+      },
+      "ramp_derivation": "257 classic samples; bounded CIELCh hue edit; out-of-gamut edits backed off toward classic; 8-bit sRGB",
+      "derived": true,
+      "rationale": "保留 RdBu 的对称明暗结构与浅中点，蓝侧向青花、红侧向朱砂微调。",
+      "uses": "相对零值或明确基准的正负变化",
+      "curator": "EasyPlot candidate v0.2",
+      "recommended": true
+    },
+    "moyun": {
+      "label": "墨韵",
+      "type": "sequential",
+      "max_n": null,
+      "source_names": [
+        "雪灰",
+        "青灰色",
+        "百草霜"
+      ],
+      "anchors": [
+        "#FFFFFF",
+        "#969696",
+        "#000000"
+      ],
+      "fill": [
+        "#FFFFFF",
+        "#FFFFFF",
+        "#FEFEFE",
+        "#FEFEFE",
+        "#FDFDFD",
+        "#FDFDFD",
+        "#FCFCFC",
+        "#FCFCFC",
+        "#FBFBFB",
+        "#FBFBFB",
+        "#FAFAFA",
+        "#FAFAFA",
+        "#F9F9F9",
+        "#F9F9F9",
+        "#F8F8F8",
+        "#F8F8F8",
+        "#F8F8F8",
+        "#F7F7F7",
+        "#F7F7F7",
+        "#F6F6F6",
+        "#F6F6F6",
+        "#F5F5F5",
+        "#F5F5F5",
+        "#F4F4F4",
+        "#F4F4F4",
+        "#F3F3F3",
+        "#F3F3F3",
+        "#F2F2F2",
+        "#F2F2F2",
+        "#F1F1F1",
+        "#F1F1F1",
+        "#F0F0F0",
+        "#F0F0F0",
+        "#EFEFEF",
+        "#EFEFEF",
+        "#EEEEEE",
+        "#EDEDED",
+        "#ECECEC",
+        "#ECECEC",
+        "#EBEBEB",
+        "#EAEAEA",
+        "#EAEAEA",
+        "#E9E9E9",
+        "#E8E8E8",
+        "#E7E7E7",
+        "#E7E7E7",
+        "#E6E6E6",
+        "#E5E5E5",
+        "#E4E4E4",
+        "#E4E4E4",
+        "#E3E3E3",
+        "#E2E2E2",
+        "#E2E2E2",
+        "#E1E1E1",
+        "#E0E0E0",
+        "#DFDFDF",
+        "#DFDFDF",
+        "#DEDEDE",
+        "#DDDDDD",
+        "#DDDDDD",
+        "#DCDCDC",
+        "#DBDBDB",
+        "#DADADA",
+        "#DADADA",
+        "#D9D9D9",
+        "#D8D8D8",
+        "#D7D7D7",
+        "#D6D6D6",
+        "#D6D6D6",
+        "#D5D5D5",
+        "#D4D4D4",
+        "#D3D3D3",
+        "#D2D2D2",
+        "#D1D1D1",
+        "#D0D0D0",
+        "#CFCFCF",
+        "#CECECE",
+        "#CECECE",
+        "#CDCDCD",
+        "#CCCCCC",
+        "#CBCBCB",
+        "#CACACA",
+        "#C9C9C9",
+        "#C8C8C8",
+        "#C8C8C8",
+        "#C7C7C7",
+        "#C6C6C6",
+        "#C5C5C5",
+        "#C4C4C4",
+        "#C3C3C3",
+        "#C2C2C2",
+        "#C1C1C1",
+        "#C0C0C0",
+        "#C0C0C0",
+        "#BFBFBF",
+        "#BEBEBE",
+        "#BDBDBD",
+        "#BCBCBC",
+        "#BBBBBB",
+        "#B9B9B9",
+        "#B8B8B8",
+        "#B7B7B7",
+        "#B6B6B6",
+        "#B4B4B4",
+        "#B3B3B3",
+        "#B2B2B2",
+        "#B1B1B1",
+        "#B0B0B0",
+        "#AEAEAE",
+        "#ADADAD",
+        "#ACACAC",
+        "#ABABAB",
+        "#AAAAAA",
+        "#A8A8A8",
+        "#A7A7A7",
+        "#A6A6A6",
+        "#A5A5A5",
+        "#A3A3A3",
+        "#A2A2A2",
+        "#A1A1A1",
+        "#A0A0A0",
+        "#9F9F9F",
+        "#9D9D9D",
+        "#9C9C9C",
+        "#9B9B9B",
+        "#9A9A9A",
+        "#989898",
+        "#979797",
+        "#969696",
+        "#959595",
+        "#949494",
+        "#939393",
+        "#929292",
+        "#919191",
+        "#8F8F8F",
+        "#8E8E8E",
+        "#8D8D8D",
+        "#8C8C8C",
+        "#8B8B8B",
+        "#8A8A8A",
+        "#898989",
+        "#888888",
+        "#878787",
+        "#868686",
+        "#848484",
+        "#838383",
+        "#828282",
+        "#818181",
+        "#808080",
+        "#7F7F7F",
+        "#7E7E7E",
+        "#7D7D7D",
+        "#7C7C7C",
+        "#7B7B7B",
+        "#7A7A7A",
+        "#787878",
+        "#777777",
+        "#767676",
+        "#757575",
+        "#747474",
+        "#737373",
+        "#727272",
+        "#717171",
+        "#707070",
+        "#6F6F6F",
+        "#6E6E6E",
+        "#6D6D6D",
+        "#6C6C6C",
+        "#6B6B6B",
+        "#6A6A6A",
+        "#696969",
+        "#686868",
+        "#676767",
+        "#666666",
+        "#656565",
+        "#646464",
+        "#626262",
+        "#616161",
+        "#606060",
+        "#5F5F5F",
+        "#5E5E5E",
+        "#5D5D5D",
+        "#5C5C5C",
+        "#5B5B5B",
+        "#5A5A5A",
+        "#595959",
+        "#585858",
+        "#575757",
+        "#565656",
+        "#555555",
+        "#545454",
+        "#535353",
+        "#525252",
+        "#515151",
+        "#4F4F4F",
+        "#4E4E4E",
+        "#4C4C4C",
+        "#4B4B4B",
+        "#4A4A4A",
+        "#484848",
+        "#474747",
+        "#454545",
+        "#444444",
+        "#434343",
+        "#414141",
+        "#404040",
+        "#3E3E3E",
+        "#3D3D3D",
+        "#3C3C3C",
+        "#3A3A3A",
+        "#393939",
+        "#373737",
+        "#363636",
+        "#343434",
+        "#333333",
+        "#323232",
+        "#303030",
+        "#2F2F2F",
+        "#2D2D2D",
+        "#2C2C2C",
+        "#2B2B2B",
+        "#292929",
+        "#282828",
+        "#262626",
+        "#252525",
+        "#242424",
+        "#232323",
+        "#222222",
+        "#202020",
+        "#1F1F1F",
+        "#1E1E1E",
+        "#1D1D1D",
+        "#1C1C1C",
+        "#1B1B1B",
+        "#191919",
+        "#181818",
+        "#171717",
+        "#161616",
+        "#151515",
+        "#141414",
+        "#121212",
+        "#111111",
+        "#101010",
+        "#0F0F0F",
+        "#0E0E0E",
+        "#0D0D0D",
+        "#0C0C0C",
+        "#0A0A0A",
+        "#090909",
+        "#080808",
+        "#070707",
+        "#060606",
+        "#050505",
+        "#030303",
+        "#020202",
+        "#010101",
+        "#000000"
+      ],
+      "classic": {
+        "name": "Greys",
+        "fill": [
+          "#FFFFFF",
+          "#FFFFFF",
+          "#FEFEFE",
+          "#FEFEFE",
+          "#FDFDFD",
+          "#FDFDFD",
+          "#FCFCFC",
+          "#FCFCFC",
+          "#FBFBFB",
+          "#FBFBFB",
+          "#FAFAFA",
+          "#FAFAFA",
+          "#F9F9F9",
+          "#F9F9F9",
+          "#F8F8F8",
+          "#F8F8F8",
+          "#F8F8F8",
+          "#F7F7F7",
+          "#F7F7F7",
+          "#F6F6F6",
+          "#F6F6F6",
+          "#F5F5F5",
+          "#F5F5F5",
+          "#F4F4F4",
+          "#F4F4F4",
+          "#F3F3F3",
+          "#F3F3F3",
+          "#F2F2F2",
+          "#F2F2F2",
+          "#F1F1F1",
+          "#F1F1F1",
+          "#F0F0F0",
+          "#F0F0F0",
+          "#EFEFEF",
+          "#EFEFEF",
+          "#EEEEEE",
+          "#EDEDED",
+          "#ECECEC",
+          "#ECECEC",
+          "#EBEBEB",
+          "#EAEAEA",
+          "#EAEAEA",
+          "#E9E9E9",
+          "#E8E8E8",
+          "#E7E7E7",
+          "#E7E7E7",
+          "#E6E6E6",
+          "#E5E5E5",
+          "#E4E4E4",
+          "#E4E4E4",
+          "#E3E3E3",
+          "#E2E2E2",
+          "#E2E2E2",
+          "#E1E1E1",
+          "#E0E0E0",
+          "#DFDFDF",
+          "#DFDFDF",
+          "#DEDEDE",
+          "#DDDDDD",
+          "#DDDDDD",
+          "#DCDCDC",
+          "#DBDBDB",
+          "#DADADA",
+          "#DADADA",
+          "#D9D9D9",
+          "#D8D8D8",
+          "#D7D7D7",
+          "#D6D6D6",
+          "#D6D6D6",
+          "#D5D5D5",
+          "#D4D4D4",
+          "#D3D3D3",
+          "#D2D2D2",
+          "#D1D1D1",
+          "#D0D0D0",
+          "#CFCFCF",
+          "#CECECE",
+          "#CECECE",
+          "#CDCDCD",
+          "#CCCCCC",
+          "#CBCBCB",
+          "#CACACA",
+          "#C9C9C9",
+          "#C8C8C8",
+          "#C8C8C8",
+          "#C7C7C7",
+          "#C6C6C6",
+          "#C5C5C5",
+          "#C4C4C4",
+          "#C3C3C3",
+          "#C2C2C2",
+          "#C1C1C1",
+          "#C0C0C0",
+          "#C0C0C0",
+          "#BFBFBF",
+          "#BEBEBE",
+          "#BDBDBD",
+          "#BCBCBC",
+          "#BBBBBB",
+          "#B9B9B9",
+          "#B8B8B8",
+          "#B7B7B7",
+          "#B6B6B6",
+          "#B4B4B4",
+          "#B3B3B3",
+          "#B2B2B2",
+          "#B1B1B1",
+          "#B0B0B0",
+          "#AEAEAE",
+          "#ADADAD",
+          "#ACACAC",
+          "#ABABAB",
+          "#AAAAAA",
+          "#A8A8A8",
+          "#A7A7A7",
+          "#A6A6A6",
+          "#A5A5A5",
+          "#A3A3A3",
+          "#A2A2A2",
+          "#A1A1A1",
+          "#A0A0A0",
+          "#9F9F9F",
+          "#9D9D9D",
+          "#9C9C9C",
+          "#9B9B9B",
+          "#9A9A9A",
+          "#989898",
+          "#979797",
+          "#969696",
+          "#959595",
+          "#949494",
+          "#939393",
+          "#929292",
+          "#919191",
+          "#8F8F8F",
+          "#8E8E8E",
+          "#8D8D8D",
+          "#8C8C8C",
+          "#8B8B8B",
+          "#8A8A8A",
+          "#898989",
+          "#888888",
+          "#878787",
+          "#868686",
+          "#848484",
+          "#838383",
+          "#828282",
+          "#818181",
+          "#808080",
+          "#7F7F7F",
+          "#7E7E7E",
+          "#7D7D7D",
+          "#7C7C7C",
+          "#7B7B7B",
+          "#7A7A7A",
+          "#787878",
+          "#777777",
+          "#767676",
+          "#757575",
+          "#747474",
+          "#737373",
+          "#727272",
+          "#717171",
+          "#707070",
+          "#6F6F6F",
+          "#6E6E6E",
+          "#6D6D6D",
+          "#6C6C6C",
+          "#6B6B6B",
+          "#6A6A6A",
+          "#696969",
+          "#686868",
+          "#676767",
+          "#666666",
+          "#656565",
+          "#646464",
+          "#626262",
+          "#616161",
+          "#606060",
+          "#5F5F5F",
+          "#5E5E5E",
+          "#5D5D5D",
+          "#5C5C5C",
+          "#5B5B5B",
+          "#5A5A5A",
+          "#595959",
+          "#585858",
+          "#575757",
+          "#565656",
+          "#555555",
+          "#545454",
+          "#535353",
+          "#525252",
+          "#515151",
+          "#4F4F4F",
+          "#4E4E4E",
+          "#4C4C4C",
+          "#4B4B4B",
+          "#4A4A4A",
+          "#484848",
+          "#474747",
+          "#454545",
+          "#444444",
+          "#434343",
+          "#414141",
+          "#404040",
+          "#3E3E3E",
+          "#3D3D3D",
+          "#3C3C3C",
+          "#3A3A3A",
+          "#393939",
+          "#373737",
+          "#363636",
+          "#343434",
+          "#333333",
+          "#323232",
+          "#303030",
+          "#2F2F2F",
+          "#2D2D2D",
+          "#2C2C2C",
+          "#2B2B2B",
+          "#292929",
+          "#282828",
+          "#262626",
+          "#252525",
+          "#242424",
+          "#232323",
+          "#222222",
+          "#202020",
+          "#1F1F1F",
+          "#1E1E1E",
+          "#1D1D1D",
+          "#1C1C1C",
+          "#1B1B1B",
+          "#191919",
+          "#181818",
+          "#171717",
+          "#161616",
+          "#151515",
+          "#141414",
+          "#121212",
+          "#111111",
+          "#101010",
+          "#0F0F0F",
+          "#0E0E0E",
+          "#0D0D0D",
+          "#0C0C0C",
+          "#0A0A0A",
+          "#090909",
+          "#080808",
+          "#070707",
+          "#060606",
+          "#050505",
+          "#030303",
+          "#020202",
+          "#010101",
+          "#000000"
+        ]
+      },
+      "fill_derivation": {
+        "hue_shift_stops_degrees": [
+          0,
+          0,
+          0
+        ],
+        "chroma_scale": 1.0,
+        "lightness": "classic L* retained before 8-bit quantization",
+        "max_delta_Lstar": 0.0,
+        "mean_delta_E00": 0.0,
+        "max_delta_E00": 0.0
+      },
+      "ramp_derivation": "257 original classic samples, no edits",
+      "derived": false,
+      "rationale": "保留经典 Greys 原色，作为中性工具色，不作为主推中国风配色。",
+      "uses": "中性对照与灰度用途；备用方案",
+      "curator": "EasyPlot candidate v0.2",
+      "recommended": false
+    }
+  },
+  "classic_sources": {
+    "library": "matplotlib",
+    "version": "3.10.9",
+    "documentation": "https://matplotlib.org/stable/users/explain/colors/colormaps.html",
+    "colorbrewer": "https://colorbrewer2.org/",
+    "license": "https://colorbrewer2.org/export/LICENSE.txt",
+    "acknowledgment": "This product includes color specifications and designs developed by Cynthia Brewer (http://colorbrewer.org/)."
+  },
+  "neutrals": {
+    "ink": "#303030",
+    "frame": "#575A5D",
+    "background": "#FFFFFF",
+    "missing": "#E2E2E2"
+  }
+}

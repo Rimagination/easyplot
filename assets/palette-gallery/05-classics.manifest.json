@@ -1,0 +1,43 @@
+{
+  "backend": "R/ggplot2",
+  "template_version": "0.3.0",
+  "created_utc": "2026-09-23 04:29:34 UTC",
+  "width_mm": 304.8,
+  "height_mm": 254,
+  "dpi": 300,
+  "formats": "png",
+  "devices": {
+    "png": "ragg"
+  },
+  "svg_text": {},
+  "size_note": "Dimensions above are requested. Inspect actual files: raster pixels and Cairo vector points may round; no post-export stretching is applied.",
+  "software": {
+    "R": "R version 4.5.3 (2026-03-11 ucrt)",
+    "ggplot2": "4.0.2"
+  },
+  "outputs": [
+    {
+      "path": "F:\\Scratch\\easyplot-cvd-library-20260923\\gallery/05-classics.png",
+      "bytes": 414611,
+      "device": "ragg",
+      "device_width_mm": 304.8,
+      "device_height_mm": 254
+    }
+  ],
+  "overwrite_requested": true,
+  "provenance": {
+    "registry": "F:\\Scratch\\easyplot-cvd-library-20260923\\palettes-1.2.json",
+    "version": "1.2.0",
+    "palette_ids": ["brewer.Set1", "brewer.Set2", "brewer.Set3", "brewer.Dark2", "brewer.Paired", "brewer.Pastel1", "brewer.Blues", "brewer.YlGnBu", "brewer.RdBu", "brewer.PRGn", "matplotlib.tab10", "matplotlib.coolwarm"],
+    "purpose": "Palette guide",
+    "font": {
+      "requested_family": "Microsoft YaHei",
+      "resolved_family": "Microsoft YaHei",
+      "path": "C:\\WINDOWS\\Fonts\\msyh.ttc",
+      "index": 0,
+      "style": "Regular",
+      "checked_glyphs": 223,
+      "scope": "Declared text and face only; inspect device fallback and rendered export."
+    }
+  }
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: "EasyPlot"
+  short_description: "Analyze research data and create figures in R or Python"
+  brand_color: "#568FC3"
+  default_prompt: "Use $easyplot for my research data analysis and figures, including analysis-only work; use Python when I specify it."

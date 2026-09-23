@@ -1,0 +1,6 @@
+CET Color Maps were developed by Peter Kovesi and released under CC-BY 4.0
+
+The cetcolor package provides an integration of the CET color maps into R.
+cetcolor accomplishes this by supplying graphic functions, examples, and more.
+The R implementation was done by James Joseph Balamuta with additional
+contributions by contributors listed in the ChangeLog.

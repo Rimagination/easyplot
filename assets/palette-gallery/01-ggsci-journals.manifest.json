@@ -1,0 +1,43 @@
+{
+  "backend": "R/ggplot2",
+  "template_version": "0.3.0",
+  "created_utc": "2026-09-23 04:29:32 UTC",
+  "width_mm": 304.8,
+  "height_mm": 254,
+  "dpi": 300,
+  "formats": "png",
+  "devices": {
+    "png": "ragg"
+  },
+  "svg_text": {},
+  "size_note": "Dimensions above are requested. Inspect actual files: raster pixels and Cairo vector points may round; no post-export stretching is applied.",
+  "software": {
+    "R": "R version 4.5.3 (2026-03-11 ucrt)",
+    "ggplot2": "4.0.2"
+  },
+  "outputs": [
+    {
+      "path": "F:\\Scratch\\easyplot-cvd-library-20260923\\gallery/01-ggsci-journals.png",
+      "bytes": 436059,
+      "device": "ragg",
+      "device_width_mm": 304.8,
+      "device_height_mm": 254
+    }
+  ],
+  "overwrite_requested": true,
+  "provenance": {
+    "registry": "F:\\Scratch\\easyplot-cvd-library-20260923\\palettes-1.2.json",
+    "version": "1.2.0",
+    "palette_ids": ["ggsci.npg.nrc", "ggsci.aaas.default", "ggsci.nejm.default", "ggsci.lancet.lanonc", "ggsci.jama.default", "ggsci.bmj.default", "ggsci.jco.default", "ggsci.d3.category10", "ggsci.uchicago.default", "ggsci.locuszoom.default", "ggsci.cosmic.hallmarks_light", "ggsci.startrek.uniform"],
+    "purpose": "Palette guide",
+    "font": {
+      "requested_family": "Microsoft YaHei",
+      "resolved_family": "Microsoft YaHei",
+      "path": "C:\\WINDOWS\\Fonts\\msyh.ttc",
+      "index": 0,
+      "style": "Regular",
+      "checked_glyphs": 223,
+      "scope": "Declared text and face only; inspect device fallback and rendered export."
+    }
+  }
+}

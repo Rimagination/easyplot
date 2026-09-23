@@ -1,0 +1,20 @@
+Overall license:
+================
+
+   The underlying CET color maps were released under the
+   CC-BY 4.0 license.
+
+   The aggregation, integration and packaging work is released under the
+   CC-BY-SA 4.0 license.
+
+Details:
+========
+
+Files: *
+Copyright: 2016 - 2020 James Joseph Balamuta
+License: GPL (>= 2)
+
+Files: data-raw/CETperceptual_csv_0_1.csv:
+       data/*:
+Copyright:
+  Copyright 2015 - 2018 Peter Kovesi
