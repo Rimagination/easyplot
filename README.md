@@ -10,8 +10,6 @@
 
 # EasyPlot
 
-<p align="center"><strong>从科研问题到可复现、可检查的研究图件。</strong></p>
-
 EasyPlot 是面向科研数据分析与作图的 AI Agent Skill。它把数据准备、统计分析、图形设计、组合排版和出版前检查放在一个入口中；默认使用 R/ggplot2，用户明确要求 Python 时使用 Python 科学绘图库，并保留现有项目的分析约定。
 
 ## 能做什么
