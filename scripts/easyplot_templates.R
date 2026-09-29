@@ -105,6 +105,162 @@ easyplot_has_fixed_aspect <- function(plot) {
     inherits(coordinates, "CoordSf")
 }
 
+# Audit declared plotting-frame geometry before rendering. Coordinates are
+# normalized to the assembled figure: left/right in [0, 1], bottom/top in
+# [0, 1]. This catches layout-contract failures that ordinary patchwork cell
+# alignment cannot see, especially external legends and fixed-aspect maps.
+easyplot_layout_audit <- function(
+  frames,
+  alignment = list(),
+  tolerance = 0.002,
+  allow_overlap = character()
+) {
+  required <- c("panel_id", "left", "right", "top", "bottom")
+  if (!is.data.frame(frames)) {
+    stop("frames must be a data.frame.", call. = FALSE)
+  }
+  missing_columns <- setdiff(required, names(frames))
+  if (length(missing_columns)) {
+    stop("frames is missing required column(s): ", paste(missing_columns, collapse = ", "), call. = FALSE)
+  }
+  if (length(tolerance) != 1L || !is.numeric(tolerance) || !is.finite(tolerance) || tolerance < 0) {
+    stop("tolerance must be one finite non-negative number.", call. = FALSE)
+  }
+
+  plotted <- frames[, required, drop = FALSE]
+  plotted$panel_id <- as.character(plotted$panel_id)
+  if (any(!nzchar(plotted$panel_id)) || anyDuplicated(plotted$panel_id)) {
+    stop("frames$panel_id must contain unique non-empty identifiers.", call. = FALSE)
+  }
+  numeric_columns <- required[-1L]
+  for (column in numeric_columns) plotted[[column]] <- as.numeric(plotted[[column]])
+
+  errors <- character()
+  warnings <- character()
+  if (any(!is.finite(as.matrix(plotted[numeric_columns])))) {
+    errors <- c(errors, "Frame coordinates must be finite numbers.")
+  }
+  if (any(plotted[numeric_columns] < 0 | plotted[numeric_columns] > 1, na.rm = TRUE)) {
+    errors <- c(errors, "Frame coordinates must lie in the normalized [0, 1] range.")
+  }
+  if (any(plotted$left >= plotted$right, na.rm = TRUE)) {
+    errors <- c(errors, "Every frame must have left < right.")
+  }
+  if (any(plotted$bottom >= plotted$top, na.rm = TRUE)) {
+    errors <- c(errors, "Every frame must have bottom < top.")
+  }
+
+  check_alignment <- function(side, groups) {
+    if (is.null(groups)) return(invisible(NULL))
+    if (is.character(groups)) groups <- list(groups)
+    if (!is.list(groups)) {
+      errors <<- c(errors, paste0("alignment$", side, " must be a list of panel groups."))
+      return(invisible(NULL))
+    }
+    for (group in groups) {
+      group <- unique(as.character(group))
+      missing_ids <- setdiff(group, plotted$panel_id)
+      if (length(missing_ids)) {
+        errors <<- c(errors, paste0("alignment$", side, " references unknown panel(s): ", paste(missing_ids, collapse = ", "), "."))
+        next
+      }
+      values <- plotted[[side]][match(group, plotted$panel_id)]
+      if ((max(values) - min(values)) > tolerance) {
+        errors <<- c(errors, paste0("Panels ", paste(group, collapse = ", "), " are not aligned on ", side, "."))
+      }
+    }
+    invisible(NULL)
+  }
+
+  for (side in intersect(names(alignment), c("left", "right", "top", "bottom"))) {
+    check_alignment(side, alignment[[side]])
+  }
+
+  overlap_key <- function(first, second) paste(sort(c(first, second)), collapse = "::")
+  allowed <- as.character(allow_overlap)
+  for (first_index in seq_len(max(0L, nrow(plotted) - 1L))) {
+    for (second_index in (first_index + 1L):nrow(plotted)) {
+      first <- plotted[first_index, ]
+      second <- plotted[second_index, ]
+      overlap_width <- min(first$right, second$right) - max(first$left, second$left)
+      overlap_height <- min(first$top, second$top) - max(first$bottom, second$bottom)
+      if (overlap_width > tolerance && overlap_height > tolerance) {
+        key <- overlap_key(first$panel_id, second$panel_id)
+        if (!(key %in% allowed)) {
+          warnings <- c(warnings, paste0("Frames ", first$panel_id, " and ", second$panel_id, " overlap; declare allow_overlap when intentional."))
+        }
+      }
+    }
+  }
+
+  result <- list(
+    ok = length(errors) == 0L,
+    errors = unique(errors),
+    warnings = unique(warnings),
+    frames = plotted,
+    alignment = alignment,
+    tolerance = tolerance
+  )
+  class(result) <- c("easyplot_layout_audit", "list")
+  result
+}
+
+easyplot_spatial_evidence_layout <- function() {
+  list(
+    design = c("AAAAAB", "AAAAAB", "CCCCCC", "DDDEEE", "DDDEEE"),
+    heights = c(1.9, 1.9, 1.28, 1.11, 1.11),
+    small_multiple_width = "full_plate",
+    alignment = list(
+      top = list(c("map", "side_strip")),
+      bottom = list(c("map", "side_strip")),
+      left = list(c("map", "small_multiples")),
+      right = list(c("side_strip", "small_multiples"))
+    ),
+    notes = c(
+      "Keep the side-strip frame aligned to the map plotting frame, not to an external legend band.",
+      "Use a full-width small-multiple row spanning the map and side strip.",
+      "Place legends outside a frame when an internal legend would cover the border."
+    )
+  )
+}
+
+easyplot_spatial_evidence_plate <- function(
+  map,
+  side_strip,
+  small_multiples,
+  distribution,
+  temporal,
+  heights = NULL,
+  guides = "keep"
+) {
+  panels <- list(
+    A = map,
+    B = side_strip,
+    C = small_multiples,
+    D = distribution,
+    E = temporal
+  )
+  if (!all(vapply(panels, inherits, logical(1), what = "ggplot"))) {
+    stop("Every spatial evidence plate panel must be a ggplot object.", call. = FALSE)
+  }
+  guides <- match.arg(guides, c("keep", "collect"))
+  if (!requireNamespace("patchwork", quietly = TRUE)) {
+    stop("easyplot_spatial_evidence_plate requires the patchwork package.", call. = FALSE)
+  }
+
+  layout <- easyplot_spatial_evidence_layout()
+  if (is.null(heights)) heights <- layout$heights
+  if (length(heights) != length(layout$heights) || any(!is.finite(heights)) || any(heights <= 0)) {
+    stop("heights must contain five positive finite values.", call. = FALSE)
+  }
+  result <- patchwork::wrap_plots(panels, design = layout$design) +
+    patchwork::plot_layout(heights = heights, guides = guides)
+  attr(result, "easyplot_layout_contract") <- layout
+  attr(result, "easyplot_panel_names") <- c("map", "side_strip", "small_multiples", "distribution", "temporal")
+  class(result) <- c("easyplot_composite", class(result))
+  result
+}
+
 easyplot_compose_panels <- function(
   panels,
   ncol = 2L,
@@ -477,6 +633,9 @@ easyplot_spatial_small_multiples <- function(
   colours = c("#F7FBFF", "#C6D4EA", "#568FC3"),
   missing_colour = "#F2F2F2",
   preserve_aspect = TRUE,
+  fill_parent_width = FALSE,
+  panel_border_colour = "#111111",
+  panel_border_width = 0.35,
   base_size = 8,
   base_family = "sans",
   x_label = NULL,
@@ -505,11 +664,12 @@ easyplot_spatial_small_multiples <- function(
       axis.line = ggplot2::element_blank(),
       axis.ticks = ggplot2::element_blank(),
       panel.border = ggplot2::element_rect(
-        colour = "#B8B8B8",
+        colour = panel_border_colour,
         fill = NA,
-        linewidth = 0.25
+        linewidth = panel_border_width
       )
     )
+  if (isTRUE(fill_parent_width)) preserve_aspect <- FALSE
   if (isTRUE(preserve_aspect)) {
     p <- p + ggplot2::coord_equal(expand = FALSE)
   } else {
@@ -518,6 +678,12 @@ easyplot_spatial_small_multiples <- function(
   if (!is.null(facet)) {
     p <- p + ggplot2::facet_wrap(stats::as.formula(paste("~", facet)))
   }
+  attr(p, "easyplot_spatial_contract") <- list(
+    preserve_aspect = isTRUE(preserve_aspect),
+    fill_parent_width = isTRUE(fill_parent_width),
+    panel_border_colour = panel_border_colour,
+    panel_border_width = panel_border_width
+  )
   p
 }
 
@@ -655,6 +821,111 @@ easyplot_omics_evidence_plate <- function(
   )
 }
 
+easyplot_schematic_lint <- function(
+  nodes,
+  edges = NULL,
+  id = "id",
+  x = "x",
+  y = "y",
+  label = "label",
+  kind = NULL,
+  node_width = 0.72,
+  node_height = 0.36
+) {
+  errors <- character()
+  warnings <- character()
+  node_count <- if (is.data.frame(nodes)) nrow(nodes) else 0L
+  edge_count <- if (is.data.frame(edges)) nrow(edges) else 0L
+
+  if (!is.data.frame(nodes)) {
+    errors <- c(errors, "Schematic nodes must be a data.frame.")
+  } else {
+    required <- unique(c(id, x, y, label, kind))
+    missing <- setdiff(required, names(nodes))
+    if (length(missing) > 0L) {
+      errors <- c(errors, paste0("Schematic nodes are missing columns: ", paste(missing, collapse = ", "), "."))
+    } else {
+      node_ids <- as.character(nodes[[id]])
+      if (anyNA(node_ids) || any(!nzchar(node_ids))) {
+        errors <- c(errors, "Schematic node ids must be non-empty.")
+      }
+      if (anyDuplicated(node_ids)) {
+        errors <- c(errors, "Schematic node ids must be unique.")
+      }
+      if (!is.numeric(nodes[[x]]) || !is.numeric(nodes[[y]]) ||
+        any(!is.finite(nodes[[x]])) || any(!is.finite(nodes[[y]]))) {
+        errors <- c(errors, "Schematic node coordinates must be finite numeric values.")
+      }
+      if (is.numeric(node_width) && length(node_width) == 1L && is.finite(node_width) && node_width > 0 &&
+        is.numeric(node_height) && length(node_height) == 1L && is.finite(node_height) && node_height > 0 &&
+        length(node_ids) > 1L) {
+        # ponytail: O(n^2) overlap scan is deliberate for small schematic node sets; use a spatial index if this becomes a large graph.
+        overlap_pairs <- utils::combn(seq_along(node_ids), 2L, simplify = FALSE)
+        overlapping <- vapply(overlap_pairs, function(pair) {
+          abs(nodes[[x]][pair[1L]] - nodes[[x]][pair[2L]]) < node_width &&
+            abs(nodes[[y]][pair[1L]] - nodes[[y]][pair[2L]]) < node_height
+        }, logical(1))
+        if (any(overlapping)) {
+          pairs <- vapply(overlap_pairs[overlapping], function(pair) {
+            paste(node_ids[pair], collapse = " / ")
+          }, character(1))
+          warnings <- c(warnings, paste0("Schematic nodes overlap: ", paste(pairs, collapse = "; "), "."))
+        }
+      }
+    }
+  }
+
+  if (!is.null(edges)) {
+    if (!is.data.frame(edges)) {
+      errors <- c(errors, "Schematic edges must be a data.frame.")
+    } else {
+      missing_edges <- setdiff(c("from", "to"), names(edges))
+      if (length(missing_edges) > 0L) {
+        errors <- c(errors, paste0("Schematic edges are missing columns: ", paste(missing_edges, collapse = ", "), "."))
+      } else if (is.data.frame(nodes) && all(c(id, x, y) %in% names(nodes))) {
+        node_ids <- as.character(nodes[[id]])
+        from_ids <- as.character(edges$from)
+        to_ids <- as.character(edges$to)
+        if (any(!from_ids %in% node_ids) || any(!to_ids %in% node_ids)) {
+          errors <- c(errors, "Every schematic edge must refer to an existing node id.")
+        }
+        if (any(from_ids == to_ids, na.rm = TRUE)) {
+          warnings <- c(warnings, "Self-loop schematic edges are not trimmed by the rectangular node model.")
+        }
+        edge_keys <- paste(from_ids, to_ids, sep = " -> ")
+        if (anyDuplicated(edge_keys)) {
+          warnings <- c(warnings, "Duplicate schematic edges may be visually indistinguishable.")
+        }
+      }
+    }
+  }
+
+  list(
+    ok = length(errors) == 0L,
+    errors = errors,
+    warnings = warnings,
+    node_count = node_count,
+    edge_count = edge_count
+  )
+}
+
+easyplot_schematic_clip_point <- function(x_start, y_start, x_end, y_end, half_width, half_height, pad = 0) {
+  dx <- x_end - x_start
+  dy <- y_end - y_start
+  if (!all(is.finite(c(x_start, y_start, x_end, y_end)))) {
+    return(c(x_start, y_start))
+  }
+  if (abs(dx) < .Machine$double.eps && abs(dy) < .Machine$double.eps) {
+    return(c(x_start, y_start))
+  }
+  half_width <- max(as.numeric(half_width) + as.numeric(pad), .Machine$double.eps)
+  half_height <- max(as.numeric(half_height) + as.numeric(pad), .Machine$double.eps)
+  x_ratio <- if (abs(dx) < .Machine$double.eps) 0 else abs(dx) / half_width
+  y_ratio <- if (abs(dy) < .Machine$double.eps) 0 else abs(dy) / half_height
+  step <- if (x_ratio >= y_ratio) half_width / abs(dx) else half_height / abs(dy)
+  c(x_start + dx * step, y_start + dy * step)
+}
+
 easyplot_data_schematic <- function(
   nodes,
   edges = NULL,
@@ -666,7 +937,16 @@ easyplot_data_schematic <- function(
   node_colours = NULL,
   preserve_aspect = FALSE,
   base_size = 8,
-  base_family = "sans"
+  base_family = "sans",
+  node_width = 0.72,
+  node_height = 0.36,
+  edge_pad = 0.02,
+  edge_colour = "#6C6C6C",
+  edge_linewidth = 0.45,
+  arrow_length_mm = 1.8,
+  label_padding = 0.14,
+  label_radius = 0.08,
+  node_border_width = 0.25
 ) {
   easyplot_require_columns(nodes, c(id, x, y, label, kind), "schematic nodes")
   plotted_nodes <- nodes
@@ -680,19 +960,43 @@ easyplot_data_schematic <- function(
     }
   }
 
+  lint <- easyplot_schematic_lint(
+    nodes, edges, id = id, x = x, y = y, label = label, kind = kind,
+    node_width = node_width, node_height = node_height
+  )
+  if (!isTRUE(lint$ok)) {
+    stop(paste(lint$errors, collapse = " "), call. = FALSE)
+  }
+
   edge_data <- NULL
   if (!is.null(edges)) {
-    easyplot_require_columns(edges, c("from", "to"), "schematic edges")
-    positions <- plotted_nodes[, c(id, x, y), drop = FALSE]
-    names(positions) <- c("node_id", "node_x", "node_y")
-    from_positions <- positions
-    names(from_positions)[2:3] <- c("x_start", "y_start")
-    to_positions <- positions
-    names(to_positions)[2:3] <- c("x_end", "y_end")
-    edge_data <- merge(edges, from_positions, by.x = "from", by.y = "node_id", all.x = TRUE)
-    edge_data <- merge(edge_data, to_positions, by.x = "to", by.y = "node_id", all.x = TRUE)
-    if (any(!stats::complete.cases(edge_data[, c("x_start", "y_start", "x_end", "y_end")]))) {
-      stop("Every schematic edge must refer to an existing node id.", call. = FALSE)
+    edge_data <- as.data.frame(edges, stringsAsFactors = FALSE)
+    node_ids <- as.character(plotted_nodes[[id]])
+    from_index <- match(as.character(edge_data$from), node_ids)
+    to_index <- match(as.character(edge_data$to), node_ids)
+    edge_data$x_start <- plotted_nodes[[x]][from_index]
+    edge_data$y_start <- plotted_nodes[[y]][from_index]
+    edge_data$x_end <- plotted_nodes[[x]][to_index]
+    edge_data$y_end <- plotted_nodes[[y]][to_index]
+    if (nrow(edge_data) > 0L) {
+      starts <- lapply(seq_len(nrow(edge_data)), function(i) {
+        easyplot_schematic_clip_point(
+          edge_data$x_start[i], edge_data$y_start[i],
+          edge_data$x_end[i], edge_data$y_end[i],
+          half_width = node_width / 2, half_height = node_height / 2, pad = edge_pad
+        )
+      })
+      ends <- lapply(seq_len(nrow(edge_data)), function(i) {
+        easyplot_schematic_clip_point(
+          edge_data$x_end[i], edge_data$y_end[i],
+          edge_data$x_start[i], edge_data$y_start[i],
+          half_width = node_width / 2, half_height = node_height / 2, pad = edge_pad
+        )
+      })
+      edge_data$x_start <- vapply(starts, `[[`, numeric(1), 1L)
+      edge_data$y_start <- vapply(starts, `[[`, numeric(1), 2L)
+      edge_data$x_end <- vapply(ends, `[[`, numeric(1), 1L)
+      edge_data$y_end <- vapply(ends, `[[`, numeric(1), 2L)
     }
   }
 
@@ -707,16 +1011,18 @@ easyplot_data_schematic <- function(
         yend = .data[["y_end"]]
       ),
       inherit.aes = FALSE,
-      linewidth = 0.45,
-      colour = "#6C6C6C",
-      arrow = grid::arrow(length = grid::unit(3, "mm"), type = "closed")
+      linewidth = edge_linewidth,
+      colour = edge_colour,
+      arrow = grid::arrow(length = grid::unit(arrow_length_mm, "mm"), type = "closed")
     )
   }
   p <- p +
     ggplot2::geom_label(
       ggplot2::aes(label = .data[[label]], fill = .data[[kind_column]]),
       colour = "#303030",
-      linewidth = 0.25,
+      linewidth = node_border_width,
+      label.padding = grid::unit(label_padding, "lines"),
+      label.r = grid::unit(label_radius, "lines"),
       size = base_size / ggplot2::.pt,
       family = base_family,
       show.legend = FALSE
@@ -733,5 +1039,20 @@ easyplot_data_schematic <- function(
   } else {
     p <- p + ggplot2::scale_fill_grey(start = 0.96, end = 0.78)
   }
+  attr(p, "easyplot_schematic") <- list(
+    lint = lint,
+    nodes = plotted_nodes,
+    edge_data = edge_data,
+    geometry = list(
+      node_width = node_width,
+      node_height = node_height,
+      edge_pad = edge_pad,
+      preserve_aspect = preserve_aspect,
+      arrow_length_mm = arrow_length_mm,
+      label_padding = label_padding,
+      label_radius = label_radius,
+      node_border_width = node_border_width
+    )
+  )
   p
 }

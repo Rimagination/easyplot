@@ -8,6 +8,37 @@ source(file.path(skill_root, "scripts", "easyplot_templates.R"), local = TRUE)
 
 set.seed(42)
 
+frame_spec <- data.frame(
+  panel_id = c("map", "side", "small"),
+  left = c(0, 0.8, 0),
+  right = c(0.8, 1, 1),
+  top = c(1, 1, 0.75),
+  bottom = c(0.2, 0.2, 0),
+  stringsAsFactors = FALSE
+)
+good_layout <- easyplot_layout_audit(
+  frame_spec,
+  alignment = list(
+    top = list(c("map", "side")),
+    bottom = list(c("map", "side")),
+    left = list(c("map", "small")),
+    right = list(c("side", "small"))
+  )
+)
+stopifnot(isTRUE(good_layout$ok), inherits(good_layout, "easyplot_layout_audit"))
+bad_layout <- easyplot_layout_audit(
+  within(frame_spec, top[2] <- 0.98),
+  alignment = list(top = list(c("map", "side")))
+)
+stopifnot(!isTRUE(bad_layout$ok))
+
+spatial_layout <- easyplot_spatial_evidence_layout()
+stopifnot(
+  identical(spatial_layout$design, c("AAAAAB", "AAAAAB", "CCCCCC", "DDDEEE", "DDDEEE")),
+  length(spatial_layout$heights) == 5L,
+  identical(spatial_layout$small_multiple_width, "full_plate")
+)
+
 spatial_data <- expand.grid(
   x = seq_len(5),
   y = seq_len(4),
@@ -23,8 +54,10 @@ spatial_plot <- easyplot_spatial_small_multiples(
   spatial_data,
   facet = "scenario",
   preserve_aspect = FALSE,
+  fill_parent_width = TRUE,
   fill_label = "synthetic signal"
 )
+stopifnot(inherits(spatial_plot$coordinates, "CoordCartesian"))
 
 heatmap_data <- expand.grid(
   feature = paste0("feature_", seq_len(6)),
@@ -52,6 +85,19 @@ effect_plot <- easyplot_omics_effects(
   x_label = "synthetic effect"
 )
 
+spatial_evidence <- easyplot_spatial_evidence_plate(
+  map = spatial_plot,
+  side_strip = heatmap_plot,
+  small_multiples = spatial_plot,
+  distribution = heatmap_plot,
+  temporal = effect_plot
+)
+stopifnot(
+  inherits(spatial_evidence, "easyplot_composite"),
+  identical(attr(spatial_evidence, "easyplot_layout_contract")$small_multiple_width, "full_plate"),
+  identical(attr(spatial_evidence, "easyplot_panel_names"), c("map", "side_strip", "small_multiples", "distribution", "temporal"))
+)
+
 nodes <- data.frame(
   id = c("input", "process", "output"),
   x = c(0, 1, 2),
@@ -64,8 +110,24 @@ edges <- data.frame(from = c("input", "process"), to = c("process", "output"))
 schematic_plot <- easyplot_data_schematic(
   nodes,
   edges,
-  node_colours = c(measurement = "#FBDDD7", mechanism = "#C6D4EA")
+  node_colours = c(measurement = "#FBDDD7", mechanism = "#C6D4EA"),
+  arrow_length_mm = 1.8,
+  label_padding = 0.14,
+  label_radius = 0.08,
+  node_border_width = 0.25
 )
+schematic_meta <- attr(schematic_plot, "easyplot_schematic")
+stopifnot(is.list(schematic_meta), isTRUE(schematic_meta$lint$ok))
+stopifnot(schematic_meta$edge_data$x_start[1] > min(nodes$x))
+stopifnot(schematic_meta$edge_data$x_end[1] < max(nodes$x))
+stopifnot(identical(schematic_meta$geometry$arrow_length_mm, 1.8))
+
+bad_schematic_lint <- easyplot_schematic_lint(
+  nodes,
+  data.frame(from = "missing", to = "output", stringsAsFactors = FALSE)
+)
+stopifnot(!isTRUE(bad_schematic_lint$ok))
+stopifnot(any(grepl("existing node", bad_schematic_lint$errors, fixed = TRUE)))
 
 panel_spec <- data.frame(
   panel_id = c("spatial", "heatmap", "effects", "schematic"),

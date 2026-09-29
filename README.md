@@ -15,7 +15,7 @@ EasyPlot 是面向科研数据分析与作图的 AI Agent Skill。它把数据�
 ## 能做什么
 
 - **分析与数据准备**：围绕研究问题检查实验单位、变量、缺失值、重复结构和不确定性；已有结果作图时保留原有分析，不为作图擅自重算。
-- **常见科研图形**：条形图、分布图与原始散点、时间序列、散点/回归、热图，以及可复用的多面板组合。
+- **常见科研图形**：条形图、分布图与原始散点、时间序列、散点/回归、热图、机制/流程示意图，以及可复用的多面板组合。
 - **组合图与地图**：对齐可比较的绘图区；按地图用途声明底图来源、投影、范围和比例。中国地图工作流支持 `ggmapcn`，全球图区分 Robinson 等折衷投影与 Equal Earth 等积投影。
 - **有名字、可复用的色带**：包括 ggsci、ColorBrewer、viridis、CET、HCL、Okabe–Ito、Paul Tol、Scientific Colour Maps、cmocean，以及中国/东方色系。精确色带 ID 和组别顺序可写进脚本，在组合图中保持一致。
 - **期刊与导出检查**：显式处理图幅尺寸、字体、格式、分辨率和最终尺寸预览；提供元数据、对比度和灰度筛查及导出 provenance 工具。自动检查是预检，不能替代科学判断或期刊官方要求。
@@ -74,6 +74,7 @@ $easyplot
 
 - [`SKILL.md`](SKILL.md)：主入口与默认规则。
 - [`references/templates.md`](references/templates.md)：图形模板与多面板组合约定。
+- [`references/schematics.md`](references/schematics.md)：节点/连线数据契约、避让规则和示意图自检。
 - [`references/palette-library.md`](references/palette-library.md)：色带 ID、选择依据和来源。
 - [`references/global-maps.md`](references/global-maps.md)：全球地图投影与制图约定。
 - [`assets/palette-gallery/index.html`](assets/palette-gallery/index.html)：可搜索的离线色带预览。

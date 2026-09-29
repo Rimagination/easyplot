@@ -44,6 +44,7 @@ The extra set reinforces the two-layer boundary above. A poster's paper title, D
 - **Semantic colour:** use a neutral for controls or references, a short categorical set for groups, sequential scales for magnitude, and diverging scales only around a meaningful midpoint. Use grey for missing or masked regions. Saturation is a decision variable, not a universal aesthetic rule.
 - **Compact annotation:** lowercase panel tags, concise direct labels, local reference lines, legends or colour bars with units, and small in-panel descriptors when they help the reader decode the panel. Annotation should explain the evidence rather than compete with it.
 - **Reproducible density:** complex figures may be information-dense. Preserve scale honesty, units, uncertainty definitions, sample structure, missingness, and panel alignment while managing density through hierarchy, spacing, repeated scales, and selective labelling.
+- **Fixed-aspect small-multiple bands:** when a reference uses square thumbnails, build them as one equal-width row or facet band that shares the parent panel's left and right footprint. Increase the row height enough for the fixed aspect ratio; do not center a short strip inside a wide empty region.
 
 ### Layer B: curation packaging — keep optional and separate
 

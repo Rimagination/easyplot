@@ -116,7 +116,7 @@ Use for a heatmap or matrix supported by distributions, differential points, cor
 
 ### `data_schematic` — quantitative evidence plus mechanism
 
-Use when a mechanism, workflow, or experimental design is needed to interpret the data. Keep the schematic's symbols and arrows in a separate vocabulary from measured marks; label the connection to each data panel explicitly.
+Use when a mechanism, workflow, architecture, or experimental design is needed to interpret the data. Provide stable node IDs and explicit coordinates; `easyplot_data_schematic()` trims arrows to the node rectangle and attaches a lint/geometry record to the returned plot. Keep the schematic's symbols and arrows in a separate vocabulary from measured marks; label the connection to each data panel explicitly. See [schematics.md](schematics.md) for the complete contract.
 
 ### `dense_mechanistic_plate` — evidence-ladder composition
 
@@ -124,7 +124,7 @@ Use when the figure combines a design/timeline, primary image or assay evidence,
 
 ### `spatial_evidence_plate` — map plus summary plus trajectory
 
-Use when maps, raster fields, regional estimates, and ordered trajectories answer one spatial question. Combine `easyplot_spatial_small_multiples()` with other panels through `easyplot_scientific_plate()`. Declare projection, extent, aspect ratio, colour limits, missing-value mask, scale-bar convention, and whether a smooth line is descriptive or model-based. Treat a fixed-aspect map as an intentional alignment exception and record it in the preflight note.
+Use when maps, raster fields, regional estimates, and ordered trajectories answer one spatial question. Use `easyplot_spatial_evidence_plate()` when the five-role layout fits: map, side strip, full-width small-multiple band, distribution matrix, and temporal summary. Declare projection, extent, aspect ratio, colour limits, missing-value mask, scale-bar convention, and whether a smooth line is descriptive or model-based. Treat a fixed-aspect map as an intentional alignment exception and record it in the preflight note.
 
 ### `source_figure_card` — optional teaching wrapper
 
@@ -145,19 +145,32 @@ The Python equivalent, `make_scientific_plate()`, uses Matplotlib's `constrained
 - widths and heights control relative plotting regions. Leave them NULL when a panel uses coord_fixed(), coord_equal(), coord_polar(), or coord_sf() so the fixed aspect can be preserved.
 - A fixed-aspect map is a deliberate alignment exception: it cannot simultaneously have an equal cell size and share every boundary with free-aspect plots. Give it an intentional row/column size and record the exception in the preflight note.
 - For raster small multiples that are comparisons on a regular grid rather than geographic maps, set preserve_aspect = FALSE when a strict four-panel grid is the priority.
+- For a full-width small-multiple band, use `fill_parent_width = TRUE` or a facet layout spanning the declared parent footprint. Do not center a short fixed-aspect strip inside a wider row when the reference aligns its outermost frames.
+- Before export, pass declared frame rectangles to `easyplot_layout_audit()`. Align the actual plotting frames, keep external legend bands out of the frame contract, and declare intentional inset overlap explicitly.
 - Mechanism and workflow schematics use preserve_aspect = FALSE by default because their coordinates describe layout positions; set it to TRUE only when geometric proportions carry meaning.
 - Keep guides = "keep" and axes = "keep" for panels with different units. Collect only duplicate/shared guides or truly identical axes.
 - If patchwork is unavailable, the runtime uses a gtable fallback and marks the result with easyplot_alignment$method = "gtable-fallback"; inspect mixed-axis layouts manually.
 
 This distinction follows the [patchwork layout guide](https://patchwork.data-imaginist.com/articles/guides/layout.html) and the [cowplot alignment guide](https://wilkelab.org/cowplot/articles/aligning_plots.html): alignment is a relationship between panel regions and selected axes, not simply equal outer cell widths.
 
+### External annotation contract
+
+Dense scientific plates need a strict separation between encoded data and explanatory text:
+
+- Keep heatmap, raster-strip, and tile interiors for the measured variable. Put group names, region codes, and other categorical descriptors on an external axis or a dedicated label band.
+- Put panel-level counts, sample sizes, or short summary notes above the relevant panel, close to its frame and aligned to the frame edge. Do not push a note into a distant page corner merely because the panel has an external axis.
+- If a direct label must remain on a colored mark, choose its foreground from the rendered background (light text on dark cells, dark text on light cells) or add a restrained halo. Never use black text indiscriminately on a dark fill.
+- External text consumes layout space. After moving labels outside, recompute the actual plotting-frame rectangles, recheck top/bottom alignment, and inspect for clipping at final physical size.
+- Treat the plotting frame, external axes, legends, and annotation bands as separate geometry. A frame-alignment audit should compare frames only; it should not mistake an external label's width for a panel-width mismatch.
+
 | Handle | Runtime entry point | Output |
 | --- | --- | --- |
 | `scientific_plate` | `easyplot_scientific_plate()` | A patchwork composite (gtable fallback) with a validated `panel_spec` attribute. |
 | `china_site_map` | `easyplot_china_site_map()` in `easyplot_china_map.R` | One China-wide point map with nested boundary buffers, dark-grey land boundaries, blue coastlines, a right-side guide and a lower-right South China Sea inset. |
 | `spatial_small_multiples` | `easyplot_spatial_small_multiples()` | A faceted raster/heatmap with fixed aspect ratio and explicit missing-value colour. |
+| `spatial_evidence_plate` | `easyplot_spatial_evidence_plate()` + `easyplot_layout_audit()` | A map-led five-role plate with a side strip, full-width small-multiple band, lower matrix and temporal summary. |
 | `omics_evidence_plate` | `easyplot_omics_evidence_plate()` | A heatmap-led plate with optional effect and schematic panels. |
-| `data_schematic` | `easyplot_data_schematic()` | A node-and-arrow `ggplot` for mechanism or workflow context. |
+| `data_schematic` | `easyplot_data_schematic()` + `easyplot_schematic_lint()` | A formal node-and-arrow `ggplot` with edge clearance, stable coordinates, and an inspectable lint record. |
 | `dense_mechanistic_plate` | `easyplot_scientific_plate()` with a role-first `panel_spec` | A declared evidence-ladder composition for dense biomedical, materials, and omics figures. |
 | `spatial_evidence_plate` | `easyplot_scientific_plate()` plus `easyplot_spatial_small_multiples()` | A map-led composition with an explicit fixed-aspect and colour-limit contract. |
 | `source_figure_card` | external layout wrapper, kept out of manuscript exports | A teaching/reference card with citation metadata and optional palette notes. |

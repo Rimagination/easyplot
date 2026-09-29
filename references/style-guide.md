@@ -51,6 +51,13 @@ When colour-vision robustness is requested or required, prefer a clearly documen
 - `delta CIE L* < 10` is a tunable EasyPlot heuristic, not a WCAG cutoff or a journal rule. Preserve and report numerical flags, but do not automatically decorate a colour-view figure in response to a palette-only flag. If monochrome output or another explicit access requirement applies, address that requirement with a better-suited palette or one minimal, targeted cue.
 - For a demonstration, compare identical data, axes, figure dimensions, and grayscale values. Change only the declared cues in the corrected grayscale panel. Put the optional darker-colour version in a separate export so the visual comparison remains interpretable.
 
+### Labels on dense colour fields
+
+- Keep explanatory labels out of dense heatmaps, raster strips, and categorical tile fields whenever an external axis or label band can carry them.
+- Put counts and short panel notes above the corresponding panel, with scale-aware clearance and a right/left alignment that follows the panel frame rather than the full composite canvas.
+- If text must sit on a coloured mark, compute a contrast-aware text colour from the rendered fill. Black is unsuitable on dark purple, blue, teal, or other low-luminance fills; white is unsuitable on pale yellow or near-white fills.
+- Reinspect the rendered image after every change to external text. Titles, axes, and legends can alter the gtable geometry even when the data panel code is unchanged.
+
 R uses named `scale_colour_manual()`, `scale_fill_manual()`, `scale_shape_manual()` and `scale_linetype_manual()` mappings. Python uses `palette`, `fill_palette`, `markers` and `linestyles` in `plot_timecourse()`. Both backends follow the same rules above.
 
 ## Bar-chart details
